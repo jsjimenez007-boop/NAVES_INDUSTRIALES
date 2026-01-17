@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>UBICACION_INMUEBLES_EMPRESAS_160125.kmz</name>
+	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
@@ -40,6 +41,16 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
 		</Pair>
 	</StyleMap>
@@ -73,6 +84,17 @@
 		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin01">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -125,6 +147,17 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
@@ -232,28 +265,6 @@ OBSERVACIONES: NO FUE POSIBLE UBICAR DE MANERA EXACTA CON LA INFORMACION DISPONI
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>PP-013-362</name>
-			<description>NOMBRE: EXPLOTADORA DE MINERALES IRENE S.A. DE C.V.
-
-DOMICILIO: C. TODOS LOS SANTOS 9201 COL. PARQUE INDUSTRIAL PACIFICO II
-
-OBSERVACIONES: EN EL DOCUMENTO SE INDICA QUE SE TRATA DE UN TERRENO BALDIO DE MAS 26000 M2 PERO EN LA ZONA CERCANA A LA DIRECCION DADA, NO EXISTE TERRENO BALDIO DE TAL SUPERFICIE, LO MAS CERCANO ES UNO EN DONDE SE ENCUENTRA UN GRAN EDIFICIO DE TIPO INDUSTRIAL.</description>
-			<LookAt>
-				<longitude>-116.9839622179426</longitude>
-				<latitude>32.45587156056263</latitude>
-				<altitude>0</altitude>
-				<heading>0.0004869431281750085</heading>
-				<tilt>0</tilt>
-				<range>875.6926217001115</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.9831673055375,32.45707531592396,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>SU-266-076</name>
 			<description>NOMBRE: DINCHI BENHOS JAIME
 
@@ -339,26 +350,6 @@ DIRECCION: GOBERNADOR IBARRA 9721 COL AMERICA</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>LC-352-001</name>
-			<description>MULTIWIN DE MEXICO, S.A. DE C.V.
-LA DIRECCION NO CORRESPONDE
-BLVD. ESMERALDA 4401 COL. PARQUE INDUSTRIAL LA JOLLA</description>
-			<LookAt>
-				<longitude>-117.0866315273788</longitude>
-				<latitude>32.49318562079088</latitude>
-				<altitude>0</altitude>
-				<heading>0.0004472475761086297</heading>
-				<tilt>0</tilt>
-				<range>834.0923100398812</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-117.0872724629121,32.49232784106854,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>DM-010-301</name>
 			<description>VARGAS HUERTA HERMELINDA
 ES LOCALIZADO POR MEDIO DE UNA SUCURSAL CONOCIDA COMO &quot;EL FLORIDO&quot;
@@ -372,7 +363,7 @@ C. PASEO DEL VALLE 32990 COL. VALLE REDONDO</description>
 				<range>587.1282802562147</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7307432467885,32.50998587840382,0</coordinates>
@@ -391,7 +382,7 @@ C. LOMAS DEL RIO 10301 COL. TEJAMEN</description>
 				<range>225.3005638347153</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.0139007654503,32.48798209368461,0</coordinates>
@@ -410,7 +401,7 @@ NO HAY ESPECTACULARES EN DONDE MUESTRE EL NOMBRE DE LA EMPRESA, SE LOCALIZÓ CON
 				<range>322.241251650052</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9148856073794,32.46128761742706,0</coordinates>
@@ -442,48 +433,6 @@ NO CORRESPONDE EL ÁREA de LA INDUSTRIA AL NOMBRE</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>ID-035-001</name>
-			<description>FLORES REAL LILIAN
-
-EN STREET VIEW APARECE COMO BALDIO
-
-Dom. c. 9 Sur 1, Ciudad Industrial 22444</description>
-			<LookAt>
-				<longitude>-116.9215778053615</longitude>
-				<latitude>32.533276573847</latitude>
-				<altitude>0</altitude>
-				<heading>-173.8015344270194</heading>
-				<tilt>45.37851880393359</tilt>
-				<range>265.9810103190505</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.9215799696492,32.5332713162064,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FD-855-144</name>
-			<description>OPA MEXICANA S.A. DE C.V.
-
-Dom. Blvd. Insurgentes 25420, Fideicomiso el Florido 22245</description>
-			<LookAt>
-				<longitude>-116.8576901</longitude>
-				<latitude>32.45997410000001</latitude>
-				<altitude>0</altitude>
-				<heading>4.770832022195274e-15</heading>
-				<tilt>0</tilt>
-				<range>1000.000000000269</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8576943328607,32.45997300893526,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>TK-525-988</name>
 			<description>HERRERA MYERS ANDRE
 
@@ -506,6 +455,94 @@ Dom. Cam. Vecinal 33271, Carretera Tijuana A Tecate</description>
 				<coordinates>-116.7929624255177,32.49050085789292,0</coordinates>
 			</Point>
 		</Placemark>
+		<Folder>
+			<name>Hechos</name>
+			<open>1</open>
+			<Placemark>
+				<name>LC-352-001</name>
+				<description>MULTIWIN DE MEXICO, S.A. DE C.V.
+LA DIRECCION NO CORRESPONDE
+BLVD. ESMERALDA 4401 COL. PARQUE INDUSTRIAL LA JOLLA</description>
+				<LookAt>
+					<longitude>-117.0866315273788</longitude>
+					<latitude>32.49318562079088</latitude>
+					<altitude>0</altitude>
+					<heading>0.0004472475761086297</heading>
+					<tilt>0</tilt>
+					<range>834.0923100398812</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0872724629121,32.49232784106854,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP-013-362</name>
+				<description>NOMBRE: EXPLOTADORA DE MINERALES IRENE S.A. DE C.V.
+
+DOMICILIO: C. TODOS LOS SANTOS 9201 COL. PARQUE INDUSTRIAL PACIFICO II
+
+OBSERVACIONES: EN EL DOCUMENTO SE INDICA QUE SE TRATA DE UN TERRENO BALDIO DE MAS 26000 M2 PERO EN LA ZONA CERCANA A LA DIRECCION DADA, NO EXISTE TERRENO BALDIO DE TAL SUPERFICIE, LO MAS CERCANO ES UNO EN DONDE SE ENCUENTRA UN GRAN EDIFICIO DE TIPO INDUSTRIAL.</description>
+				<LookAt>
+					<longitude>-116.9839622179426</longitude>
+					<latitude>32.45587156056263</latitude>
+					<altitude>0</altitude>
+					<heading>0.0004869431281750085</heading>
+					<tilt>0</tilt>
+					<range>875.6926217001115</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9831673055375,32.45707531592396,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-855-144</name>
+				<description>OPA MEXICANA S.A. DE C.V.
+
+Dom. Blvd. Insurgentes 25420, Fideicomiso el Florido 22245</description>
+				<LookAt>
+					<longitude>-116.8576901</longitude>
+					<latitude>32.45997410000001</latitude>
+					<altitude>0</altitude>
+					<heading>4.770832022195274e-15</heading>
+					<tilt>0</tilt>
+					<range>1000.000000000269</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8576943328607,32.45997300893526,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ID-035-001</name>
+				<description>FLORES REAL LILIAN
+
+EN STREET VIEW APARECE COMO BALDIO
+
+Dom. c. 9 Sur 1, Ciudad Industrial 22444</description>
+				<LookAt>
+					<longitude>-116.9215778053615</longitude>
+					<latitude>32.533276573847</latitude>
+					<altitude>0</altitude>
+					<heading>-173.8015344270194</heading>
+					<tilt>45.37851880393359</tilt>
+					<range>265.9810103190505</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9215799696492,32.5332713162064,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
 	</Folder>
 </Document>
 </kml>
