@@ -771,26 +771,6 @@ DOM. C. ENCANTADA, PARQUE INDUSTRIAL EL FLORIDO</description>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>DM-008-195</name>
-			<description>HYUNDAI DE MÉXICO S.A DE C.V
-
-Dom. por carretera de tijuana-tecate 26513-0</description>
-			<LookAt>
-				<longitude>-116.8181052881866</longitude>
-				<latitude>32.45846511974206</latitude>
-				<altitude>0</altitude>
-				<heading>-1.491093945868276</heading>
-				<tilt>14.69642927238593</tilt>
-				<range>1050.672296164537</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin300</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8203728919915,32.4573091680905,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>FV-074-502</name>
 			<description>HYUNDAI DE MEXICO, S.A DE C.V
 
@@ -857,33 +837,6 @@ AVE. 10 DE ABRIL 0, COL. RANCHO EL FLORIDO</description>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7984250343695,32.47518287709416,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FV-074-501</name>
-			<description>HYUNDAI DE MEXICO, S.A. DE C.V.
-AVE. 10 DE ABRIL 28102 COL RANCHO EL FLORIDO
-NO CUENTA CON NUMERO DE DOMICILIO A LA VISTA</description>
-			<LookAt>
-				<gx:TimeStamp><when>2025-02-23</when>
-</gx:TimeStamp>
-				<gx:ViewerOptions>
-					<gx:option name="historicalimagery"></gx:option>
-					<gx:option enabled="0" name="sunlight"></gx:option>
-					<gx:option enabled="0" name="streetview"></gx:option>
-				</gx:ViewerOptions>
-				<longitude>-116.7992981420505</longitude>
-				<latitude>32.47485239270555</latitude>
-				<altitude>0</altitude>
-				<heading>0.0004071878145784387</heading>
-				<tilt>10.12650815234645</tilt>
-				<range>927.782428990066</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin300</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.7997536716901,32.47592472865611,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -1447,7 +1400,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </html>]]></description>
 			<styleUrl>#m_ylw-pushpin30</styleUrl>
 			<Point>
-				<coordinates>-116.9926218998052,32.44295785228563,0</coordinates>
+				<coordinates>-116.9931454624881,32.44307683193877,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="ID_00003">
