@@ -4,76 +4,6 @@
 	<name>UBICACION_INMUEBLES_EMPRESAS_160125.kmz</name>
 	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin03</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl01</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin02">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl03</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin03">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="m_ylw-pushpin10">
 		<Pair>
 			<key>normal</key>
@@ -81,7 +11,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl30</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin30">
@@ -91,71 +21,52 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl100</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin4">
+	<StyleMap id="m_ylw-pushpin300">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin4</styleUrl>
+			<styleUrl>#s_ylw-pushpin20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl5</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
+	<StyleMap id="poly-FF0000-1000-0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-FF0000-1000-0-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-FF0000-1000-0-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-FF0000-1000-0-highlight">
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff5500</color>
+		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin01">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
+	<Style id="poly-FF0000-1000-0-normal">
+		<LineStyle>
+			<color>ff00aa00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff5500</color>
+		</PolyStyle>
 	</Style>
 	<Style id="s_ylw-pushpin02">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin03">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -164,12 +75,14 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="s_ylw-pushpin3">
+	<Style id="s_ylw-pushpin20">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -178,25 +91,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="s_ylw-pushpin_hl10">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -205,59 +100,16 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
+	<Style id="s_ylw-pushpin_hl100">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl000">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl01">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl03">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl3">
 		<IconStyle>
@@ -267,30 +119,9 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl30">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl5">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
 	</Style>
 	<Folder>
 		<name>Hechos</name>
-		<open>1</open>
 		<Placemark>
 			<name>LC-352-001</name>
 			<description>MULTIWIN DE MEXICO, S.A. DE C.V.
@@ -305,7 +136,7 @@ BLVD. ESMERALDA 4401 COL. PARQUE INDUSTRIAL LA JOLLA</description>
 				<range>834.0923100398812</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.0872724629121,32.49232784106854,0</coordinates>
@@ -327,7 +158,7 @@ OBSERVACIONES: EN EL DOCUMENTO SE INDICA QUE SE TRATA DE UN TERRENO BALDIO DE MA
 				<range>875.6926217001115</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9831673055375,32.45707531592396,0</coordinates>
@@ -347,7 +178,7 @@ Dom. Blvd. Insurgentes 25420, Fideicomiso el Florido 22245</description>
 				<range>1000.000000000269</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8576943328607,32.45997300893526,0</coordinates>
@@ -369,7 +200,7 @@ Dom. c. 9 Sur 1, Ciudad Industrial 22444</description>
 				<range>265.9810103190505</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9215799696492,32.5332713162064,0</coordinates>
@@ -392,7 +223,7 @@ Dom. Cam. Vecinal 33271, Carretera Tijuana A Tecate</description>
 				<range>586.3653082154518</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7929624255177,32.49050085789292,0</coordinates>
@@ -414,7 +245,7 @@ INZI Display México S.A. de C.V. es una planta ubicada en Blvd. Olivos Sur 2000
 				<range>484.8424042983955</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8878008262894,32.44766249098765,0</coordinates>
@@ -436,7 +267,7 @@ OBSERVACIONES: EL DOCUMENTO INDICA QUE SE TRATA DE UN LOTE FRACCIONADO SIN CONST
 				<range>216.3611299622906</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9374937548722,32.37335304204608,0</coordinates>
@@ -463,7 +294,7 @@ NUMERO DE DOMICILIO NO CORRESPONDE</description>
 				<range>674.5416044636893</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9924998014247,32.44383313991704,0</coordinates>
@@ -485,7 +316,7 @@ EL PUNTO UBICADO APARECE COMO PLANTA 3</description>
 				<range>982.5214483183478</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9916275429913,32.44269641622353,0</coordinates>
@@ -512,7 +343,7 @@ EL NUMERO DE DOMICILIO NO CORRESPONDE</description>
 				<range>601.4933980955036</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9906274553247,32.44340901904854,0</coordinates>
@@ -538,7 +369,7 @@ AVE. CABO 14850 COL. EL TECOLOTE</description>
 				<range>674.5416044636893</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.989382673334,32.44404040284743,0</coordinates>
@@ -567,7 +398,7 @@ OBSERVACION: EL AREA DEL TERRENO NO CONCUERDA, QUEDA EN DUDA SI SE TRATA DE ESE 
 				<range>341.8020767906007</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9814347746894,32.44824335014572,0</coordinates>
@@ -589,7 +420,7 @@ OBSERVACIONES: NO FUE POSIBLE UBICAR DE MANERA EXACTA CON LA INFORMACION DISPONI
 				<range>1501.26939439528</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9359265171791,32.51516515131534,0</coordinates>
@@ -611,7 +442,7 @@ se ubica en MANUFACTURA METÁLICAS DEL NOROESTE S DE RL DE CV</description>
 				<range>400.1454765118565</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.973703394627,32.51028929413297,0</coordinates>
@@ -631,7 +462,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 				<range>211.0567806998768</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.00694184273,32.51537071914512,0</coordinates>
@@ -639,23 +470,98 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 		</Placemark>
 	</Folder>
 	<Folder>
-		<name>Mis lugares</name>
-		<open>1</open>
-		<Style>
-			<ListStyle>
-				<listItemType>check</listItemType>
-				<ItemIcon>
-					<state>open</state>
-					<href>mysavedplaces_open_0.png</href>
-				</ItemIcon>
-				<ItemIcon>
-					<state>closed</state>
-					<href>mysavedplaces_closed_0.png</href>
-				</ItemIcon>
-				<bgColor>00ffffff</bgColor>
-				<maxSnippetLines>2</maxSnippetLines>
-			</ListStyle>
-		</Style>
+		<name>Poligono</name>
+		<Placemark>
+			<name>FD000042</name>
+			<description><![CDATA[description: <br>cve_cat_or: FD000042]]></description>
+			<styleUrl>#poly-FF0000-1000-0</styleUrl>
+			<ExtendedData>
+				<Data name="description">
+				</Data>
+				<Data name="cve_cat_or">
+					<value>FD000042</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-116.889892,32.443915,0 -116.889832,32.443913,0 -116.889772,32.443912,0 -116.889712,32.443913,0 -116.889652,32.443916,0 -116.889592,32.44392,0 -116.889533,32.443926,0 -116.889473,32.443934,0 -116.889414,32.443943,0 -116.889356,32.443954,0 -116.889298,32.443967,0 -116.88924,32.443981,0 -116.888985,32.444049,0 -116.888513,32.44419,0 -116.888741,32.445334,0 -116.890061,32.445144,0 -116.889892,32.443915,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>TC082145</name>
+			<description><![CDATA[description: <br>cve_cat_or: TC082145]]></description>
+			<styleUrl>#poly-FF0000-1000-0</styleUrl>
+			<ExtendedData>
+				<Data name="description">
+				</Data>
+				<Data name="cve_cat_or">
+					<value>TC082145</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-116.991772,32.44379,0 -116.991698,32.444029,0 -116.993325,32.443091,0 -116.99273,32.442119,0 -116.992508,32.441739,0 -116.992449,32.441646,0 -116.992288,32.441693,0 -116.992434,32.441933,0 -116.9931,32.443024,0 -116.991772,32.44379,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>DM008195</name>
+			<description><![CDATA[description: <br>cve_cat_or: DM008195]]></description>
+			<styleUrl>#poly-FF0000-1000-0</styleUrl>
+			<ExtendedData>
+				<Data name="description">
+				</Data>
+				<Data name="cve_cat_or">
+					<value>DM008195</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-116.820344,32.457612,0 -116.821591,32.457378,0 -116.818424,32.452944,0 -116.816138,32.454096,0 -116.820344,32.457612,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>FV074501</name>
+			<description><![CDATA[description: <br>cve_cat_or: FV074501]]></description>
+			<styleUrl>#poly-FF0000-1000-0</styleUrl>
+			<ExtendedData>
+				<Data name="description">
+				</Data>
+				<Data name="cve_cat_or">
+					<value>FV074501</value>
+				</Data>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-116.801598,32.477852,0 -116.800398,32.469375,0 -116.79888,32.470117,0 -116.799326,32.47327,0 -116.797689,32.473444,0 -116.79839,32.478173,0 -116.801526,32.477891,0 -116.801598,32.477852,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Puntual</name>
 		<Placemark>
 			<name>FD-854-134</name>
 			<description>VESTA PARK EL FLORIDO
@@ -670,7 +576,7 @@ Boulevard Carretera Libre Antiguo Camino Tijuana No. 25420, Interior Suite F2-C 
 				<range>286.3056884603525</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8707459879561,32.45545846577456,0</coordinates>
@@ -693,7 +599,7 @@ OBSERVACIONES:
 				<range>120.2855854982772</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9692858910429,32.50807812737123,0</coordinates>
@@ -714,7 +620,7 @@ OBSERVACIONES:
 				<range>312.8193665299045</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9150965757667,32.54255877805677,0</coordinates>
@@ -733,7 +639,7 @@ DIRECCION: GOBERNADOR IBARRA 9721 COL AMERICA</description>
 				<range>366.3119269209027</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.0209751513249,32.51780485231792,0</coordinates>
@@ -753,7 +659,7 @@ C. PASEO DEL VALLE 32990 COL. VALLE REDONDO</description>
 				<range>587.1282802562147</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin10</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7307432467885,32.50998587840382,0</coordinates>
@@ -772,7 +678,7 @@ C. LOMAS DEL RIO 10301 COL. TEJAMEN</description>
 				<range>225.3005638347153</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin10</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.0139007654503,32.48798209368461,0</coordinates>
@@ -791,7 +697,7 @@ NO HAY ESPECTACULARES EN DONDE MUESTRE EL NOMBRE DE LA EMPRESA, SE LOCALIZÓ CON
 				<range>322.241251650052</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin10</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9148856073794,32.46128761742706,0</coordinates>
@@ -816,7 +722,7 @@ NO CORRESPONDE EL ÁREA de LA INDUSTRIA AL NOMBRE</description>
 				<range>424.6798215376209</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin03</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9902199068045,32.4738102917803,0</coordinates>
@@ -836,7 +742,7 @@ Dom. Carretera Lib. camino Tijuana Tecate 28704</description>
 				<range>442.5349530528241</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin01</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8784382097329,32.44787030992264,0</coordinates>
@@ -858,7 +764,7 @@ DOM. C. ENCANTADA, PARQUE INDUSTRIAL EL FLORIDO</description>
 				<range>271.0367965299534</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin01</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8839905820159,32.4488137480305,0</coordinates>
@@ -878,7 +784,7 @@ Dom. por carretera de tijuana-tecate 26513-0</description>
 				<range>1050.672296164537</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin4</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8203728919915,32.4573091680905,0</coordinates>
@@ -900,7 +806,7 @@ ubicacion encontrada por hyundai oficial donde mencionan la cuena lechera</descr
 				<range>1000.000000001621</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin01</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8728637388444,32.44759417096923,0</coordinates>
@@ -921,7 +827,7 @@ no existe referencia ferrocarril</description>
 				<range>491.4780408407217</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin01</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7976835611419,32.46886690699249,0</coordinates>
@@ -947,7 +853,7 @@ AVE. 10 DE ABRIL 0, COL. RANCHO EL FLORIDO</description>
 				<range>258.3426174485489</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7984250343695,32.47518287709416,0</coordinates>
@@ -974,7 +880,7 @@ NO CUENTA CON NUMERO DE DOMICILIO A LA VISTA</description>
 				<range>927.782428990066</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7997536716901,32.47592472865611,0</coordinates>
@@ -1001,7 +907,7 @@ NOMBRE DE CALLE NO CORRESPONDE</description>
 				<range>391.8588083896443</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8702943136595,32.4513804388406,0</coordinates>
@@ -1028,7 +934,7 @@ NO HAY SUFICIENTES DATOS PARA LOCALIZAR CON PRECISION</description>
 				<range>743.3207337937494</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7983594919284,32.47594054538816,0</coordinates>
@@ -1055,7 +961,7 @@ EL PARQUE INDUSTRIAL YA CUENTA CON CONSTRUCCIONES</description>
 				<range>1020.290358162395</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7989951247423,32.47245941257277,0</coordinates>
@@ -1077,7 +983,7 @@ OBSERVACIONES:
 				<roll>-35.60595231168936</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9690444097005,32.52927758656278,0</coordinates>
@@ -1098,7 +1004,7 @@ OBSERVACIONES:
 				<range>192.7316698128564</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9307688842116,32.47934865110286,0</coordinates>
@@ -1117,7 +1023,7 @@ DIRECCION: BLVD DE LOS OLIVOS O COL.PARQUE INDUSTIAL EL FLORIDO</description>
 				<range>461.5254665404734</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8713141867747,32.45244598181311,0</coordinates>
@@ -1136,7 +1042,7 @@ DOMICILIO: AND. ORIENTE COL. PARQUE INDUSTRIAL EL FLORIDO</description>
 				<range>384.777300248742</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8873145976125,32.44511808735868,0</coordinates>
@@ -1156,7 +1062,7 @@ OBSERVACIONES: NO CORRESPONDE SUPERFICIE</description>
 				<range>641.6038920723023</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8774484503279,32.44811292213855,0</coordinates>
@@ -1177,7 +1083,7 @@ OBSERVACION:
 				<range>614.3456977343048</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8742635890113,32.45083417370198,0</coordinates>
@@ -1197,7 +1103,7 @@ OBSERVACION: MISMA DIRECCION EN VARIOS DE LOS PINES</description>
 				<range>200.628212808055</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8711976906067,32.45206697408742,0</coordinates>
@@ -1218,7 +1124,7 @@ OBSERVACIONES:
 				<range>659.5812682900073</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8760301084854,32.45055626906729,0</coordinates>
@@ -1240,7 +1146,7 @@ OBSERVACIONES: LA SUPERFICIE DEL TERRENO SE ACERCA PERO LA SUPERFICIE CONTRUIDA 
 				<range>429.8445184313976</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.871346272123,32.45232873954692,0</coordinates>
@@ -1262,7 +1168,7 @@ OBSERVACIONES: LA UBICACION DE HYNUDAI QUE MAS CONCUERDA CON LA SUPERFICIE ES ES
 				<range>748.571456631126</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8743718603423,32.44948110756386,0</coordinates>
@@ -1282,7 +1188,7 @@ DOMICILIO: AVE. DE LOS OLIVOS 3270 COL. NEIDHART</description>
 				<roll>38.53074157188824</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.0148096915887,32.51364701305424,0</coordinates>
@@ -1302,7 +1208,7 @@ DOMICILIO: AVE. PASEO DE LOS HEROES 11110 COL. ZONA  URBANA RIO TIJUANA</descrip
 				<range>246.7142510407349</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.0040034004434,32.51828465414999,0</coordinates>
@@ -1331,10 +1237,286 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 				<range>297.0779286361072</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#m_ylw-pushpin300</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8777783341864,32.44805911572561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00009">
+			<name>FV074501</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>FV074501</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>cve_cat_or</td>
+
+<td>FV074501</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>9</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<coordinates>-116.7997200292967,32.47453978347835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00007">
+			<name>DM008195</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>DM008195</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>cve_cat_or</td>
+
+<td>DM008195</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>7</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<coordinates>-116.818896961443,32.45524236928421,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00001">
+			<name>TC082145</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>TC082145</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>cve_cat_or</td>
+
+<td>TC082145</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>1</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<coordinates>-116.9926218998052,32.44295785228563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00003">
+			<name>FD000042</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>FD000042</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>cve_cat_or</td>
+
+<td>FD000042</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>3</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<coordinates>-116.8893065268584,32.44461841537677,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
