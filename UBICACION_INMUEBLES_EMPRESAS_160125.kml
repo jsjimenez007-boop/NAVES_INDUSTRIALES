@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>UBICACION_INMUEBLES_EMPRESAS_160125.kmz</name>
+	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
 	<StyleMap id="PolyStyle00">
 		<Pair>
@@ -3028,6 +3029,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00007">
 				<name>DM008195</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3415,7 +3417,6 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00012">
 				<name>DM008104</name>
-				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3571,7 +3572,6 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 		</Folder>
 		<Folder>
 			<name>PUNTUALHYUNDAI</name>
-			<open>1</open>
 			<Placemark>
 				<name>FD854091</name>
 				<LookAt>
@@ -3590,20 +3590,20 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>DM008195</name>
+				<name>DM008104</name>
 				<LookAt>
-					<longitude>-116.8172560256467</longitude>
-					<latitude>32.45383940109204</latitude>
+					<longitude>-116.8175061863059</longitude>
+					<latitude>32.45570958888055</latitude>
 					<altitude>0</altitude>
-					<heading>0.0007988538700558474</heading>
+					<heading>0.0006744821058747011</heading>
 					<tilt>0</tilt>
-					<range>2062.800512624724</range>
+					<range>1034.145396641259</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
 				<styleUrl>#msn_grn-pushpin0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8193690762438,32.45557231574772,0</coordinates>
+					<coordinates>-116.8190409648653,32.45683510300585,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
