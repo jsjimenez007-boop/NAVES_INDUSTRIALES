@@ -4,17 +4,30 @@
 	<name>UBICACION_INMUEBLES_EMPRESAS_160125.kmz</name>
 	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
-	<StyleMap id="PolyStyle00">
+	<Style id="PolyStyle0014">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffff5500</color>
+			<width>3.9</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00d3f2c9</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle008">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#PolyStyle001</styleUrl>
+			<styleUrl>#PolyStyle0014</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#PolyStyle000</styleUrl>
+			<styleUrl>#PolyStyle009</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="PolyStyle000">
+	<Style id="PolyStyle009">
 		<LabelStyle>
 			<color>00000000</color>
 			<scale>0</scale>
@@ -27,27 +40,24 @@
 			<color>00d3f2c9</color>
 		</PolyStyle>
 	</Style>
-	<Style id="PolyStyle001">
-		<LabelStyle>
-			<color>00000000</color>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ffff5500</color>
-			<width>3.9</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>00d3f2c9</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin00">
+	<StyleMap id="m_ylw-pushpin004">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0040">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl020</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin300">
@@ -77,17 +87,27 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_grn-pushpin0</styleUrl>
+			<styleUrl>#sh_grn-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_grn-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-pushpin00">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_grn-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_grn-pushpin</styleUrl>
+			<styleUrl>#sh_grn-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="poly-FF0000-1000-0">
@@ -118,11 +138,20 @@
 			<color>38ff5500</color>
 		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin">
+	<Style id="s_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -138,11 +167,20 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
+	<Style id="s_ylw-pushpin_hl02">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl020">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -166,10 +204,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_grn-pushpin">
 		<IconStyle>
@@ -188,12 +222,21 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grn-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
@@ -205,10 +248,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sn_grn-pushpin">
 		<IconStyle>
@@ -227,159 +266,244 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
 	<Folder>
 		<name>UBICACIONESFER</name>
-		<Placemark>
-			<name>FD-855-149</name>
-			<description>BANCO ACTINVER S.A INSTITUCION DE BANCA MULTIPLE
-
-DOM. Blvd. Olivos 24802</description>
-			<LookAt>
-				<longitude>-116.8531343057362</longitude>
-				<latitude>32.46211845923435</latitude>
-				<altitude>0</altitude>
-				<heading>1.179401727890431e-05</heading>
-				<tilt>18.42255516406535</tilt>
-				<range>390.9749519108484</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8531367396773,32.46211480748697,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>DM-008-064</name>
-			<description>MIRAMONTES ACEVES ALONZO
-
-Dom. C. Cueros de Venado, col. Zona cerril gral
-Es el codigo postal de la col. zona cerril general</description>
-			<LookAt>
-				<longitude>-116.9280859099418</longitude>
-				<latitude>32.41390559767463</latitude>
-				<altitude>0</altitude>
-				<heading>0.0003737253915330903</heading>
-				<tilt>26.40484430179067</tilt>
-				<range>195.5697265098935</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.9280963286589,32.41389854575251,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FD-855-147</name>
-			<description>MEX AJU, SOCIEDAD ANONIMA DE CAPITAL VARIABLE
+		<Folder>
+			<name>HECHO</name>
+			<Placemark>
+				<name>FD-855-147</name>
+				<open>1</open>
+				<description>MEX AJU, SOCIEDAD ANONIMA DE CAPITAL VARIABLE
 
 DOM. 
 Boulevard Los Olivos 25100
 22245 Tijuana
 Baja California - Mexico</description>
-			<LookAt>
-				<longitude>-116.8472980210814</longitude>
-				<latitude>32.4618664590826</latitude>
-				<altitude>0</altitude>
-				<heading>-0.00267247945911937</heading>
-				<tilt>2.262878411487907</tilt>
-				<range>1554.335701718076</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8475352829318,32.46475134274494,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FD-855-146</name>
-			<description>MEX AJU, S.A DE C.V
-
-Dom. Blvd Olivos 30101</description>
-			<LookAt>
-				<longitude>-116.8536870275023</longitude>
-				<latitude>32.46052415435629</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0004011601683844959</heading>
-				<tilt>0</tilt>
-				<range>1168.784918981205</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8531387305916,32.46088793454881,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FD-855-142</name>
-			<description>PALETS, EMPAQUES Y ENBALAJES S.A DE C.V
+				<LookAt>
+					<longitude>-116.8472980210814</longitude>
+					<latitude>32.4618664590826</latitude>
+					<altitude>0</altitude>
+					<heading>-0.00267247945911937</heading>
+					<tilt>2.262878411487907</tilt>
+					<range>1554.335701718076</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0040</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8475352829318,32.46475134274494,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-855-142</name>
+				<open>1</open>
+				<description>PALETS, EMPAQUES Y ENBALAJES S.A DE C.V
 
 Dom. Blvd. Olivos 25202</description>
-			<LookAt>
-				<longitude>-116.8505821615946</longitude>
-				<latitude>32.46147520537272</latitude>
-				<altitude>0</altitude>
-				<heading>0.002706695778237786</heading>
-				<tilt>9.194089362303425</tilt>
-				<range>720.5842263489013</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8501883868885,32.46264358125887,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FD-651-707</name>
-			<description>NOMBRE: CAVALTA CORPORATION, S.A. PROMOTORA DE I. DE C.V.
+				<LookAt>
+					<longitude>-116.8505821615946</longitude>
+					<latitude>32.46147520537272</latitude>
+					<altitude>0</altitude>
+					<heading>0.002706695778237786</heading>
+					<tilt>9.194089362303425</tilt>
+					<range>720.5842263489013</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0040</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8501883868885,32.46264358125887,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-855-149</name>
+				<open>1</open>
+				<description>BANCO ACTINVER S.A INSTITUCION DE BANCA MULTIPLE
 
-DOMICILIO: AVE. PALMERA 12341, COL. PARQUE INDUSTRIAL EL ENCANTO.</description>
-			<LookAt>
-				<longitude>-116.8560374510538</longitude>
-				<latitude>32.44092214161391</latitude>
-				<altitude>0</altitude>
-				<heading>0.0002661029322752113</heading>
-				<tilt>5.55336977135179</tilt>
-				<range>740.3070109353977</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8569166982218,32.44033306555035,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FD-651-706</name>
-			<description>NOMBRE: CAVALTA CORPORATION, S.A. PROMOTORA DE I. DE C.V.
+DOM. Blvd. Olivos 24802</description>
+				<LookAt>
+					<longitude>-116.8531343057362</longitude>
+					<latitude>32.46211845923435</latitude>
+					<altitude>0</altitude>
+					<heading>1.179401727890431e-05</heading>
+					<tilt>18.42255516406535</tilt>
+					<range>390.9749519108484</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0040</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8531367396773,32.46211480748697,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-855-146</name>
+				<open>1</open>
+				<description>MEX AJU, S.A DE C.V
+
+Dom. Blvd Olivos 30101</description>
+				<LookAt>
+					<longitude>-116.8536870275023</longitude>
+					<latitude>32.46052415435629</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004011601683844959</heading>
+					<tilt>0</tilt>
+					<range>1168.784918981205</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0040</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8531387305916,32.46088793454881,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-855-111</name>
+				<open>1</open>
+				<description>PALETS EMPAQUES Y EMBALAES S.A. DE C.V.
+BLVD OLIVOS 23002 COL. FIDEICOMISO EL FLORIDO</description>
+				<LookAt>
+					<longitude>-116.8575388100694</longitude>
+					<latitude>32.45817864419923</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003932643606635048</heading>
+					<tilt>20.56936922334151</tilt>
+					<range>369.0677776658575</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0040</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8580802320163,32.45816019413761,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-651-708</name>
+				<open>1</open>
+				<description>INMOBILIARIA Y FRACCIONADORA CADENA S.A.P.I DE C
+DOMICILIO: DERECHO DE VIA 12002 COL. PARQUE INDUSTRIAL EL ENCANTO
+OBSERVACIONES:
+-EL DOMICILIO NO CORRESPONDE LA CALLE 
+-LA SUPERFICIE DEL LA CONSTRUCCIÓN ES 0</description>
+				<LookAt>
+					<longitude>-116.8605151948703</longitude>
+					<latitude>32.44254537091497</latitude>
+					<altitude>0</altitude>
+					<heading>8.759348968640658e-05</heading>
+					<tilt>0</tilt>
+					<range>498.4920957367839</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0040</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8609875460823,32.44265606526358,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-651-706</name>
+				<open>1</open>
+				<description>NOMBRE: CAVALTA CORPORATION, S.A. PROMOTORA DE I. DE C.V.
 
 DOMICILIO: AVE. PALMERA 12342 COL. PARQUE INDUSTRIAL EL ENCANTO</description>
+				<LookAt>
+					<longitude>-116.8559539319567</longitude>
+					<latitude>32.44053599124675</latitude>
+					<altitude>0</altitude>
+					<heading>0.003099275357185714</heading>
+					<tilt>16.29022697036925</tilt>
+					<range>444.8422641538474</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0040</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8542772652844,32.44106075446205,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-651-707</name>
+				<open>1</open>
+				<description>NOMBRE: CAVALTA CORPORATION, S.A. PROMOTORA DE I. DE C.V.
+
+DOMICILIO: AVE. PALMERA 12341, COL. PARQUE INDUSTRIAL EL ENCANTO.</description>
+				<LookAt>
+					<longitude>-116.8560374510538</longitude>
+					<latitude>32.44092214161391</latitude>
+					<altitude>0</altitude>
+					<heading>0.0002661029322752113</heading>
+					<tilt>5.55336977135179</tilt>
+					<range>740.3070109353977</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0040</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8569166982218,32.44033306555035,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DM-008-064</name>
+				<open>1</open>
+				<description>MIRAMONTES ACEVES ALONZO
+
+Dom. C. Cueros de Venado, col. Zona cerril gral
+Es el codigo postal de la col. zona cerril general</description>
+				<LookAt>
+					<longitude>-116.9280859099418</longitude>
+					<latitude>32.41390559767463</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003737253915330903</heading>
+					<tilt>26.40484430179067</tilt>
+					<range>195.5697265098935</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0040</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9280963286589,32.41389854575251,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>JO-498-211</name>
+			<description>F/01025 MMREIT INDUSTRIAL TRUST IV
+
+Corresponde a Col. San Antonio de los Buenos / Libramiento – Rosarito, es decir, la zona  C. Tijuana–Rosarito 10001.
+
+Desarrollo clase A de FIBRA Macquarie
+TIJ031 – UBIQ Santa Fe (FIBRA Macquarie / MMREIT)</description>
 			<LookAt>
-				<longitude>-116.8559539319567</longitude>
-				<latitude>32.44053599124675</latitude>
+				<longitude>-117.0222759813414</longitude>
+				<latitude>32.44234354340824</latitude>
 				<altitude>0</altitude>
-				<heading>0.003099275357185714</heading>
-				<tilt>16.29022697036925</tilt>
-				<range>444.8422641538474</range>
+				<heading>0.0004711586433774223</heading>
+				<tilt>11.29670591450013</tilt>
+				<range>799.4492470585817</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<styleUrl>#msn_grn-pushpin00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8542772652844,32.44106075446205,0</coordinates>
+				<coordinates>-117.0234681049365,32.44151273331886,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -398,7 +522,7 @@ OBSERVACION: EL AREA DEL TERRENO COLO CONCUERDA SI SE TOMA TANTO LOS EDIFICIOS C
 				<range>736.1358961107238</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<styleUrl>#m_ylw-pushpin004</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8970113661622,32.49690770133625,0</coordinates>
@@ -420,7 +544,7 @@ OBSERVACIONES: POR EL DOMICILIO Y EL AREA, ESTE PARECE SER EL LUGAR.</descriptio
 				<range>287.0490096937017</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<styleUrl>#m_ylw-pushpin004</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9273084788305,32.50770003408163,0</coordinates>
@@ -439,7 +563,7 @@ C. MORELOS COL. PARQUE INDUSTRIAL MORELOS</description>
 				<range>476.1640784210499</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<styleUrl>#m_ylw-pushpin004</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.0081835344802,32.47112210641543,0</coordinates>
@@ -459,7 +583,7 @@ LA SUPERFICIE ES LA QUE COINCIDE DE IGUAL MODO LA DIRECCION</description>
 				<range>476.1640784210499</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<styleUrl>#m_ylw-pushpin004</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.008108983751,32.47047258909431,0</coordinates>
@@ -479,29 +603,10 @@ APARECE CON EL NOMBRE DE PARPRO</description>
 				<range>635.0605679823002</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
+			<styleUrl>#m_ylw-pushpin004</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.0368222408529,32.44904221980415,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>FD-855-111</name>
-			<description>PALETS EMPAQUES Y EMBALAES S.A. DE C.V.
-BLVD OLIVOS 23002 COL. FIDEICOMISO EL FLORIDO</description>
-			<LookAt>
-				<longitude>-116.8575388100694</longitude>
-				<latitude>32.45817864419923</latitude>
-				<altitude>0</altitude>
-				<heading>0.0003932643606635048</heading>
-				<tilt>20.56936922334151</tilt>
-				<range>369.0677776658575</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8580802320163,32.45816019413761,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
@@ -2477,6 +2582,79 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 		<name>20-ENERO-2026</name>
 		<Folder>
 			<name>HECHOS</name>
+			<open>1</open>
+			<Folder>
+				<name>PUNTUALHYUNDAI</name>
+				<open>1</open>
+				<Placemark>
+					<name>DM008104</name>
+					<LookAt>
+						<longitude>-116.8175061863059</longitude>
+						<latitude>32.45570958888055</latitude>
+						<altitude>0</altitude>
+						<heading>0.0006744821058747011</heading>
+						<tilt>0</tilt>
+						<range>1034.145396641259</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8190409648653,32.45683510300585,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FD854091</name>
+					<LookAt>
+						<longitude>-116.8778179963364</longitude>
+						<latitude>32.44892391367411</latitude>
+						<altitude>0</altitude>
+						<heading>0.00019899255145428</heading>
+						<tilt>0</tilt>
+						<range>516.0934446957451</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8789497124806,32.44945154513344,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FD000531</name>
+					<LookAt>
+						<longitude>-116.8777192482512</longitude>
+						<latitude>32.44890541795049</latitude>
+						<altitude>0</altitude>
+						<heading>-1.176526138468203e-08</heading>
+						<tilt>0</tilt>
+						<range>697.8182692623135</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8764997902897,32.44855055032879,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FD854061</name>
+					<LookAt>
+						<longitude>-116.8781888293162</longitude>
+						<latitude>32.44809172217393</latitude>
+						<altitude>14.72025303139504</altitude>
+						<heading>1.066487693014939e-10</heading>
+						<tilt>0</tilt>
+						<range>502.2391687381824</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8789436831923,32.44755824657541,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 		</Folder>
 		<Folder id="FeatureLayer0">
 			<name>Hyundai</name>
@@ -2546,7 +2724,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -2624,7 +2802,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -2702,7 +2880,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -2780,7 +2958,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -2858,7 +3036,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -2936,7 +3114,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -3014,7 +3192,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -3092,7 +3270,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -3170,7 +3348,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -3248,7 +3426,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -3325,7 +3503,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -3402,7 +3580,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -3479,7 +3657,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -3556,7 +3734,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle00</styleUrl>
+				<styleUrl>#PolyStyle008</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -3568,78 +3746,6 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 						</outerBoundaryIs>
 					</Polygon>
 				</MultiGeometry>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>PUNTUALHYUNDAI</name>
-			<Placemark>
-				<name>FD854091</name>
-				<LookAt>
-					<longitude>-116.8778179963364</longitude>
-					<latitude>32.44892391367411</latitude>
-					<altitude>0</altitude>
-					<heading>0.00019899255145428</heading>
-					<tilt>0</tilt>
-					<range>516.0934446957451</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_grn-pushpin0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8789497124806,32.44945154513344,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>DM008104</name>
-				<LookAt>
-					<longitude>-116.8175061863059</longitude>
-					<latitude>32.45570958888055</latitude>
-					<altitude>0</altitude>
-					<heading>0.0006744821058747011</heading>
-					<tilt>0</tilt>
-					<range>1034.145396641259</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_grn-pushpin0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8190409648653,32.45683510300585,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD000531</name>
-				<open>1</open>
-				<LookAt>
-					<longitude>-116.8777192482512</longitude>
-					<latitude>32.44890541795049</latitude>
-					<altitude>0</altitude>
-					<heading>-1.176526138468203e-08</heading>
-					<tilt>0</tilt>
-					<range>697.8182692623135</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_grn-pushpin</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8764997902897,32.44855055032879,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD854061</name>
-				<LookAt>
-					<longitude>-116.8781888293162</longitude>
-					<latitude>32.44809172217393</latitude>
-					<altitude>14.72025303139504</altitude>
-					<heading>1.066487693014939e-10</heading>
-					<tilt>0</tilt>
-					<range>502.2391687381824</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_grn-pushpin0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8789436831923,32.44755824657541,0</coordinates>
-				</Point>
 			</Placemark>
 		</Folder>
 	</Folder>
