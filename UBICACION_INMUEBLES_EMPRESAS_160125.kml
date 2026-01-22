@@ -4066,11 +4066,11 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 					<listItemType>check</listItemType>
 					<ItemIcon>
 						<state>open</state>
-						<href>mysavedplaces_open_1_1.png</href>
+						<href>mysavedplaces_open_1_2.png</href>
 					</ItemIcon>
 					<ItemIcon>
 						<state>closed</state>
-						<href>mysavedplaces_closed_1_1.png</href>
+						<href>mysavedplaces_closed_1_2.png</href>
 					</ItemIcon>
 					<bgColor>00ffffff</bgColor>
 					<maxSnippetLines>2</maxSnippetLines>
