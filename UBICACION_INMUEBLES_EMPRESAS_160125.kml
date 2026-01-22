@@ -40,16 +40,6 @@
 			<color>00d3f2c9</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="m_ylw-pushpin004">
 		<Pair>
 			<key>normal</key>
@@ -60,14 +50,84 @@
 			<styleUrl>#s_ylw-pushpin_hl02</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0040">
+	<StyleMap id="m_ylw-pushpin02">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin201</styleUrl>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl020</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin21</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl140</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin130">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin140</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl11</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin300">
@@ -77,7 +137,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl100</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_blue-pushpin">
@@ -110,16 +170,6 @@
 			<styleUrl>#sh_grn-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_grn-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_grn-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_grn-pushpin0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="poly-FF0000-1000-0">
 		<Pair>
 			<key>normal</key>
@@ -148,6 +198,71 @@
 			<color>38ff5500</color>
 		</PolyStyle>
 	</Style>
+	<Style id="s_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin14">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin140">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin15">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin21">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="s_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -156,23 +271,12 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin20">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin201">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -195,11 +299,11 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl020">
+	<Style id="s_ylw-pushpin_hl100">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -213,6 +317,62 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl14">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl140">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl2">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -221,8 +381,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_blue-pushpin">
 		<IconStyle>
@@ -238,15 +396,6 @@
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_grn-pushpin0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -278,15 +427,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_grn-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Style id="sn_grn-pushpin00">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -297,556 +437,11 @@
 		</IconStyle>
 	</Style>
 	<Folder>
-		<name>20-Enero-2026dos</name>
-		<Style>
-			<ListStyle>
-				<listItemType>check</listItemType>
-				<ItemIcon>
-					<state>open</state>
-					<href>mysavedplaces_open.png</href>
-				</ItemIcon>
-				<ItemIcon>
-					<state>closed</state>
-					<href>mysavedplaces_closed.png</href>
-				</ItemIcon>
-				<bgColor>00ffffff</bgColor>
-				<maxSnippetLines>2</maxSnippetLines>
-			</ListStyle>
-		</Style>
-		<Placemark>
-			<name>CZ-332-001</name>
-			<description>NOMBRE: ERCON S.C.
-
-DOMICILIO: C. OSLO 3526, COL. PLAYAS DE TIJUANA SECCION COSTA AZUL.</description>
-			<LookAt>
-				<longitude>-117.1172227725296</longitude>
-				<latitude>32.50366170427026</latitude>
-				<altitude>0</altitude>
-				<heading>0.09278784851386582</heading>
-				<tilt>5.627295910719605</tilt>
-				<range>183.2561037704663</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-117.1175170006169,32.50370589593582,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>TK-526-965</name>
-			<description>NOMBRE: TOYOTA MOTOR MANUFACTURING DE B.C. S. DE R.L.
-
-DOMICILIO: CL. TIJUANA - TECATE 33143 COL. RANCHO EL GANDUL</description>
-			<LookAt>
-				<longitude>-116.7150941916315</longitude>
-				<latitude>32.49994480276225</latitude>
-				<altitude>0</altitude>
-				<heading>0.001970570092026675</heading>
-				<tilt>0</tilt>
-				<range>2268.190962175323</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.7189015729806,32.50067732294674,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>DM-008-347</name>
-			<description>NOMBRE: SW AMEX S.A. DE C.V.
-
-DOMICILIO: BLVD. 2000 17521, COL. VALLE REDONDO
-
-OBSERVACIONES: AREA NO CONCUERDA</description>
-			<LookAt>
-				<longitude>-116.8483279568021</longitude>
-				<latitude>32.48486615128642</latitude>
-				<altitude>0</altitude>
-				<heading>0.0003831078501714667</heading>
-				<tilt>11.41300379860934</tilt>
-				<range>673.2750831099129</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8493637652961,32.48498791982405,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>OF-153-006</name>
-			<description>NOMBRE: BANCO ACTINVER S.A. IBM GRUPO FINANCIERO ACTINVER
-
-DOMICILIO: AVE. ALEJANDRO GRAHAM BELL 19285 -A-2, COL. PARQUE INDUSTRIAL TOMAS ALVA EDISON</description>
-			<LookAt>
-				<longitude>-116.8908207346406</longitude>
-				<latitude>32.4205154874777</latitude>
-				<altitude>0</altitude>
-				<heading>0.001255374037036939</heading>
-				<tilt>10.43475497261619</tilt>
-				<range>700.5858294076526</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8914600870051,32.4214952373154,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>OF-153-017</name>
-			<description>NOMBRE: TOMAS ALVA EDISON INDUSTRIAL PARK, S. DE R.L. DE C.
-
-DOMICILIO: AVE. ALEJANDRO GRAHAM BELL 19296, COL. PARQUE INDUSTRIAL TOMAS ALVA EDISON</description>
-			<LookAt>
-				<gx:TimeStamp><when>2025-02-20</when>
-</gx:TimeStamp>
-				<gx:ViewerOptions>
-					<gx:option name="historicalimagery"></gx:option>
-					<gx:option enabled="0" name="sunlight"></gx:option>
-					<gx:option enabled="0" name="streetview"></gx:option>
-				</gx:ViewerOptions>
-				<longitude>-116.8916204675534</longitude>
-				<latitude>32.42268828391549</latitude>
-				<altitude>0</altitude>
-				<heading>0.0001248271100964191</heading>
-				<tilt>0</tilt>
-				<range>794.3536901944914</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8920010472486,32.4227316071069,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>TA-002-012</name>
-			<description>NOMBRE: HERNANDEZ VALDOVINO MARTA
-DIRECCION: CIR. TOMAS AQUINO 12700 COL.TOMAS AQUINO
-OBSERVACION:
--LA SUPERFICIE CONSTRUIDA NO CORRESPONDE</description>
-			<LookAt>
-				<longitude>-116.9896612406728</longitude>
-				<latitude>32.53131310394414</latitude>
-				<altitude>0</altitude>
-				<heading>0.0001043479210588794</heading>
-				<tilt>0</tilt>
-				<range>226.3952850373409</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.9900646157534,32.53113934097362,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>GY-118-261</name>
-			<description>NOMBRE: OLGUIN VALENZUELA LEONOR HILDA
-DOMICILIO: C CABO FALSO 20806 COL AMPLIACION GUAYCURA</description>
-			<Camera>
-				<longitude>-116.9123121088796</longitude>
-				<latitude>32.50492143078117</latitude>
-				<altitude>146.176707872933</altitude>
-				<heading>5.844629539968957</heading>
-				<tilt>0.3116430105055489</tilt>
-				<roll>5.768634191391672</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.9123639598685,32.50502929218752,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>PZ-071-002</name>
-			<description>NOMBRE: ESTUDILLO ESQUIVEL LUZ MARIA
-DIRECCION: AV TERRAZAS 10602-1-A COL.TERRAZAS DE LA PRESA</description>
-			<LookAt>
-				<longitude>-116.9181380378229</longitude>
-				<latitude>32.45181602114536</latitude>
-				<altitude>0</altitude>
-				<heading>-7.358191817037035e-06</heading>
-				<tilt>19.9241924263904</tilt>
-				<range>310.4472807815217</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.9179905608122,32.45187158969953,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>LV-695-006</name>
-			<description>NOMBRE: LOPERENA FERNANDEZ MARIA DEL CARMEN
-DOMICILIO: C CAÑON K 925 COL LINDA VISTA</description>
-			<Camera>
-				<longitude>-117.0546346355384</longitude>
-				<latitude>32.53348074273222</latitude>
-				<altitude>192.6134531690299</altitude>
-				<heading>-37.27428467978767</heading>
-				<tilt>0.2893721498023826</tilt>
-				<roll>-36.87606927192048</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-117.0548643795669,32.53355442950948,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>AO-043-004</name>
-			<description>NOMBRE: FELIX DIAZ ALONSO MIGUEL ANGEL 
-
-DIRECCION: C. CAMINO ANTIGUO A TECATE COL. NIÑOS HEROES (LA MESA)</description>
-			<LookAt>
-				<longitude>-116.9308177151642</longitude>
-				<latitude>32.47491264514738</latitude>
-				<altitude>0</altitude>
-				<heading>1.590277340731759e-15</heading>
-				<tilt>0</tilt>
-				<range>195.9015208836413</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.9309104994204,32.47508173492459,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>ZT-497-225</name>
-			<description>RENDON TOLIBIA DIANA LUZ
-
-Dom. carr. tijuana-rosarito 14040</description>
-			<LookAt>
-				<longitude>-117.0549202669239</longitude>
-				<latitude>32.39467136976912</latitude>
-				<altitude>0</altitude>
-				<heading>0.0001363047909365816</heading>
-				<tilt>0</tilt>
-				<range>585.9304943330284</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-117.0553966979616,32.39426765554145,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>MR-007-010</name>
-			<description>SCRAMM TORRES JOSE ALBERTO
-
-Dom. Av. Rio colorado 9551, col. marron 22015</description>
-			<LookAt>
-				<longitude>-117.0230201464482</longitude>
-				<latitude>32.52223855410569</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0009246612828282557</heading>
-				<tilt>21.37345672178743</tilt>
-				<range>347.4751650073819</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-117.022509527352,32.52248652235281,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>BG-042-014</name>
-			<description>DIAZ DE LEON FLEURI MARIA ANGELICA
-
-Dom. C Britania 45, col. Aeropuerto 22404</description>
-			<LookAt>
-				<longitude>-116.9920398626663</longitude>
-				<latitude>32.53871900144765</latitude>
-				<altitude>0</altitude>
-				<heading>3.099816431913569e-05</heading>
-				<tilt>27.07031246367733</tilt>
-				<range>180.1996154644275</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.9920978967073,32.53857282948102,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>ZA-066-001</name>
-			<description>SELECHNIK GOLDBERG EVA
-
-Dom. Av. cubilete 18804, col. cerro colorado, 22223</description>
-			<Camera>
-				<longitude>-116.9169639887697</longitude>
-				<latitude>32.48048218497681</latitude>
-				<altitude>174.530893876091</altitude>
-				<heading>62.85650699040093</heading>
-				<tilt>24.05210887397385</tilt>
-				<roll>33.39018422440576</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.9163252266437,32.48090955402022,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
-	<Folder>
 		<name>UBICACIONESFER</name>
-		<Folder>
-			<name>HECHO</name>
-			<Placemark>
-				<name>FD-855-147</name>
-				<open>1</open>
-				<description>MEX AJU, SOCIEDAD ANONIMA DE CAPITAL VARIABLE
-
-DOM. 
-Boulevard Los Olivos 25100
-22245 Tijuana
-Baja California - Mexico</description>
-				<LookAt>
-					<longitude>-116.8472980210814</longitude>
-					<latitude>32.4618664590826</latitude>
-					<altitude>0</altitude>
-					<heading>-0.00267247945911937</heading>
-					<tilt>2.262878411487907</tilt>
-					<range>1554.335701718076</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0040</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8475352829318,32.46475134274494,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-855-142</name>
-				<open>1</open>
-				<description>PALETS, EMPAQUES Y ENBALAJES S.A DE C.V
-
-Dom. Blvd. Olivos 25202</description>
-				<LookAt>
-					<longitude>-116.8505821615946</longitude>
-					<latitude>32.46147520537272</latitude>
-					<altitude>0</altitude>
-					<heading>0.002706695778237786</heading>
-					<tilt>9.194089362303425</tilt>
-					<range>720.5842263489013</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0040</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8501883868885,32.46264358125887,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-855-149</name>
-				<open>1</open>
-				<description>BANCO ACTINVER S.A INSTITUCION DE BANCA MULTIPLE
-
-DOM. Blvd. Olivos 24802</description>
-				<LookAt>
-					<longitude>-116.8531343057362</longitude>
-					<latitude>32.46211845923435</latitude>
-					<altitude>0</altitude>
-					<heading>1.179401727890431e-05</heading>
-					<tilt>18.42255516406535</tilt>
-					<range>390.9749519108484</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0040</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8531367396773,32.46211480748697,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-855-146</name>
-				<open>1</open>
-				<description>MEX AJU, S.A DE C.V
-
-Dom. Blvd Olivos 30101</description>
-				<LookAt>
-					<longitude>-116.8536870275023</longitude>
-					<latitude>32.46052415435629</latitude>
-					<altitude>0</altitude>
-					<heading>-0.0004011601683844959</heading>
-					<tilt>0</tilt>
-					<range>1168.784918981205</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0040</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8531387305916,32.46088793454881,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-855-111</name>
-				<open>1</open>
-				<description>PALETS EMPAQUES Y EMBALAES S.A. DE C.V.
-BLVD OLIVOS 23002 COL. FIDEICOMISO EL FLORIDO</description>
-				<LookAt>
-					<longitude>-116.8575388100694</longitude>
-					<latitude>32.45817864419923</latitude>
-					<altitude>0</altitude>
-					<heading>0.0003932643606635048</heading>
-					<tilt>20.56936922334151</tilt>
-					<range>369.0677776658575</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0040</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8580802320163,32.45816019413761,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-651-708</name>
-				<open>1</open>
-				<description>INMOBILIARIA Y FRACCIONADORA CADENA S.A.P.I DE C
-DOMICILIO: DERECHO DE VIA 12002 COL. PARQUE INDUSTRIAL EL ENCANTO
-OBSERVACIONES:
--EL DOMICILIO NO CORRESPONDE LA CALLE 
--LA SUPERFICIE DEL LA CONSTRUCCIÓN ES 0</description>
-				<LookAt>
-					<longitude>-116.8605151948703</longitude>
-					<latitude>32.44254537091497</latitude>
-					<altitude>0</altitude>
-					<heading>8.759348968640658e-05</heading>
-					<tilt>0</tilt>
-					<range>498.4920957367839</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0040</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8609875460823,32.44265606526358,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-651-706</name>
-				<open>1</open>
-				<description>NOMBRE: CAVALTA CORPORATION, S.A. PROMOTORA DE I. DE C.V.
-
-DOMICILIO: AVE. PALMERA 12342 COL. PARQUE INDUSTRIAL EL ENCANTO</description>
-				<LookAt>
-					<longitude>-116.8559539319567</longitude>
-					<latitude>32.44053599124675</latitude>
-					<altitude>0</altitude>
-					<heading>0.003099275357185714</heading>
-					<tilt>16.29022697036925</tilt>
-					<range>444.8422641538474</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0040</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8542772652844,32.44106075446205,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-651-707</name>
-				<open>1</open>
-				<description>NOMBRE: CAVALTA CORPORATION, S.A. PROMOTORA DE I. DE C.V.
-
-DOMICILIO: AVE. PALMERA 12341, COL. PARQUE INDUSTRIAL EL ENCANTO.</description>
-				<LookAt>
-					<longitude>-116.8560374510538</longitude>
-					<latitude>32.44092214161391</latitude>
-					<altitude>0</altitude>
-					<heading>0.0002661029322752113</heading>
-					<tilt>5.55336977135179</tilt>
-					<range>740.3070109353977</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0040</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8569166982218,32.44033306555035,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>DM-008-064</name>
-				<open>1</open>
-				<description>MIRAMONTES ACEVES ALONZO
-
-Dom. C. Cueros de Venado, col. Zona cerril gral
-Es el codigo postal de la col. zona cerril general</description>
-				<LookAt>
-					<longitude>-116.9280859099418</longitude>
-					<latitude>32.41390559767463</latitude>
-					<altitude>0</altitude>
-					<heading>0.0003737253915330903</heading>
-					<tilt>26.40484430179067</tilt>
-					<range>195.5697265098935</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0040</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9280963286589,32.41389854575251,0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
-		<Placemark>
-			<name>JO-498-211</name>
-			<description>F/01025 MMREIT INDUSTRIAL TRUST IV
-
-Corresponde a Col. San Antonio de los Buenos / Libramiento – Rosarito, es decir, la zona  C. Tijuana–Rosarito 10001.
-
-Desarrollo clase A de FIBRA Macquarie
-TIJ031 – UBIQ Santa Fe (FIBRA Macquarie / MMREIT)</description>
-			<LookAt>
-				<longitude>-117.0222759813414</longitude>
-				<latitude>32.44234354340824</latitude>
-				<altitude>0</altitude>
-				<heading>0.0004711586433774223</heading>
-				<tilt>11.29670591450013</tilt>
-				<range>799.4492470585817</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_grn-pushpin00</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-117.0234681049365,32.44151273331886,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>GY-000-014</name>
-			<description>NOMBRE: MORENO JOSE
-
-DOMICILIO: BLVD. PRESIDENTES 6002-5, COL. RANCHO EL AGUILA
-
-OBSERVACION: EL AREA DEL TERRENO COLO CONCUERDA SI SE TOMA TANTO LOS EDIFICIOS COMO EL TERRENO BALDIO DE DEL ESTE.</description>
-			<LookAt>
-				<longitude>-116.8945288892002</longitude>
-				<latitude>32.4964058082507</latitude>
-				<altitude>0</altitude>
-				<heading>0.001613088032226574</heading>
-				<tilt>1.745627085409363</tilt>
-				<range>736.1358961107238</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin004</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-116.8970113661622,32.49690770133625,0</coordinates>
-			</Point>
-		</Placemark>
+		<visibility>0</visibility>
 		<Placemark>
 			<name>AI-026-103</name>
+			<visibility>0</visibility>
 			<description>NOMBRE: INMOBILIARIA MRM 2000 S.A. DE C.V.
 
 DOMICILIO: PSO. DEL LAGO 0, COL. EL LAGO 
@@ -868,64 +463,447 @@ OBSERVACIONES: POR EL DOMICILIO Y EL AREA, ESTE PARECE SER EL LUGAR.</descriptio
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>MT-091-016</name>
-			<description>GUTIERREZ SAAVEDRA ADRIANA 
-C. MORELOS COL. PARQUE INDUSTRIAL MORELOS</description>
+			<name>GY-000-014</name>
+			<visibility>0</visibility>
+			<description>NOMBRE: MORENO JOSE
+
+DOMICILIO: BLVD. PRESIDENTES 6002-5, COL. RANCHO EL AGUILA
+
+OBSERVACION: EL AREA DEL TERRENO COLO CONCUERDA SI SE TOMA TANTO LOS EDIFICIOS COMO EL TERRENO BALDIO DE DEL ESTE.</description>
 			<LookAt>
-				<longitude>-117.0073468226862</longitude>
-				<latitude>32.47112676559164</latitude>
+				<longitude>-116.8945288892002</longitude>
+				<latitude>32.4964058082507</latitude>
 				<altitude>0</altitude>
-				<heading>-4.691344396961721e-05</heading>
-				<tilt>3.603368843952391</tilt>
-				<range>476.1640784210499</range>
+				<heading>0.001613088032226574</heading>
+				<tilt>1.745627085409363</tilt>
+				<range>736.1358961107238</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#m_ylw-pushpin004</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-117.0081835344802,32.47112210641543,0</coordinates>
+				<coordinates>-116.8970113661622,32.49690770133625,0</coordinates>
 			</Point>
 		</Placemark>
+	</Folder>
+	<Folder>
+		<name>20-Enero-2026dos</name>
+		<visibility>0</visibility>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>C:/Users/Migue/AppData/LocalLow/Google/GoogleEarth/mysavedplaces_open_0.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>C:/Users/Migue/AppData/LocalLow/Google/GoogleEarth/mysavedplaces_closed_0.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
 		<Placemark>
-			<name>MT-091-012</name>
-			<description>GUTIERREZ SAAVEDRA ADRIANA 
-C. MORELOS 9955 COL. PARQUE INSDUSTRIAL MORELOS 
-LA SUPERFICIE ES LA QUE COINCIDE DE IGUAL MODO LA DIRECCION</description>
+			<name>TK-526-965</name>
+			<visibility>0</visibility>
+			<description>NOMBRE: TOYOTA MOTOR MANUFACTURING DE B.C. S. DE R.L.
+
+DOMICILIO: CL. TIJUANA - TECATE 33143 COL. RANCHO EL GANDUL</description>
 			<LookAt>
-				<longitude>-117.0073468226862</longitude>
-				<latitude>32.47112676559164</latitude>
+				<longitude>-116.7150941916315</longitude>
+				<latitude>32.49994480276225</latitude>
 				<altitude>0</altitude>
-				<heading>-4.691344396961721e-05</heading>
-				<tilt>3.603368843952391</tilt>
-				<range>476.1640784210499</range>
+				<heading>0.001970570092026675</heading>
+				<tilt>0</tilt>
+				<range>2268.190962175323</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin004</styleUrl>
+			<styleUrl>#m_ylw-pushpin02</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-117.008108983751,32.47047258909431,0</coordinates>
+				<coordinates>-116.7189015729806,32.50067732294674,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>LX-000-164</name>
-			<description>PROYECTOS Y CONSTRUCCIONES MUSA S.A DE C.V.
+			<name>DM-008-347</name>
+			<visibility>0</visibility>
+			<description>NOMBRE: SW AMEX S.A. DE C.V.
+
+DOMICILIO: BLVD. 2000 17521, COL. VALLE REDONDO
+
+OBSERVACIONES: AREA NO CONCUERDA</description>
+			<LookAt>
+				<longitude>-116.8483279568021</longitude>
+				<latitude>32.48486615128642</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003831078501714667</heading>
+				<tilt>11.41300379860934</tilt>
+				<range>673.2750831099129</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.8493637652961,32.48498791982405,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TA-002-012</name>
+			<visibility>0</visibility>
+			<description>NOMBRE: HERNANDEZ VALDOVINO MARTA
+DIRECCION: CIR. TOMAS AQUINO 12700 COL.TOMAS AQUINO
+OBSERVACION:
+-LA SUPERFICIE CONSTRUIDA NO CORRESPONDE</description>
+			<LookAt>
+				<longitude>-116.9896612406728</longitude>
+				<latitude>32.53131310394414</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001043479210588794</heading>
+				<tilt>0</tilt>
+				<range>226.3952850373409</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.9900646157534,32.53113934097362,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GY-118-261</name>
+			<visibility>0</visibility>
+			<description>NOMBRE: OLGUIN VALENZUELA LEONOR HILDA
+DOMICILIO: C CABO FALSO 20806 COL AMPLIACION GUAYCURA</description>
+			<Camera>
+				<longitude>-116.9123121088796</longitude>
+				<latitude>32.50492143078117</latitude>
+				<altitude>146.176707872933</altitude>
+				<heading>5.844629539968957</heading>
+				<tilt>0.3116430105055489</tilt>
+				<roll>5.768634191391672</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.9123639598685,32.50502929218752,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PZ-071-002</name>
+			<visibility>0</visibility>
+			<description>NOMBRE: ESTUDILLO ESQUIVEL LUZ MARIA
+DIRECCION: AV TERRAZAS 10602-1-A COL.TERRAZAS DE LA PRESA</description>
+			<LookAt>
+				<longitude>-116.9181380378229</longitude>
+				<latitude>32.45181602114536</latitude>
+				<altitude>0</altitude>
+				<heading>-7.358191817037035e-06</heading>
+				<tilt>19.9241924263904</tilt>
+				<range>310.4472807815217</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.9179905608122,32.45187158969953,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AO-043-004</name>
+			<visibility>0</visibility>
+			<description>NOMBRE: FELIX DIAZ ALONSO MIGUEL ANGEL 
+
+DIRECCION: C. CAMINO ANTIGUO A TECATE COL. NIÑOS HEROES (LA MESA)</description>
+			<LookAt>
+				<longitude>-116.9308177151642</longitude>
+				<latitude>32.47491264514738</latitude>
+				<altitude>0</altitude>
+				<heading>1.590277340731759e-15</heading>
+				<tilt>0</tilt>
+				<range>195.9015208836413</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.9309104994204,32.47508173492459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BG-042-014</name>
+			<visibility>0</visibility>
+			<description>DIAZ DE LEON FLEURI MARIA ANGELICA
+
+Dom. C Britania 45, col. Aeropuerto 22404</description>
+			<LookAt>
+				<longitude>-116.9920398626663</longitude>
+				<latitude>32.53871900144765</latitude>
+				<altitude>0</altitude>
+				<heading>3.099816431913569e-05</heading>
+				<tilt>27.07031246367733</tilt>
+				<range>180.1996154644275</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.9920978967073,32.53857282948102,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ZA-066-001</name>
+			<visibility>0</visibility>
+			<description>SELECHNIK GOLDBERG EVA
+
+Dom. Av. cubilete 18804, col. cerro colorado, 22223</description>
+			<Camera>
+				<longitude>-116.9169639887697</longitude>
+				<latitude>32.48048218497681</latitude>
+				<altitude>174.530893876091</altitude>
+				<heading>62.85650699040093</heading>
+				<tilt>24.05210887397385</tilt>
+				<roll>33.39018422440576</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin02</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-116.9163252266437,32.48090955402022,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder>
+			<name>HECHO</name>
+			<visibility>0</visibility>
+			<Placemark>
+				<name>OF-153-006</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>NOMBRE: BANCO ACTINVER S.A. IBM GRUPO FINANCIERO ACTINVER
+
+DOMICILIO: AVE. ALEJANDRO GRAHAM BELL 19285 -A-2, COL. PARQUE INDUSTRIAL TOMAS ALVA EDISON</description>
+				<LookAt>
+					<longitude>-116.8908207346406</longitude>
+					<latitude>32.4205154874777</latitude>
+					<altitude>0</altitude>
+					<heading>0.001255374037036939</heading>
+					<tilt>10.43475497261619</tilt>
+					<range>700.5858294076526</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8914600870051,32.4214952373154,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OF-153-017</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>NOMBRE: TOMAS ALVA EDISON INDUSTRIAL PARK, S. DE R.L. DE C.
+
+DOMICILIO: AVE. ALEJANDRO GRAHAM BELL 19296, COL. PARQUE INDUSTRIAL TOMAS ALVA EDISON</description>
+				<LookAt>
+					<gx:TimeStamp><when>2025-02-20</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-116.8916204675534</longitude>
+					<latitude>32.42268828391549</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001248271100964191</heading>
+					<tilt>0</tilt>
+					<range>794.3536901944914</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8920010472486,32.4227316071069,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ZT-497-225</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>RENDON TOLIBIA DIANA LUZ
+
+Dom. carr. tijuana-rosarito 14040</description>
+				<LookAt>
+					<longitude>-117.0549202669239</longitude>
+					<latitude>32.39467136976912</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001363047909365816</heading>
+					<tilt>0</tilt>
+					<range>585.9304943330284</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0553966979616,32.39426765554145,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>JO-498-211</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>F/01025 MMREIT INDUSTRIAL TRUST IV
+
+Corresponde a Col. San Antonio de los Buenos / Libramiento – Rosarito, es decir, la zona  C. Tijuana–Rosarito 10001.
+
+Desarrollo clase A de FIBRA Macquarie
+TIJ031 – UBIQ Santa Fe (FIBRA Macquarie / MMREIT)</description>
+				<LookAt>
+					<longitude>-117.0222759813414</longitude>
+					<latitude>32.44234354340824</latitude>
+					<altitude>0</altitude>
+					<heading>0.0004711586433774223</heading>
+					<tilt>11.29670591450013</tilt>
+					<range>799.4492470585817</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0234681049365,32.44151273331886,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LX-000-164</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>PROYECTOS Y CONSTRUCCIONES MUSA S.A DE C.V.
 BLVD FRANCISCO ZARCO 6201 COL. SAN ANTONIO DE LOS BUENOS 
 APARECE CON EL NOMBRE DE PARPRO</description>
-			<LookAt>
-				<longitude>-117.0365276318898</longitude>
-				<latitude>32.44880758773285</latitude>
-				<altitude>0</altitude>
-				<heading>-0.0002983625780283648</heading>
-				<tilt>0</tilt>
-				<range>635.0605679823002</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin004</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-117.0368222408529,32.44904221980415,0</coordinates>
-			</Point>
-		</Placemark>
+				<LookAt>
+					<longitude>-117.0365276318898</longitude>
+					<latitude>32.44880758773285</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0002983625780283648</heading>
+					<tilt>0</tilt>
+					<range>635.0605679823002</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0368222408529,32.44904221980415,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MT-091-012</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>GUTIERREZ SAAVEDRA ADRIANA 
+C. MORELOS 9955 COL. PARQUE INSDUSTRIAL MORELOS 
+LA SUPERFICIE ES LA QUE COINCIDE DE IGUAL MODO LA DIRECCION</description>
+				<LookAt>
+					<longitude>-117.0073468226862</longitude>
+					<latitude>32.47112676559164</latitude>
+					<altitude>0</altitude>
+					<heading>-4.691344396961721e-05</heading>
+					<tilt>3.603368843952391</tilt>
+					<range>476.1640784210499</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.008108983751,32.47047258909431,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MT-091-016</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>GUTIERREZ SAAVEDRA ADRIANA 
+C. MORELOS COL. PARQUE INDUSTRIAL MORELOS</description>
+				<LookAt>
+					<longitude>-117.0073468226862</longitude>
+					<latitude>32.47112676559164</latitude>
+					<altitude>0</altitude>
+					<heading>-4.691344396961721e-05</heading>
+					<tilt>3.603368843952391</tilt>
+					<range>476.1640784210499</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0081835344802,32.47112210641543,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CZ-332-001</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>NOMBRE: ERCON S.C.
+
+DOMICILIO: C. OSLO 3526, COL. PLAYAS DE TIJUANA SECCION COSTA AZUL.</description>
+				<LookAt>
+					<longitude>-117.1172227725296</longitude>
+					<latitude>32.50366170427026</latitude>
+					<altitude>0</altitude>
+					<heading>0.09278784851386582</heading>
+					<tilt>5.627295910719605</tilt>
+					<range>183.2561037704663</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.1175170006169,32.50370589593582,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LV-695-006</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>NOMBRE: LOPERENA FERNANDEZ MARIA DEL CARMEN
+DOMICILIO: C CAÑON K 925 COL LINDA VISTA</description>
+				<Camera>
+					<longitude>-117.0546346355384</longitude>
+					<latitude>32.53348074273222</latitude>
+					<altitude>192.6134531690299</altitude>
+					<heading>-37.27428467978767</heading>
+					<tilt>0.2893721498023826</tilt>
+					<roll>-36.87606927192048</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0548643795669,32.53355442950948,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MR-007-010</name>
+				<visibility>0</visibility>
+				<description>SCRAMM TORRES JOSE ALBERTO
+
+Dom. Av. Rio colorado 9551, col. marron 22015</description>
+				<LookAt>
+					<longitude>-117.0230201464482</longitude>
+					<latitude>32.52223855410569</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0009246612828282557</heading>
+					<tilt>21.37345672178743</tilt>
+					<range>347.4751650073819</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.022509527352,32.52248652235281,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
 	</Folder>
 	<Folder>
 		<name>18-Enero-2026</name>
@@ -933,6 +911,7 @@ APARECE CON EL NOMBRE DE PARPRO</description>
 		<Folder>
 			<name>INYGEOCULIACAN</name>
 			<visibility>0</visibility>
+			<open>1</open>
 			<Placemark>
 				<name>FD-854-134</name>
 				<visibility>0</visibility>
@@ -2897,14 +2876,18 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 	</Folder>
 	<Folder>
 		<name>20-ENERO-2026</name>
+		<visibility>0</visibility>
 		<Folder>
 			<name>HECHOS</name>
+			<visibility>0</visibility>
 			<open>1</open>
 			<Folder>
 				<name>PUNTUALHYUNDAI</name>
+				<visibility>0</visibility>
 				<open>1</open>
 				<Placemark>
 					<name>DM008104</name>
+					<visibility>0</visibility>
 					<LookAt>
 						<longitude>-116.8175061863059</longitude>
 						<latitude>32.45570958888055</latitude>
@@ -2922,6 +2905,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 				</Placemark>
 				<Placemark>
 					<name>FD854091</name>
+					<visibility>0</visibility>
 					<LookAt>
 						<longitude>-116.8778179963364</longitude>
 						<latitude>32.44892391367411</latitude>
@@ -2939,6 +2923,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 				</Placemark>
 				<Placemark>
 					<name>FD000531</name>
+					<visibility>0</visibility>
 					<LookAt>
 						<longitude>-116.8777192482512</longitude>
 						<latitude>32.44890541795049</latitude>
@@ -2956,6 +2941,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 				</Placemark>
 				<Placemark>
 					<name>FD854061</name>
+					<visibility>0</visibility>
 					<LookAt>
 						<longitude>-116.8781888293162</longitude>
 						<latitude>32.44809172217393</latitude>
@@ -2975,9 +2961,11 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 		</Folder>
 		<Folder id="FeatureLayer0">
 			<name>Hyundai</name>
+			<visibility>0</visibility>
 			<Snippet maxLines="0"></Snippet>
 			<Placemark id="ID_00000">
 				<name>FD852005</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3055,6 +3043,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00001">
 				<name>FD852006</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3132,6 +3121,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00002">
 				<name>FD000010</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3209,6 +3199,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00003">
 				<name>FD000042</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3286,6 +3277,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00004">
 				<name>FD000501</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3363,6 +3355,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00005">
 				<name>FD852031</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3440,6 +3433,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00006">
 				<name>FD852001</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3517,6 +3511,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00007">
 				<name>DM008195</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3594,6 +3589,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00008">
 				<name>FD854001</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3671,6 +3667,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00009">
 				<name>FV074501</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3748,6 +3745,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00010">
 				<name>FD000531</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3825,6 +3823,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00011">
 				<name>FD854091</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3902,6 +3901,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00012">
 				<name>DM008104</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -3979,6 +3979,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 			</Placemark>
 			<Placemark id="ID_00013">
 				<name>FD854061</name>
+				<visibility>0</visibility>
 				<Snippet maxLines="0"></Snippet>
 				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
@@ -4053,6 +4054,1077 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 						</outerBoundaryIs>
 					</Polygon>
 				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>21-ENERO-2026</name>
+		<Folder>
+			<name>Mis lugares</name>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<ItemIcon>
+						<state>open</state>
+						<href>mysavedplaces_open_1_1.png</href>
+					</ItemIcon>
+					<ItemIcon>
+						<state>closed</state>
+						<href>mysavedplaces_closed_1_1.png</href>
+					</ItemIcon>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Placemark>
+				<name>RW-079-004</name>
+				<description>NOMBRE: ZUÑIGA CEDILLO MARCO ANTONIO
+
+DOMICILIO: BLVD FUNDADORES 6807 COL. EL RUBI</description>
+				<LookAt>
+					<longitude>-117.0364398535979</longitude>
+					<latitude>32.48058444446841</latitude>
+					<altitude>0</altitude>
+					<heading>6.184112439847585e-05</heading>
+					<tilt>0</tilt>
+					<range>292.4773135976571</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0368989596164,32.48064328120159,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FM-177-003</name>
+				<description>NOMBRE: GUITIERREZ LOPEZ FRIDA
+
+DOMICILIO: C. SOLIDARIDAD 6906 COL. FLORES MAGON
+
+OBSERVACIONES: 
+-LA DIRECCION ARROJA A UN CENTRO DE SALUD QUE AHORA ES DEL BIENESTAR 
+-LAS SUPERFICIES TANTO DE TERRENO COMO DE CONSTRUCCION NO COINCIDEN
+- DELEGACIÓN COINCIDE</description>
+				<LookAt>
+					<longitude>-117.0773000574645</longitude>
+					<latitude>32.48309601047504</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001685532900284655</heading>
+					<tilt>0</tilt>
+					<range>147.0139088444749</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0777380044587,32.48322276754006,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ZE-002-027</name>
+				<description>NOMBRE: RUIZ SALGADO ENRIQUETA 
+
+DOMICILIO: AVE. SIRAK BALOYAN 1451 COL. ZONA ESTE</description>
+				<LookAt>
+					<longitude>-117.0294516689752</longitude>
+					<latitude>32.52986075343706</latitude>
+					<altitude>0</altitude>
+					<heading>-4.578614950029917e-05</heading>
+					<tilt>0</tilt>
+					<range>129.8192702258561</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0295820935612,32.52981918047155,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>EV-015-001</name>
+				<description>NOMBRE: CHEVREUIL CORTEZ DORA
+
+DOMIOCILIO: C. 6 DE ENERO 7721 COL. POBLADO EJIDO FRANCISCO VILLA
+
+OBSERVACIONES: 
+-SE ENCONTRÓ EN INTERNET RELACION DEL NOMBRE CON HERRERIAS 
+-LAS SUPERFIECIE TANTO DE TERRENO COMO DE CONSTRUCCION NO SON CLARAS</description>
+				<LookAt>
+					<longitude>-116.8674540035577</longitude>
+					<latitude>32.48627951270349</latitude>
+					<altitude>0</altitude>
+					<heading>-9.541664044390549e-15</heading>
+					<tilt>0</tilt>
+					<range>154.3582831089595</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8676153654964,32.48624433216875,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-140-103</name>
+				<description>NOMBRE: EL FLORIDO CALIFORNIA S.A DE C.V 
+
+DOMICILIO: BLVD LA ENCANTADA INDUSTRIAL 11601 COL. FIDEICOMISO EL FLORIDO</description>
+				<LookAt>
+					<longitude>-116.8590234405828</longitude>
+					<latitude>32.4459693640345</latitude>
+					<altitude>0</altitude>
+					<heading>7.95138670365879e-15</heading>
+					<tilt>0</tilt>
+					<range>544.2465851805159</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8598223601521,32.44627226189557,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OF-154-001</name>
+				<description>NOMBRE: TOMAS ALVA EDISON INDUSTRIAL PARK , S. DE R.L DE C.
+
+DOMICILIO: BLVD. TOMAS ALVA EDISON 19002 COL.PARQUE INDUSTRIAL TOMAS ALVA EDISON</description>
+				<LookAt>
+					<longitude>-116.8977396060667</longitude>
+					<latitude>32.41721673357598</latitude>
+					<altitude>0</altitude>
+					<heading>2.547947810130814e-05</heading>
+					<tilt>0</tilt>
+					<range>290.8406733545099</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8983249933026,32.41728805974986,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OF-153-003</name>
+				<description>NOMBRE: TOMAS ALVA EDISON INDUSTRIAL PARK S. DE R.L DE C.
+
+DOMICILIO: BLVD. TOMAS ALVA EDISON 19102 COL. PARQUE INDUSTRIAL TOMAS ALVA EDISON</description>
+				<LookAt>
+					<longitude>-116.895136589826</longitude>
+					<latitude>32.41879841372444</latitude>
+					<altitude>0</altitude>
+					<heading>0.001330997572860874</heading>
+					<tilt>0</tilt>
+					<range>560.6178829869625</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8947817983568,32.41865637480014,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OF-152-004</name>
+				<description>NOMBRE: TOMAS ALVA EDISON INDUSTRIAL PARK, S. DE R.L DE C.
+
+DOMICILIO: AVE. ALEJANDRO GRAHAM  BELL 19202 COL. PARQUE INDUSTRIAL TOMAS ALVA EDISION</description>
+				<LookAt>
+					<longitude>-116.8937633111237</longitude>
+					<latitude>32.42183879209158</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001136867116084233</heading>
+					<tilt>0</tilt>
+					<range>567.6453862018807</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8945543370239,32.422192497658,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OF-152-002</name>
+				<description>NOMBRE: TOMAS ALVA EDISON INDUSTRIAL PARK, S. DE R.L DE C.
+
+DOMICILIO: AVE. ALEJANDRO GRAHAM BELL 19072 COL.PARQUE INDUSTRIAL TOMAS ALVA EDISON</description>
+				<LookAt>
+					<longitude>-116.8949557735252</longitude>
+					<latitude>32.42047793228582</latitude>
+					<altitude>0</altitude>
+					<heading>1.590277340731758e-15</heading>
+					<tilt>0</tilt>
+					<range>559.3266015940468</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8953220162184,32.42056029962686,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AI-000-109</name>
+				<description>NOMBRE: CENICERO CHAVEZ FRANCISCO 
+
+DOMICILIO: AVE. LAGO IURIRIA 5251 COL. EL LAGO</description>
+				<LookAt>
+					<longitude>-116.9336595212091</longitude>
+					<latitude>32.50018924753295</latitude>
+					<altitude>0</altitude>
+					<heading>-1.113194138512231e-14</heading>
+					<tilt>0</tilt>
+					<range>216.7507932887028</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9339677154803,32.50027032643231,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PC-489-500</name>
+				<description>VEOLIA SOLUCIONES INDUSTRIALES MEXICO, S.A DE C.V.
+CAM VECINAL 5100 COL SAN ANTONIO DE LOS BUENOS 
+NO CUENTA CON ESPECTACULAR EN DONDE MUESTRE EL NOMBRE DE LA PROPIEDAD</description>
+				<LookAt>
+					<longitude>-117.034121416852</longitude>
+					<latitude>32.47552583972385</latitude>
+					<altitude>0</altitude>
+					<heading>-0.06717199850575863</heading>
+					<tilt>10.15079134775274</tilt>
+					<range>1610.686467629345</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin14</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.038461356697,32.47568119227189,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-000-136</name>
+				<description>EL FLORIDO CALIFORNIA S.A. DE C.V.
+BLVD LA ENCANTADA INDUSTRIAL 22215 COL FIDEICOMISO EL FLORIDO
+APARECE CON EL NOMBRE DE ALLIANCE AIR PRODUCTS</description>
+				<LookAt>
+					<longitude>-116.8667795702992</longitude>
+					<latitude>32.44506787429683</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0003733900844675877</heading>
+					<tilt>9.815668878403784</tilt>
+					<range>464.935502523547</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin14</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8671656846214,32.44455717815829,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LP-033-001</name>
+				<description>ITSCARTERA SA PROMOTORA DE INVERSION DE C.V.
+AVE. 34 SUR 7895 COL RUBIO 
+NO TIENE ESPECTACULAR QUE INDIQUE EL NOMBRE</description>
+				<LookAt>
+					<longitude>-116.9457879259061</longitude>
+					<latitude>32.47993320940746</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001492537558282787</heading>
+					<tilt>0.1893489860391276</tilt>
+					<range>216.3813029762264</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin14</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.946147222172,32.48008688092226,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WR-000-350</name>
+				<description>CONTRERAS DIAZ LEONEL 
+AND VECINAL 0 COL RANCHO DOS PALMAS</description>
+				<LookAt>
+					<longitude>-117.0194298132007</longitude>
+					<latitude>32.41928075405971</latitude>
+					<altitude>0</altitude>
+					<heading>0.002825381828766913</heading>
+					<tilt>4.881087673768076</tilt>
+					<range>509.6256940283826</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin14</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0182721484677,32.41938459403999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-530-059</name>
+				<description>MORA MENDEZ VIUDA DE FERRARI GUADALUPE 
+CN GENERAL EMILIANO ZAPATA 12720 COL LIBERTAD</description>
+				<LookAt>
+					<longitude>-117.0009096424515</longitude>
+					<latitude>32.5427080747617</latitude>
+					<altitude>0</altitude>
+					<heading>-3.180554681463517e-15</heading>
+					<tilt>0</tilt>
+					<range>153.4125842306919</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin14</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0010437201474,32.54256037344,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-132-066</name>
+				<description>PULIDO SOTELO HECTOR 
+CJON FERROCARRIL 0 COL LIBERTAD</description>
+				<LookAt>
+					<longitude>-117.017113726825</longitude>
+					<latitude>32.53790634376962</latitude>
+					<altitude>0</altitude>
+					<heading>6.361109362927034e-15</heading>
+					<tilt>0</tilt>
+					<range>142.9183390118629</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin14</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0174227866063,32.53764270329484,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DM-008-549</name>
+				<description>CASAPIA ECS, S.A. DE C.V.
+AND. VECINAL 10381 COL. VALLE REDONDO</description>
+				<LookAt>
+					<longitude>-116.8085009160488</longitude>
+					<latitude>32.4631218586016</latitude>
+					<altitude>0</altitude>
+					<heading>0.0002905076267730439</heading>
+					<tilt>18.45019563867901</tilt>
+					<range>343.9443718867723</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8090178992002,32.46328249155792,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GY-001-004</name>
+				<description>GRUPO INDUSTRIAL BACA S.A. DE C.V.
+C. DEL AGUILA CORONADA 19090 COL. BAJA MAQ EL AGUILA</description>
+				<LookAt>
+					<longitude>-116.9115801568717</longitude>
+					<latitude>32.49595181793986</latitude>
+					<altitude>0</altitude>
+					<heading>-1.749305074804934e-14</heading>
+					<tilt>0</tilt>
+					<range>285.6544829104539</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9123304092254,32.49571949981623,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WM-849-123</name>
+				<description>CIBANCO, SOCIEDAD ANONIMA, INSTITUCION DE BANCA MU
+CAM. VILLA CHARRA 20250 COL. CAÑON DEL PADRE
+NO HAY ESPECTACULARES QUE MUESTREN EL NOMBRE DE LA PROPIEDAD</description>
+				<LookAt>
+					<longitude>-116.9050236765711</longitude>
+					<latitude>32.5246616496603</latitude>
+					<altitude>0</altitude>
+					<heading>0.003910853841537234</heading>
+					<tilt>8.446934667085083</tilt>
+					<range>892.3971016633444</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9051150635162,32.52446444599015,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GY-001-002</name>
+				<description>VESTA BAJA CALIFORNIA S. DE R.L. DE C.V.
+AVE. AGUILA AZTECA 6011 COL. BAJA MAQ EL AGUILA 
+LA NAVE INDUSTRIAL APARECE CON OTRO NOMBRE</description>
+				<LookAt>
+					<longitude>-116.911618303224</longitude>
+					<latitude>32.49514107675198</latitude>
+					<altitude>0</altitude>
+					<heading>7.169966570634327e-05</heading>
+					<tilt>0</tilt>
+					<range>341.0089807187595</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9122043731493,32.49396931817755,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GY-001-003</name>
+				<description>MAQUILA REALTY S.A. DE C.V.
+C DEL AGUILA CORONADA 19491-C COL BAJA MAQ EL AGUILA</description>
+				<LookAt>
+					<longitude>-116.9114964554819</longitude>
+					<latitude>32.4957770879172</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0003144191544298724</heading>
+					<tilt>0</tilt>
+					<range>195.0098912333842</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9111491789992,32.49538489063024,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MW-151-033</name>
+				<description>DELONA S DE RL DE CV
+C. MONTEALBAN 33-13 COL. MARIANO MATAMOROS CENTRO 
+NO SE LOCALIZA ALGUNA CONSTRUCCION CON ESE NUMERO DE DOMICILIO NI CON EL NOMBRE DEL PROPIETARIO, SE LOCALIZÓ MEDIANTE LA MEDIDA DE LA SUPERFICIE</description>
+				<LookAt>
+					<longitude>-116.8765544870867</longitude>
+					<latitude>32.47873482296482</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000144136411403116</heading>
+					<tilt>4.868111801250243</tilt>
+					<range>168.4776305653766</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8768219530365,32.47849551985237,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OF-153-002</name>
+				<description>TOMAS ALVA EDISON INDUSTRIAL PARK, S. DE R.L. DE C
+BLVD TOMAS ALVA EDISON 14022 COL. PARQUE INDUSTRIAL TOMAS ALVA EDISON 
+SE LOCALIZO MEDIANTE LA SUPERFICIE DE LA CONSTRUCCION</description>
+				<LookAt>
+					<longitude>-116.8964453239755</longitude>
+					<latitude>32.41999899653377</latitude>
+					<altitude>0</altitude>
+					<heading>0.001115263319964539</heading>
+					<tilt>18.059312667482</tilt>
+					<range>500.4537568065205</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.896983020314,32.41896491484122,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>EC-838-714</name>
+				<description>PROYECTO EMPRESARIAL FAMILIAR, S. DE R.L. DE C.V.
+C. GREGORIO CHAVEZ 2661 COL. EX-EJIDO CHILPANCINGO ZONA URBANA</description>
+				<LookAt>
+					<longitude>-116.917929782688</longitude>
+					<latitude>32.52263569536558</latitude>
+					<altitude>0</altitude>
+					<heading>1.897458944856124e-05</heading>
+					<tilt>0</tilt>
+					<range>216.3104470909705</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9180008689063,32.52265125190998,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FZ-013-050</name>
+				<description>NAVE ENFRENTE S.C. 
+C. VALLADOLID 4330 COL. FERNANDEZ</description>
+				<LookAt>
+					<longitude>-116.9462210021382</longitude>
+					<latitude>32.51780159361897</latitude>
+					<altitude>0</altitude>
+					<heading>-0</heading>
+					<tilt>0</tilt>
+					<range>127.318390884578</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9464230098975,32.5175606439989,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>VB-020-015</name>
+				<description>FABRICA NACIONAL DE ENVASES DE PLASTICO S.A.
+CJON. LAS MORAS 11990 COL. 20 DE NOVIEMBRE</description>
+				<LookAt>
+					<longitude>-116.9960038346109</longitude>
+					<latitude>32.51340043130914</latitude>
+					<altitude>0</altitude>
+					<heading>4.770832022195275e-15</heading>
+					<tilt>0</tilt>
+					<range>186.8742889491642</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9958584182718,32.51317872041761,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>VB-032-013</name>
+				<description>INGENIERIA, CONSTRUCCION Y AIRE ACONDICIONADO, S.A.
+AVE. 20 DE NOVIEMBRE 12401 COL. 20 DE NOVIEMBRE 
+NO TIENE ESPECTACULAR CON EL NOMBRE</description>
+				<LookAt>
+					<longitude>-116.9940329540357</longitude>
+					<latitude>32.51156079638535</latitude>
+					<altitude>0</altitude>
+					<heading>-6.361109362927034e-15</heading>
+					<tilt>0</tilt>
+					<range>137.8854705770763</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9941231153436,32.51140149829564,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>HR-089-017</name>
+				<description>SICAIROS CRUZ 
+AVE. LONDRES 1750 COL ALTAMIRA SUR
+NO CUENTA CON NUMERO DE DOMICILIO VISIBLE</description>
+				<LookAt>
+					<longitude>-117.0546155796219</longitude>
+					<latitude>32.52591067409547</latitude>
+					<altitude>0</altitude>
+					<heading>-5.733516266946211e-06</heading>
+					<tilt>3.518409680037064</tilt>
+					<range>124.5474360726795</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0546999900827,32.52587758364447,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>JO-009-003</name>
+				<description>GOMEZ DE VEGA GLORIA ISABEL 
+C. VALLECITOS NORTE 11110 COL. LA JOLLA</description>
+				<LookAt>
+					<longitude>-117.0131041133157</longitude>
+					<latitude>32.44347875012195</latitude>
+					<altitude>0</altitude>
+					<heading>-1.497154079793011e-05</heading>
+					<tilt>1.710935428129422</tilt>
+					<range>148.8846467437682</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0131279534366,32.44346281068442,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>VB-112-036</name>
+				<description>PASTEURIZADORA JERSEY DE NOROESTE, S.A.
+C. INDUSTRIAL 13034 COL. LOS ESPAÑOLES 
+NO CUENTA CON NUMERO DE DOMICILIO</description>
+				<LookAt>
+					<longitude>-116.979054892342</longitude>
+					<latitude>32.51129334159012</latitude>
+					<altitude>0</altitude>
+					<heading>-1.990768669152677e-05</heading>
+					<tilt>0</tilt>
+					<range>163.3177332159741</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9792818590242,32.51137286641595,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>VR-010-001</name>
+				<description>NAVARRO VELAZQUEZ JOSAE GUADALUPE
+
+Dom. Pso. de Rubi poniente 5740, col. valle del rubi</description>
+				<LookAt>
+					<longitude>-116.9806599269568</longitude>
+					<latitude>32.49964438409438</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01279062288884259</heading>
+					<tilt>28.16983862706798</tilt>
+					<range>157.718545774525</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9806897457155,32.4994652502257,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CF-095-001</name>
+				<description>TORRES LEAL LUIS MIGUEL
+
+DOM. C. DATIL, COL LAS HUERTAS 4 SECCION</description>
+				<LookAt>
+					<longitude>-116.9613391975122</longitude>
+					<latitude>32.49256734444501</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001381159758527745</heading>
+					<tilt>0</tilt>
+					<range>103.1609266775356</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin130</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9613292948375,32.49238824435533,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-030-001</name>
+				<description>JACOME RIOS JUAN CARLOS
+
+Dom. c. aquiles serdan 11126, col. lib
+
+aparece como lote baldio sin registro de cosntruccion</description>
+				<LookAt>
+					<longitude>-117.016854248448</longitude>
+					<latitude>32.538333745723</latitude>
+					<altitude>0</altitude>
+					<heading>4.595419027750651e-05</heading>
+					<tilt>3.31813716844191</tilt>
+					<range>202.9757427429996</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0167093887099,32.53832839947478,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>RW-061-024</name>
+				<description>AVILA QUINTERO RUBEN
+
+Dom. Braulio Maldonado / Esteban Cantú No. 6620, Col. El Rubí, Tijuana, B.C., C.P. 22626</description>
+				<LookAt>
+					<longitude>-117.0367100406893</longitude>
+					<latitude>32.48243222740557</latitude>
+					<altitude>0</altitude>
+					<heading>124.6708834114614</heading>
+					<tilt>45.15887150932714</tilt>
+					<range>102.5998798988686</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0366016775504,32.48242052957266,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IN-009-007</name>
+				<description>ESTRADA BAÑUELOS SIMON
+
+Dom. Aldama 7574, col. independencia</description>
+				<LookAt>
+					<longitude>-117.0431815771436</longitude>
+					<latitude>32.52774063628064</latitude>
+					<altitude>0</altitude>
+					<heading>2.200386586037065e-05</heading>
+					<tilt>21.57630269202264</tilt>
+					<range>252.1365528785719</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0432220108074,32.52758703173675,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OJ-125-003</name>
+				<description>GUTIERREZ BAZUA JOSE JORGE
+
+Dom. Cl. Tijuana-tecate 25003</description>
+				<LookAt>
+					<longitude>-116.8100343438601</longitude>
+					<latitude>32.46547396185754</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0183640040072769</heading>
+					<tilt>16.59203901511281</tilt>
+					<range>636.4853506168258</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8063835596799,32.46611110225928,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>HD-059-010</name>
+				<description>BERNAL PACHECO HECTOR
+
+Dom. C. Ermita Sur 5534, hipodromo dos</description>
+				<LookAt>
+					<longitude>-116.9809311821562</longitude>
+					<latitude>32.49798281238546</latitude>
+					<altitude>0</altitude>
+					<heading>4.515668620795017e-05</heading>
+					<tilt>9.966425596688543</tilt>
+					<range>94.30072511810772</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9808071122107,32.4981932930121,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ZE-002-024</name>
+				<description>REYNOSO GONZALEZ JESUS
+
+Dom. cjon. Ocampo 1550. zona este
+no hay visualizador de google maps para el local</description>
+				<Camera>
+					<longitude>-117.0299908247012</longitude>
+					<latitude>32.52843405030358</latitude>
+					<altitude>179.891870041469</altitude>
+					<heading>-40.20090228533964</heading>
+					<tilt>29.99998577089917</tilt>
+					<roll>-8.689807667407935</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0304656494976,32.52897099026557,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>JO-008-031</name>
+				<description>GUILLEN BALTAZAR JUAN FRANCISCO
+
+Dom. Av. Padre Hidalgo 9334</description>
+				<LookAt>
+					<longitude>-117.0086584578277</longitude>
+					<latitude>32.44672363490974</latitude>
+					<altitude>0</altitude>
+					<heading>-0.09801348898772715</heading>
+					<tilt>30.00168014265309</tilt>
+					<range>372.8209817040436</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-117.0085536369211,32.44615151550597,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MZ-065-005</name>
+				<description>MACIAS ORNELAS MANUEL
+
+Dom. Av. General Fco Villa 9
+
+No concuerda la superficie</description>
+				<LookAt>
+					<longitude>-116.8726916845554</longitude>
+					<latitude>32.53013377158147</latitude>
+					<altitude>0</altitude>
+					<heading>2.964574676718699e-05</heading>
+					<tilt>23.47095776414676</tilt>
+					<range>208.1072599900087</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8727690574415,32.53002893831723,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IB-092-002</name>
+				<description>ROTHENHAUSTER GARCIA MARIA LETICIA
+
+Dom. C. de las Gladiolas 3927, los prados, 22105
+
+Es CANCELES Y PROYECTOS</description>
+				<LookAt>
+					<longitude>-116.9879560995771</longitude>
+					<latitude>32.51009878455741</latitude>
+					<altitude>0</altitude>
+					<heading>-2.543829569407048e-05</heading>
+					<tilt>13.68932755889674</tilt>
+					<range>117.5730603231692</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9880228318648,32.51005692399879,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>OF-151-001</name>
+				<description>NOMBRE: TOMAS ALVA EDISON INDUSTRIAL PARK, S. DE R.L. DE C.
+
+DOMICILIO: BLVD. TOMAS ALVA EDISON 14091 COL. PARQUE INDUSTRIAL TOMAS ALVA EDISON.</description>
+				<LookAt>
+					<longitude>-116.8968585575802</longitude>
+					<latitude>32.41935973481925</latitude>
+					<altitude>0</altitude>
+					<heading>-6.270054593469178</heading>
+					<tilt>13.74086231073383</tilt>
+					<range>850.68581192943</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8988872331302,32.41857854531624,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MP-498-001</name>
+				<description>NOMBRE: CIBANCO, S.A. INSTITUCION DE BANCA MULTIPL. P.I.C.
+
+DOMICILIO: CAM. VECINAL 20301, COL. MURUA ORIENTE</description>
+				<LookAt>
+					<longitude>-116.9069690671816</longitude>
+					<latitude>32.52177309905933</latitude>
+					<altitude>0</altitude>
+					<heading>0.0004694691891615634</heading>
+					<tilt>13.3058231443855</tilt>
+					<range>1460.696888375031</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9090153158093,32.52142723001546,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-192-002</name>
+				<description>NOMBRE: SANTA MARIA INDUSTRIAL PARTNERS, LP
+
+DOMICILIO: BLVD. ENCANTADA 25451, COL. PARQUE INDUSTRIAL EL FLORIDO, SECCION LA ENCANTADA.</description>
+				<LookAt>
+					<longitude>-116.866773352433</longitude>
+					<latitude>32.44430242265962</latitude>
+					<altitude>0</altitude>
+					<heading>-1.749305074804934e-14</heading>
+					<tilt>0</tilt>
+					<range>455.6486856104452</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8670808535862,32.44436764412497,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-191-005</name>
+				<description>NOMBRE: UNITECH FOAM, S.A. DE C.V.
+
+DOMICILIO: AVE. LA ENCANTADA OESTE 11602, COL. PARQUE INDUSTRIAL EL FLORIDO, SECCIO</description>
+				<LookAt>
+					<longitude>-116.8625896840272</longitude>
+					<latitude>32.44540326912664</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001035706438178007</heading>
+					<tilt>6.649760322877585</tilt>
+					<range>1488.512291256028</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8625112733756,32.44806141641432,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-191-002</name>
+				<description>NOMBRE: ESSILOR TIJUANA OPTICA S. DE R.L. DE C.V.
+
+DOMICILIO: BLVD. ENCANTADA 22264 COL. PARQUE INDUSTRIAL EL FLORIDO, SECCION LA ENCANTADA.</description>
+				<LookAt>
+					<longitude>-116.8634989131587</longitude>
+					<latitude>32.44522399533611</latitude>
+					<altitude>0</altitude>
+					<heading>0.0005983966611686392</heading>
+					<tilt>5.051529097263497</tilt>
+					<range>599.6962106047559</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8640579708767,32.44537478838348,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-191-004</name>
+				<description>NOMBRE: BANCO ACTINVER S.A. I. , DE BANCA MULTIPLE GPO FINANC
+
+DOMICILIO: AVE. LA ENCANTADA OESTE 11501, COL. PARQUE INDUSTRIAL EL FLORIDO, SECCIO.</description>
+				<LookAt>
+					<longitude>-116.8634618605161</longitude>
+					<latitude>32.44754506513138</latitude>
+					<altitude>0</altitude>
+					<heading>-1.097549116461167e-05</heading>
+					<tilt>16.67863028130847</tilt>
+					<range>385.5621403410541</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8640650751763,32.44772932008208,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-191-003</name>
+				<description>NOMBRE: BANCO ACTINVER S.A. I. DE BANCA MULTIPLE GPO FINANC
+
+DOMICILIO: BLVD. LA ENCANTADA INDUSTRIAL 11530 COL- PARQUE INDUSTRIAL EL FLORIDO.</description>
+				<LookAt>
+					<longitude>-116.8626958332362</longitude>
+					<latitude>32.44613776259175</latitude>
+					<altitude>0</altitude>
+					<heading>-1.971956786139296e-05</heading>
+					<tilt>2.889470727193031</tilt>
+					<range>460.8507602607</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8628865222138,32.44615835993503,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MZ-377-001</name>
+				<description>NOMBRE: INMOBILIARIA TOVI S.A. DE C.V.
+
+DOMICILIO: AVE. DE LOS LLANOS 2701, COL. GRANJAS FAMILIARES DEL MATAMOROS.
+
+OBSERVACIONES: EL AREA CONSTRUIDA NO CONCUERDA.</description>
+				<LookAt>
+					<longitude>-116.8828275335284</longitude>
+					<latitude>32.52511689949461</latitude>
+					<altitude>0</altitude>
+					<heading>0.0002839506800861331</heading>
+					<tilt>0</tilt>
+					<range>477.2177139905468</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8833176635917,32.5250956306003,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TC-082-065</name>
+				<description>NOMBRE: DESARROLLO INDUSTRIAL DE TIJUANA S.A. DE C.V.
+
+DOMICILIO: C. LOS CABOS 15601, COL. EL TECOLOTE</description>
+				<LookAt>
+					<longitude>-116.9904116430342</longitude>
+					<latitude>32.44171335378936</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001698336421510235</heading>
+					<tilt>0</tilt>
+					<range>359.9213655691902</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9907234053739,32.44142436619811,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PP-012-104</name>
+				<description>NOMBRE: VESTA BAJA CALIFORNIAS S. DE R.L. DE C.V.
+
+DOMICILIO: BLVD. PACIFICO 14339, COL. PARQUE INDUSTRIAL PACIFICO</description>
+				<LookAt>
+					<longitude>-116.9829872519456</longitude>
+					<latitude>32.46324560188881</latitude>
+					<altitude>0</altitude>
+					<heading>7.460387711666455e-05</heading>
+					<tilt>5.457613340041931</tilt>
+					<range>248.815703881864</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.9837726659231,32.46336314109939,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DM-010-130</name>
+				<description>NOMBRE: DART DE TIJUANA S.R.L. DE C.V.
+
+DOMICILIO: AUT. TIJUANA - TECATE 31022, COL. VALLE REDONDO.
+
+OBSERVACIONES: AREA NO CONCUERDA</description>
+				<LookAt>
+					<longitude>-116.7580001519879</longitude>
+					<latitude>32.54547818947282</latitude>
+					<altitude>0</altitude>
+					<heading>0.0009821729675706769</heading>
+					<tilt>0</tilt>
+					<range>968.7714102351446</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.7605861193383,32.54565219448808,0</coordinates>
+				</Point>
 			</Placemark>
 		</Folder>
 	</Folder>
