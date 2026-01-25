@@ -40,16 +40,6 @@
 			<color>00d3f2c9</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="m_ylw-pushpin004">
 		<Pair>
 			<key>normal</key>
@@ -60,24 +50,14 @@
 			<styleUrl>#s_ylw-pushpin_hl02</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin010">
+	<StyleMap id="m_ylw-pushpin0102">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin02</styleUrl>
+			<styleUrl>#s_ylw-pushpin022</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl40</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0100">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin020</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl41</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin02">
@@ -100,10 +80,10 @@
 			<styleUrl>#s_ylw-pushpin_hl200</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin03">
+	<StyleMap id="m_ylw-pushpin030">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin3</styleUrl>
+			<styleUrl>#s_ylw-pushpin31</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -117,7 +97,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl30</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl300</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin100">
@@ -187,17 +167,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl010</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin03</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl0101</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin300">
@@ -210,7 +180,17 @@
 			<styleUrl>#s_ylw-pushpin_hl100</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin4">
+	<StyleMap id="m_ylw-pushpin32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin030</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin40">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin</styleUrl>
@@ -286,8 +266,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin01">
 		<IconStyle>
@@ -298,7 +276,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin020">
+	<Style id="s_ylw-pushpin022">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -307,7 +285,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin02">
+	<Style id="s_ylw-pushpin030">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -317,24 +295,6 @@
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin03">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin11">
 		<IconStyle>
@@ -435,18 +395,9 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin3">
+	<Style id="s_ylw-pushpin31">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -462,7 +413,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl010">
+	<Style id="s_ylw-pushpin_hl0101">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -488,8 +439,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl100">
 		<IconStyle>
@@ -572,7 +521,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl3">
+	<Style id="s_ylw-pushpin_hl300">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -581,16 +530,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl30">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl40">
+	<Style id="s_ylw-pushpin_hl32">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -601,7 +541,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl4">
+	<Style id="s_ylw-pushpin_hl41">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -668,47 +608,58 @@
 		<name>23-ENERO-2026</name>
 		<Document>
 			<name>UBICACION_INMUEBLES_EMPRESAS_220126(12)-2</name>
-			<StyleMap id="m_ylw-pushpin0">
+			<open>1</open>
+			<StyleMap id="m_ylw-pushpin04">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#s_ylw-pushpin0</styleUrl>
+					<styleUrl>#s_ylw-pushpin05</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl210</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin15">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin16</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl15</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin201">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin230</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl011</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin50">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin006</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin500">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin0060</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
 					<styleUrl>#s_ylw-pushpin_hl21</styleUrl>
 				</Pair>
 			</StyleMap>
-			<StyleMap id="m_ylw-pushpin1">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#s_ylw-pushpin1</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-				</Pair>
-			</StyleMap>
-			<StyleMap id="m_ylw-pushpin20">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#s_ylw-pushpin23</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#s_ylw-pushpin_hl01</styleUrl>
-				</Pair>
-			</StyleMap>
-			<StyleMap id="m_ylw-pushpin5">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#s_ylw-pushpin00</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-				</Pair>
-			</StyleMap>
-			<Style id="s_ylw-pushpin0">
+			<Style id="s_ylw-pushpin006">
 				<IconStyle>
 					<scale>1.1</scale>
 					<Icon>
@@ -717,7 +668,18 @@
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
 			</Style>
-			<Style id="s_ylw-pushpin00">
+			<Style id="s_ylw-pushpin0060">
+				<IconStyle>
+					<scale>1.1</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<ListStyle>
+				</ListStyle>
+			</Style>
+			<Style id="s_ylw-pushpin05">
 				<IconStyle>
 					<scale>1.1</scale>
 					<Icon>
@@ -726,7 +688,7 @@
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
 			</Style>
-			<Style id="s_ylw-pushpin1">
+			<Style id="s_ylw-pushpin16">
 				<IconStyle>
 					<scale>1.1</scale>
 					<Icon>
@@ -735,7 +697,7 @@
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
 			</Style>
-			<Style id="s_ylw-pushpin23">
+			<Style id="s_ylw-pushpin230">
 				<IconStyle>
 					<scale>1.1</scale>
 					<Icon>
@@ -744,7 +706,7 @@
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
 			</Style>
-			<Style id="s_ylw-pushpin_hl">
+			<Style id="s_ylw-pushpin_hl011">
 				<IconStyle>
 					<scale>1.3</scale>
 					<Icon>
@@ -753,7 +715,7 @@
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
 			</Style>
-			<Style id="s_ylw-pushpin_hl01">
+			<Style id="s_ylw-pushpin_hl15">
 				<IconStyle>
 					<scale>1.3</scale>
 					<Icon>
@@ -762,7 +724,7 @@
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
 			</Style>
-			<Style id="s_ylw-pushpin_hl1">
+			<Style id="s_ylw-pushpin_hl2">
 				<IconStyle>
 					<scale>1.3</scale>
 					<Icon>
@@ -772,6 +734,17 @@
 				</IconStyle>
 			</Style>
 			<Style id="s_ylw-pushpin_hl21">
+				<IconStyle>
+					<scale>1.3</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+					</Icon>
+					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<ListStyle>
+				</ListStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl210">
 				<IconStyle>
 					<scale>1.3</scale>
 					<Icon>
@@ -796,32 +769,10 @@ OBSERVACIONES: EL AREA NO CONCUERDA</description>
 					<range>179.7084407397064</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin04</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9500800820704,32.48912766396847,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>OI-036-038</name>
-				<description>REZNIK LIZARRAGA YURI
-
-Dom. Av. Torre de Piza 230, las Torres 22470
-
-Hay Torre de pizza, no piza</description>
-				<LookAt>
-					<longitude>-116.899374837422</longitude>
-					<latitude>32.55071507061422</latitude>
-					<altitude>0</altitude>
-					<heading>-5.078369130593404e-05</heading>
-					<tilt>20.66909868385386</tilt>
-					<range>289.6484220196398</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin5</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8992401545539,32.55054872257582,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -840,7 +791,7 @@ Grupo Alpha Tijuana</description>
 					<range>193.5876298005405</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin5</styleUrl>
+				<styleUrl>#m_ylw-pushpin50</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-117.0269178767035,32.5229727938078,0</coordinates>
@@ -862,7 +813,7 @@ Aparece como Finca Las Tias</description>
 					<range>197.866801578476</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin5</styleUrl>
+				<styleUrl>#m_ylw-pushpin50</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-117.0564861258184,32.53847018135152,0</coordinates>
@@ -885,7 +836,7 @@ TORRES LEAL LUIS MIGUEL ES REPRESENTANTE DE UNA EMPRESA LLAMADA &quot;Productos 
 					<range>127.7260531226992</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9611164362452,32.49232503100516,0</coordinates>
@@ -905,7 +856,7 @@ DOMICILIO: BLVD. MANUEL. J CLOUTHIER 3860 COL. MURUA ORIENTE</description>
 					<range>249.5518693190275</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9261611622578,32.51771276212232,0</coordinates>
@@ -925,69 +876,10 @@ DOMICILIO: AVE. 18 DE MARZO 685 COL. LAZARO CARDENAS</description>
 					<range>168.3990769401253</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin15</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-117.0962647306599,32.53027295656128,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>OG-002-032</name>
-				<description>ELIAS PESSAH DIANE MATILDE
-C. FRANCISCO EUSEBIO KINO 6 COL. GARITA OTAY
-NO CUENTA CON NUMERO DE DOMICILIO NI CON NOMBRE DE EMPRESA</description>
-				<LookAt>
-					<longitude>-116.9469300222174</longitude>
-					<latitude>32.54874794827904</latitude>
-					<altitude>0</altitude>
-					<heading>-0.0001515336228677249</heading>
-					<tilt>0</tilt>
-					<range>489.8237467733171</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9466067117997,32.54899907985489,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>OG-002-062</name>
-				<description>ELIAS PESSAH DIANE MATILDE 
-C. FRANCISCO EUSEBIO KINO 8 COL. GARITA DE OTAY
-NO CUENTA CON NUMERO DE DOMICILIO</description>
-				<LookAt>
-					<longitude>-116.9469300222174</longitude>
-					<latitude>32.54874794827904</latitude>
-					<altitude>0</altitude>
-					<heading>-0.0001515336228677249</heading>
-					<tilt>0</tilt>
-					<range>489.8237467733171</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9465961623208,32.54882767585946,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>OG-011-034</name>
-				<description>LOZANO RODRIGUEZ GABRIEL
-C. JUAN DE UGARTE 409 COL. GARITA DE OTAY</description>
-				<LookAt>
-					<longitude>-116.9470490013574</longitude>
-					<latitude>32.54181059343916</latitude>
-					<altitude>0</altitude>
-					<heading>-4.770832022195274e-15</heading>
-					<tilt>0</tilt>
-					<range>118.3826312028541</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9469625799251,32.54153883669917,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -1004,32 +896,117 @@ NO CUENTA CON NUMERO DE DOMICILIO, EDIFICIO DE USOS MULTIPLES</description>
 					<range>133.930702324988</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<styleUrl>#m_ylw-pushpin201</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9774627119713,32.50572535357243,0</coordinates>
 				</Point>
 			</Placemark>
-			<Placemark>
-				<name>OG-002-024</name>
-				<description>BETECH MOUSSAN SUSANA 
+			<Folder>
+				<name>HECHO</name>
+				<open>1</open>
+				<Placemark>
+					<name>OI-036-038</name>
+					<description>REZNIK LIZARRAGA YURI
+
+Dom. Av. Torre de Piza 230, las Torres 22470
+
+Hay Torre de pizza, no piza</description>
+					<LookAt>
+						<longitude>-116.899374837422</longitude>
+						<latitude>32.55071507061422</latitude>
+						<altitude>0</altitude>
+						<heading>-5.078369130593404e-05</heading>
+						<tilt>20.66909868385386</tilt>
+						<range>289.6484220196398</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8992401545539,32.55054872257582,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OG-002-032</name>
+					<description>ELIAS PESSAH DIANE MATILDE
+C. FRANCISCO EUSEBIO KINO 6 COL. GARITA OTAY
+NO CUENTA CON NUMERO DE DOMICILIO NI CON NOMBRE DE EMPRESA</description>
+					<LookAt>
+						<longitude>-116.9469300222174</longitude>
+						<latitude>32.54874794827904</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001515336228677249</heading>
+						<tilt>0</tilt>
+						<range>489.8237467733171</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9466067117997,32.54899907985489,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OG-002-062</name>
+					<description>ELIAS PESSAH DIANE MATILDE 
+C. FRANCISCO EUSEBIO KINO 8 COL. GARITA DE OTAY
+NO CUENTA CON NUMERO DE DOMICILIO</description>
+					<LookAt>
+						<longitude>-116.9469300222174</longitude>
+						<latitude>32.54874794827904</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001515336228677249</heading>
+						<tilt>0</tilt>
+						<range>489.8237467733171</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9465961623208,32.54882767585946,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OG-002-024</name>
+					<description>BETECH MOUSSAN SUSANA 
 C. HOSE DE GALVEZ 0 COL. GARITA DE OTAY 
 NO CUENTA CON NUMERO DE DOMICILIO Y SE LOCALIZO MEDIANTE LAS MEDIDAS DE SUPERFICIE</description>
-				<LookAt>
-					<longitude>-116.9453046328017</longitude>
-					<latitude>32.54663473796145</latitude>
-					<altitude>0</altitude>
-					<heading>0.0001293552924987767</heading>
-					<tilt>1.68955677502675</tilt>
-					<range>255.6614222720863</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9459055931882,32.54592260922824,0</coordinates>
-				</Point>
-			</Placemark>
+					<LookAt>
+						<longitude>-116.9453046328017</longitude>
+						<latitude>32.54663473796145</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001293552924987767</heading>
+						<tilt>1.68955677502675</tilt>
+						<range>255.6614222720863</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9459055931882,32.54592260922824,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OG-011-034</name>
+					<description>LOZANO RODRIGUEZ GABRIEL
+C. JUAN DE UGARTE 409 COL. GARITA DE OTAY</description>
+					<LookAt>
+						<longitude>-116.9470490013574</longitude>
+						<latitude>32.54181059343916</latitude>
+						<altitude>0</altitude>
+						<heading>-4.770832022195274e-15</heading>
+						<tilt>0</tilt>
+						<range>118.3826312028541</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9469625799251,32.54153883669917,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 		</Document>
 	</Folder>
 	<Folder>
@@ -1056,7 +1033,6 @@ NO CUENTA CON NUMERO DE DOMICILIO Y SE LOCALIZO MEDIANTE LAS MEDIDAS DE SUPERFIC
 				<open>1</open>
 				<Placemark>
 					<name>BI-031-002</name>
-					<open>1</open>
 					<description>AVJEF S.A
 
 Dom. Blvdv. Gustavo Diaz Ordaz 13924, dimenstein</description>
@@ -1069,7 +1045,7 @@ Dom. Blvdv. Gustavo Diaz Ordaz 13924, dimenstein</description>
 						<range>1110.419912423828</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin4</styleUrl>
+					<styleUrl>#m_ylw-pushpin40</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.976068381447,32.50467864951341,0</coordinates>
@@ -1077,7 +1053,6 @@ Dom. Blvdv. Gustavo Diaz Ordaz 13924, dimenstein</description>
 				</Placemark>
 				<Placemark>
 					<name>CP-015-002</name>
-					<open>1</open>
 					<description>RODRIGUEZ APODACA KARLA PATRICIA
 
 Dom. C. Flamingos 4710, Col. Cañon de la Pedrera</description>
@@ -1090,7 +1065,7 @@ Dom. C. Flamingos 4710, Col. Cañon de la Pedrera</description>
 						<range>95.65664931768316</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin4</styleUrl>
+					<styleUrl>#m_ylw-pushpin40</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.0150514492585,32.49492821692933,0</coordinates>
@@ -1098,7 +1073,6 @@ Dom. C. Flamingos 4710, Col. Cañon de la Pedrera</description>
 				</Placemark>
 				<Placemark>
 					<name>SL-001-010</name>
-					<open>1</open>
 					<description>FLORES CUAMATZI SANTOS
 
 Dom. C. Gral. Prim. 4651, Col. Soler</description>
@@ -1111,56 +1085,13 @@ Dom. C. Gral. Prim. 4651, Col. Soler</description>
 						<range>162.1871008629809</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin4</styleUrl>
+					<styleUrl>#m_ylw-pushpin40</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.0766175220655,32.52996170179394,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
-			<Placemark>
-				<name>OG-000-031</name>
-				<description>NOMBRE: GUEVARA ESCAMILLA GUSTAVO ALBERTO
-
-DOMICILIO: C JOSE DE GALVEZ 120 COL GARITA DE OTAY</description>
-				<LookAt>
-					<longitude>-116.9450590686345</longitude>
-					<latitude>32.54601220456542</latitude>
-					<altitude>0</altitude>
-					<heading>-1.590277340731758e-15</heading>
-					<tilt>0</tilt>
-					<range>302.5714468328936</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin00</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9447765414786,32.54606645493583,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>ID-040-077</name>
-				<description>NOMBRE: MARTINEZ LUTTEROTH ERIKA PATRICIA 
-
-DOMICILIO: C. BELLAS ARTES 20163 COL. CIUDAD INDUSTRIAL 
-
-OBSERVACIONES: 
--REFERENTE A LAS SUPERFIECIES DE TERRENO Y CONSTRUCCION ESTE ES EL QUE COINCIDE, YA QUE CON LA DIRECCION Y NUMERO ME DA EN LA CALLE</description>
-				<LookAt>
-					<longitude>-116.9115203375073</longitude>
-					<latitude>32.54648231614959</latitude>
-					<altitude>0</altitude>
-					<heading>-1.749305074804934e-14</heading>
-					<tilt>0</tilt>
-					<range>256.1324649866844</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin3</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9117485940284,32.54646257920717,0</coordinates>
-				</Point>
-			</Placemark>
 			<Placemark>
 				<name>EC-352-010</name>
 				<description>PROCESADORA DE HELADOS S.A. DE C.V.
@@ -1213,7 +1144,7 @@ NO CUENTA CON NUMERO DE DOMICILIO VISIBLE</description>
 					<range>113.1218694083166</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0100</styleUrl>
+				<styleUrl>#m_ylw-pushpin0102</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9575816251035,32.4942634273571,0</coordinates>
@@ -1233,7 +1164,7 @@ NO CUENTA CON NUMERO DE DOMICILIO VISIBLE</description>
 					<range>143.7347710902249</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0100</styleUrl>
+				<styleUrl>#m_ylw-pushpin0102</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9332164902622,32.5228677348985,0</coordinates>
@@ -1252,7 +1183,7 @@ C. DATIL 1235 COL. VERACRUZ</description>
 					<range>144.9768042986681</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0100</styleUrl>
+				<styleUrl>#m_ylw-pushpin0102</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9607864987764,32.49224373865,0</coordinates>
@@ -1272,7 +1203,7 @@ DOMICILIO: C. GUASAVE 3530, COL. CAMPESTRE MURUA</description>
 					<range>127.6506507530773</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin03</styleUrl>
+				<styleUrl>#m_ylw-pushpin030</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9331845332862,32.52288576005495,0</coordinates>
@@ -1294,7 +1225,7 @@ OBSERVACIONES: EL AREA NO CONCUERDA</description>
 					<range>173.6659157550955</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin03</styleUrl>
+				<styleUrl>#m_ylw-pushpin030</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9309850777336,32.47497352224829,0</coordinates>
@@ -1320,72 +1251,113 @@ DOMICILIO: AVE. DEL CEDRO 12841, COL. AEROPUERTO</description>
 					<coordinates>-116.9988391196979,32.54317380296044,0</coordinates>
 				</Point>
 			</Placemark>
-			<Placemark>
-				<name>OG-013-008</name>
-				<description>NOMBRE: LOZANO RODRIGUEZ GABRIEL
-
-DOMICILIO: C. SEBASTIAN VIZCAINO 416, COL. GARITA DE OTAY</description>
-				<LookAt>
-					<longitude>-116.9401656049404</longitude>
-					<latitude>32.54182057442534</latitude>
-					<altitude>0</altitude>
-					<heading>-1.749305074804934e-14</heading>
-					<tilt>0</tilt>
-					<range>127.6253347763359</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin10</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9401463853329,32.54175228200334,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>OG-013-010</name>
-				<description>NOMBRE: LOZANO RODRIGUEZ MARIA DE JESUS
-
-DOMICILIO: C. SEBASTIAN VIZCAINO 420, COL. GARITA DE OTAY</description>
-				<LookAt>
-					<longitude>-116.9400868159866</longitude>
-					<latitude>32.54134521663804</latitude>
-					<altitude>0</altitude>
-					<heading>-6.309396803874984e-07</heading>
-					<tilt>0</tilt>
-					<range>150.5186569369628</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin10</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.940221193078,32.54136441298552,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>OG-013-011</name>
-				<description>NOMBRE: LOZANO RODRIGUEZ MARIA DE JESUS
-
-DOMICILIO: C. SEBASTIAN VIZCAINO 422, COL. GARITA DE OTAY</description>
-				<LookAt>
-					<longitude>-116.9400868159866</longitude>
-					<latitude>32.54134521663804</latitude>
-					<altitude>0</altitude>
-					<heading>-6.309396803874984e-07</heading>
-					<tilt>0</tilt>
-					<range>150.5186569369628</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin10</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9402532746774,32.54116596540325,0</coordinates>
-				</Point>
-			</Placemark>
 			<Folder>
 				<name>HECHO</name>
-				<open>1</open>
+				<Placemark>
+					<name>ID-040-077</name>
+					<description>NOMBRE: MARTINEZ LUTTEROTH ERIKA PATRICIA 
+
+DOMICILIO: C. BELLAS ARTES 20163 COL. CIUDAD INDUSTRIAL 
+
+OBSERVACIONES: 
+-REFERENTE A LAS SUPERFIECIES DE TERRENO Y CONSTRUCCION ESTE ES EL QUE COINCIDE, YA QUE CON LA DIRECCION Y NUMERO ME DA EN LA CALLE</description>
+					<LookAt>
+						<longitude>-116.9115203375073</longitude>
+						<latitude>32.54648231614959</latitude>
+						<altitude>0</altitude>
+						<heading>-1.749305074804934e-14</heading>
+						<tilt>0</tilt>
+						<range>256.1324649866844</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9117485940284,32.54646257920717,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OG-000-031</name>
+					<description>NOMBRE: GUEVARA ESCAMILLA GUSTAVO ALBERTO
+
+DOMICILIO: C JOSE DE GALVEZ 120 COL GARITA DE OTAY</description>
+					<LookAt>
+						<longitude>-116.9450590686345</longitude>
+						<latitude>32.54601220456542</latitude>
+						<altitude>0</altitude>
+						<heading>-1.590277340731758e-15</heading>
+						<tilt>0</tilt>
+						<range>302.5714468328936</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9447765414786,32.54606645493583,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OG-013-011</name>
+					<description>NOMBRE: LOZANO RODRIGUEZ MARIA DE JESUS
+
+DOMICILIO: C. SEBASTIAN VIZCAINO 422, COL. GARITA DE OTAY</description>
+					<LookAt>
+						<longitude>-116.9400868159866</longitude>
+						<latitude>32.54134521663804</latitude>
+						<altitude>0</altitude>
+						<heading>-6.309396803874984e-07</heading>
+						<tilt>0</tilt>
+						<range>150.5186569369628</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9402532746774,32.54116596540325,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OG-013-010</name>
+					<description>NOMBRE: LOZANO RODRIGUEZ MARIA DE JESUS
+
+DOMICILIO: C. SEBASTIAN VIZCAINO 420, COL. GARITA DE OTAY</description>
+					<LookAt>
+						<longitude>-116.9400868159866</longitude>
+						<latitude>32.54134521663804</latitude>
+						<altitude>0</altitude>
+						<heading>-6.309396803874984e-07</heading>
+						<tilt>0</tilt>
+						<range>150.5186569369628</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.940221193078,32.54136441298552,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OG-013-008</name>
+					<description>NOMBRE: LOZANO RODRIGUEZ GABRIEL
+
+DOMICILIO: C. SEBASTIAN VIZCAINO 416, COL. GARITA DE OTAY</description>
+					<LookAt>
+						<longitude>-116.9401656049404</longitude>
+						<latitude>32.54182057442534</latitude>
+						<altitude>0</altitude>
+						<heading>-1.749305074804934e-14</heading>
+						<tilt>0</tilt>
+						<range>127.6253347763359</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9401463853329,32.54175228200334,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>CF-047-032</name>
-					<open>1</open>
 					<description>JARAMILLO GONZALEZ MIGUEL 
 BLVD. GENERAL LAZARO CARDENAS 5816COL. DURANGO 
 ES UN TERRENO BALDIO</description>
@@ -1398,7 +1370,7 @@ ES UN TERRENO BALDIO</description>
 						<range>112.5907397699175</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.98227845672,32.4862676014039,0</coordinates>
@@ -1406,7 +1378,6 @@ ES UN TERRENO BALDIO</description>
 				</Placemark>
 				<Placemark>
 					<name>HD-035-021</name>
-					<open>1</open>
 					<description>SANCHEZ LEYVA JAVIER 
 AVE. ROSARIO SANSORES 5757 COL. MONTE BELLO</description>
 					<LookAt>
@@ -1418,7 +1389,7 @@ AVE. ROSARIO SANSORES 5757 COL. MONTE BELLO</description>
 						<range>160.0013376316442</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9839477991662,32.4958302038082,0</coordinates>
@@ -1426,7 +1397,6 @@ AVE. ROSARIO SANSORES 5757 COL. MONTE BELLO</description>
 				</Placemark>
 				<Placemark>
 					<name>BI-051-003</name>
-					<open>1</open>
 					<description>MEZA ROMERO ARMANDO
 
 Dom. c. los pollos 4670, las lilas</description>
@@ -1439,7 +1409,7 @@ Dom. c. los pollos 4670, las lilas</description>
 						<range>193.273097462887</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9715338603329,32.50289152891246,0</coordinates>
@@ -1447,7 +1417,6 @@ Dom. c. los pollos 4670, las lilas</description>
 				</Placemark>
 				<Placemark>
 					<name>BI-051-005</name>
-					<open>1</open>
 					<description>AGUIRRE GUADALUPE NICOLASA
 
 Dom. Av. los pollos 30, col. las lilas
@@ -1461,7 +1430,7 @@ aparece con mas area construida como tornillos match</description>
 						<range>159.3325796939422</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9704688713747,32.50422640529811,0</coordinates>
@@ -1469,7 +1438,6 @@ aparece con mas area construida como tornillos match</description>
 				</Placemark>
 				<Placemark>
 					<name>BI-044-011</name>
-					<open>1</open>
 					<description>ORO MIL, S.A DE C.V
 
 Dom. Av. dolores 303, col jose sandoval</description>
@@ -1482,7 +1450,7 @@ Dom. Av. dolores 303, col jose sandoval</description>
 						<range>300.8173894644648</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9735879405808,32.50462402673891,0</coordinates>
@@ -1490,7 +1458,6 @@ Dom. Av. dolores 303, col jose sandoval</description>
 				</Placemark>
 				<Placemark>
 					<name>IB-088-045</name>
-					<open>1</open>
 					<description>NOMBRE: MOLINO HARINERO EL ROSAL S.A DE C.V 
 
 DOMICILIO EN FICHA: BLVD. FEDERICO BENITEZ COL. EL PRADO</description>
@@ -1503,7 +1470,7 @@ DOMICILIO EN FICHA: BLVD. FEDERICO BENITEZ COL. EL PRADO</description>
 						<range>369.9126131815461</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9846479014735,32.51023697913501,0</coordinates>
@@ -1511,7 +1478,6 @@ DOMICILIO EN FICHA: BLVD. FEDERICO BENITEZ COL. EL PRADO</description>
 				</Placemark>
 				<Placemark>
 					<name>ML-065-005</name>
-					<open>1</open>
 					<description>GONZALEZ CASILLAS GUILLERMO 
 AVE MIGUEL ANZUREZ 11665 COL. LIBERTAD 
 APARECE CON EL NOMBRE DE &quot;PROMOTINOX&quot;</description>
@@ -1524,7 +1490,7 @@ APARECE CON EL NOMBRE DE &quot;PROMOTINOX&quot;</description>
 						<range>104.8911065306401</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.011245452239,32.53321407279272,0</coordinates>
@@ -1532,7 +1498,6 @@ APARECE CON EL NOMBRE DE &quot;PROMOTINOX&quot;</description>
 				</Placemark>
 				<Placemark>
 					<name>LC-027-034</name>
-					<open>1</open>
 					<description>GALLARDO FRIAS GUSTAVO 
 AVE 18 DE MARZO585 COL. LAZARO CARDENAS</description>
 					<LookAt>
@@ -1544,7 +1509,7 @@ AVE 18 DE MARZO585 COL. LAZARO CARDENAS</description>
 						<range>211.3622374172234</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.0966380064163,32.5308049122411,0</coordinates>
@@ -1564,7 +1529,7 @@ DOMICILIO: AVE. 36 SUR 3600 COL. URIAS</description>
 						<roll>-35.56547803063283</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9433886774096,32.48336033830406,0</coordinates>
@@ -1584,7 +1549,7 @@ DOMICILIO: C. BOLIVIA 198, COL. VAIM</description>
 						<range>131.9693114629667</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9433188403012,32.49289562457105,0</coordinates>
@@ -1604,7 +1569,7 @@ DOMICILIO: C. SEXTA 100 COL. LA CIENEGA PONIENTE</description>
 						<range>398.2791043350846</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9384774810566,32.49022310270415,0</coordinates>
@@ -1624,7 +1589,7 @@ DOMICILIO: BLVD PACIFICO 9515 COL.PARQUE INDUSTRIAL PACIFICO</description>
 						<range>142.7469643867767</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9826449200811,32.46238870627331,0</coordinates>
@@ -1644,7 +1609,7 @@ Dom.Av. La Joya 811, col La Joya</description>
 						<range>128.577104343604</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9451088431811,32.49000966299054,0</coordinates>
@@ -1663,7 +1628,7 @@ C. JOSE DE JESUS NUÑEZ Y DOMINGUEZ 8280 COL. MORELOS</description>
 						<range>190.106193629881</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.0345080590592,32.51835215339668,0</coordinates>
@@ -1683,7 +1648,7 @@ DOMICILIO: C. NOGALES 347, COL. PINOS DE AGUERO</description>
 						<range>266.6314928080603</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9454320073543,32.48364089548863,0</coordinates>
@@ -1703,7 +1668,7 @@ DOMICILIO: PROL. SEBASTIAN VIZCAINO 1496, COL. CAÑON DE LA OEDRERA</description
 						<roll>9.97284885630541</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#m_ylw-pushpin010</styleUrl>
+					<styleUrl>#m_ylw-pushpin32</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.0216422945724,32.50263127588493,0</coordinates>
