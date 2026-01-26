@@ -60,6 +60,16 @@
 			<styleUrl>#s_ylw-pushpin_hl41</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="m_ylw-pushpin01020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0220</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl410</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="m_ylw-pushpin02">
 		<Pair>
 			<key>normal</key>
@@ -160,34 +170,24 @@
 			<styleUrl>#s_ylw-pushpin_hl11</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0101</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin300">
+	<StyleMap id="m_ylw-pushpin3000">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#s_ylw-pushpin200</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl100</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl1000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin32">
+	<StyleMap id="m_ylw-pushpin300">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin030</styleUrl>
+			<styleUrl>#s_ylw-pushpin2000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl32</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl100</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin40">
@@ -198,16 +198,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_blue-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_blue-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_blue-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_grn-pushpin">
@@ -276,16 +266,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin022">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin030">
+	<Style id="s_ylw-pushpin0220">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -295,6 +276,15 @@
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin022">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin11">
 		<IconStyle>
@@ -350,15 +340,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Style id="s_ylw-pushpin20">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -367,6 +348,17 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin2000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin200">
 		<IconStyle>
@@ -413,15 +405,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0101">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Style id="s_ylw-pushpin_hl02">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -441,6 +424,17 @@
 		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1000">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -530,17 +524,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl32">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="s_ylw-pushpin_hl41">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -550,7 +533,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_blue-pushpin">
+	<Style id="s_ylw-pushpin_hl410">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -558,6 +541,8 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sh_grn-pushpin">
 		<IconStyle>
@@ -571,15 +556,6 @@
 	<Style id="sh_grn-pushpin1">
 		<IconStyle>
 			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_blue-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
@@ -608,7 +584,6 @@
 		<name>23-ENERO-2026</name>
 		<Document>
 			<name>UBICACION_INMUEBLES_EMPRESAS_220126(12)-2</name>
-			<open>1</open>
 			<StyleMap id="m_ylw-pushpin04">
 				<Pair>
 					<key>normal</key>
@@ -649,16 +624,6 @@
 					<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
 				</Pair>
 			</StyleMap>
-			<StyleMap id="m_ylw-pushpin500">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#s_ylw-pushpin0060</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#s_ylw-pushpin_hl21</styleUrl>
-				</Pair>
-			</StyleMap>
 			<Style id="s_ylw-pushpin006">
 				<IconStyle>
 					<scale>1.1</scale>
@@ -667,17 +632,6 @@
 					</Icon>
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
-			</Style>
-			<Style id="s_ylw-pushpin0060">
-				<IconStyle>
-					<scale>1.1</scale>
-					<Icon>
-						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-					</Icon>
-					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-				</IconStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin05">
 				<IconStyle>
@@ -692,10 +646,12 @@
 				<IconStyle>
 					<scale>1.1</scale>
 					<Icon>
-						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 					</Icon>
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<ListStyle>
+				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin230">
 				<IconStyle>
@@ -719,10 +675,12 @@
 				<IconStyle>
 					<scale>1.3</scale>
 					<Icon>
-						<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 					</Icon>
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
+				<ListStyle>
+				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin_hl2">
 				<IconStyle>
@@ -732,17 +690,6 @@
 					</Icon>
 					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 				</IconStyle>
-			</Style>
-			<Style id="s_ylw-pushpin_hl21">
-				<IconStyle>
-					<scale>1.3</scale>
-					<Icon>
-						<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-					</Icon>
-					<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-				</IconStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin_hl210">
 				<IconStyle>
@@ -820,69 +767,6 @@ Aparece como Finca Las Tias</description>
 				</Point>
 			</Placemark>
 			<Placemark>
-				<name>CF-095-002</name>
-				<description>NOMBRE: TORRES LEAL LUIS MIGUEL 
-
-DOMICILIO: C. ESPIGA 14879 COL. LAS HUERTAS  4A SECCION
-
-OBSERVACIONES:
-TORRES LEAL LUIS MIGUEL ES REPRESENTANTE DE UNA EMPRESA LLAMADA &quot;Productos Diamcers S. A. de C. V&quot;</description>
-				<LookAt>
-					<longitude>-116.96098853028</longitude>
-					<latitude>32.49233365781563</latitude>
-					<altitude>0</altitude>
-					<heading>4.275084063061219e-05</heading>
-					<tilt>0</tilt>
-					<range>127.7260531226992</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin15</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9611164362452,32.49232503100516,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>MP-040-406</name>
-				<description>NOMBRE: GR AVOCADOS S.A PROMOTORES DE INVERSION DE C.V
-
-DOMICILIO: BLVD. MANUEL. J CLOUTHIER 3860 COL. MURUA ORIENTE</description>
-				<LookAt>
-					<longitude>-116.9260957787712</longitude>
-					<latitude>32.5177856265606</latitude>
-					<altitude>0</altitude>
-					<heading>1.672158089097061e-05</heading>
-					<tilt>0</tilt>
-					<range>249.5518693190275</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin15</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9261611622578,32.51771276212232,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>LC-027-035</name>
-				<description>NOMBRE: ARROYO DE GALLARDO AMELIA
-
-DOMICILIO: AVE. 18 DE MARZO 685 COL. LAZARO CARDENAS</description>
-				<LookAt>
-					<longitude>-117.0961796238226</longitude>
-					<latitude>32.53026244293724</latitude>
-					<altitude>0</altitude>
-					<heading>-0.0001933595224270457</heading>
-					<tilt>18.19665686240816</tilt>
-					<range>168.3990769401253</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin15</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-117.0962647306599,32.53027295656128,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
 				<name>BI-002-006</name>
 				<description>ARROYO RANGEL MANUEL 
 BLVD. GUSTAVO DIAZ ORDAZ 1515 COL. CECEÑA
@@ -906,6 +790,72 @@ NO CUENTA CON NUMERO DE DOMICILIO, EDIFICIO DE USOS MULTIPLES</description>
 				<name>HECHO</name>
 				<open>1</open>
 				<Placemark>
+					<name>CF-095-002</name>
+					<open>1</open>
+					<description>NOMBRE: TORRES LEAL LUIS MIGUEL 
+
+DOMICILIO: C. ESPIGA 14879 COL. LAS HUERTAS  4A SECCION
+
+OBSERVACIONES:
+TORRES LEAL LUIS MIGUEL ES REPRESENTANTE DE UNA EMPRESA LLAMADA &quot;Productos Diamcers S. A. de C. V&quot;</description>
+					<LookAt>
+						<longitude>-116.96098853028</longitude>
+						<latitude>32.49233365781563</latitude>
+						<altitude>0</altitude>
+						<heading>4.275084063061219e-05</heading>
+						<tilt>0</tilt>
+						<range>127.7260531226992</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin15</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9611164362452,32.49232503100516,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP-040-406</name>
+					<open>1</open>
+					<description>NOMBRE: GR AVOCADOS S.A PROMOTORES DE INVERSION DE C.V
+
+DOMICILIO: BLVD. MANUEL. J CLOUTHIER 3860 COL. MURUA ORIENTE</description>
+					<LookAt>
+						<longitude>-116.9260957787712</longitude>
+						<latitude>32.5177856265606</latitude>
+						<altitude>0</altitude>
+						<heading>1.672158089097061e-05</heading>
+						<tilt>0</tilt>
+						<range>249.5518693190275</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin15</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9261611622578,32.51771276212232,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LC-027-035</name>
+					<open>1</open>
+					<description>NOMBRE: ARROYO DE GALLARDO AMELIA
+
+DOMICILIO: AVE. 18 DE MARZO 685 COL. LAZARO CARDENAS</description>
+					<LookAt>
+						<longitude>-117.0961796238226</longitude>
+						<latitude>32.53026244293724</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001933595224270457</heading>
+						<tilt>18.19665686240816</tilt>
+						<range>168.3990769401253</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin15</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.0962647306599,32.53027295656128,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>OI-036-038</name>
 					<description>REZNIK LIZARRAGA YURI
 
@@ -921,7 +871,7 @@ Hay Torre de pizza, no piza</description>
 						<range>289.6484220196398</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<styleUrl>#m_ylw-pushpin15</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.8992401545539,32.55054872257582,0</coordinates>
@@ -941,7 +891,7 @@ NO CUENTA CON NUMERO DE DOMICILIO NI CON NOMBRE DE EMPRESA</description>
 						<range>489.8237467733171</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<styleUrl>#m_ylw-pushpin15</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9466067117997,32.54899907985489,0</coordinates>
@@ -961,7 +911,7 @@ NO CUENTA CON NUMERO DE DOMICILIO</description>
 						<range>489.8237467733171</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<styleUrl>#m_ylw-pushpin15</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9465961623208,32.54882767585946,0</coordinates>
@@ -981,7 +931,7 @@ NO CUENTA CON NUMERO DE DOMICILIO Y SE LOCALIZO MEDIANTE LAS MEDIDAS DE SUPERFIC
 						<range>255.6614222720863</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<styleUrl>#m_ylw-pushpin15</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9459055931882,32.54592260922824,0</coordinates>
@@ -1000,7 +950,7 @@ C. JUAN DE UGARTE 409 COL. GARITA DE OTAY</description>
 						<range>118.3826312028541</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin500</styleUrl>
+					<styleUrl>#m_ylw-pushpin15</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9469625799251,32.54153883669917,0</coordinates>
@@ -1030,7 +980,6 @@ C. JUAN DE UGARTE 409 COL. GARITA DE OTAY</description>
 			</Style>
 			<Folder>
 				<name>NO SE ENCONTRO</name>
-				<open>1</open>
 				<Placemark>
 					<name>BI-031-002</name>
 					<description>AVJEF S.A
@@ -1093,44 +1042,6 @@ Dom. C. Gral. Prim. 4651, Col. Soler</description>
 				</Placemark>
 			</Folder>
 			<Placemark>
-				<name>EC-352-010</name>
-				<description>PROCESADORA DE HELADOS S.A. DE C.V.
-C. BAHIA CONCEPCION 20008 COL. BUENOS AIRES SUR</description>
-				<LookAt>
-					<longitude>-116.8916328964524</longitude>
-					<latitude>32.50838964745827</latitude>
-					<altitude>0</altitude>
-					<heading>-1.590277340731758e-14</heading>
-					<tilt>0</tilt>
-					<range>200.1855810610516</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin2</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.891291751603,32.50854009417856,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>GY-015-004</name>
-				<description>MOLDES, ROBOTS Y MAQUINAS PARA INYECCION, SOCIED
-C. DEL AGUILA AZTECA 19433 COL. BAJA MAQ EL AGUILA</description>
-				<LookAt>
-					<longitude>-116.9001255630853</longitude>
-					<latitude>32.49444386021803</latitude>
-					<altitude>0</altitude>
-					<heading>0.004616036613009451</heading>
-					<tilt>22.268345403479</tilt>
-					<range>199.873480550714</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin2</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9002290651076,32.4942220059083,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
 				<name>CF-129-001</name>
 				<description>CASTRO PEREZ GERMAN AMIR 
 C. CHAVEZ 52 COL RAMIREZ 
@@ -1168,25 +1079,6 @@ NO CUENTA CON NUMERO DE DOMICILIO VISIBLE</description>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9332164902622,32.5228677348985,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>CF-095-004</name>
-				<description>SANTILLAN MUÑOZ CARMEN HORTENCIA 
-C. DATIL 1235 COL. VERACRUZ</description>
-				<LookAt>
-					<longitude>-116.9608064685759</longitude>
-					<latitude>32.49239539582639</latitude>
-					<altitude>0</altitude>
-					<heading>-1.905354111121068e-05</heading>
-					<tilt>0</tilt>
-					<range>144.9768042986681</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin0102</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9607864987764,32.49224373865,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -1254,6 +1146,66 @@ DOMICILIO: AVE. DEL CEDRO 12841, COL. AEROPUERTO</description>
 			<Folder>
 				<name>HECHO</name>
 				<Placemark>
+					<name>CF-095-004</name>
+					<open>1</open>
+					<description>SANTILLAN MUÑOZ CARMEN HORTENCIA 
+C. DATIL 1235 COL. VERACRUZ</description>
+					<LookAt>
+						<longitude>-116.9608064685759</longitude>
+						<latitude>32.49239539582639</latitude>
+						<altitude>0</altitude>
+						<heading>-1.905354111121068e-05</heading>
+						<tilt>0</tilt>
+						<range>144.9768042986681</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9607864987764,32.49224373865,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GY-015-004</name>
+					<open>1</open>
+					<description>MOLDES, ROBOTS Y MAQUINAS PARA INYECCION, SOCIED
+C. DEL AGUILA AZTECA 19433 COL. BAJA MAQ EL AGUILA</description>
+					<LookAt>
+						<longitude>-116.9001255630853</longitude>
+						<latitude>32.49444386021803</latitude>
+						<altitude>0</altitude>
+						<heading>0.004616036613009451</heading>
+						<tilt>22.268345403479</tilt>
+						<range>199.873480550714</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9002290651076,32.4942220059083,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>EC-352-010</name>
+					<open>1</open>
+					<description>PROCESADORA DE HELADOS S.A. DE C.V.
+C. BAHIA CONCEPCION 20008 COL. BUENOS AIRES SUR</description>
+					<LookAt>
+						<longitude>-116.8916328964524</longitude>
+						<latitude>32.50838964745827</latitude>
+						<altitude>0</altitude>
+						<heading>-1.590277340731758e-14</heading>
+						<tilt>0</tilt>
+						<range>200.1855810610516</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.891291751603,32.50854009417856,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
 					<name>ID-040-077</name>
 					<description>NOMBRE: MARTINEZ LUTTEROTH ERIKA PATRICIA 
 
@@ -1270,7 +1222,7 @@ OBSERVACIONES:
 						<range>256.1324649866844</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9117485940284,32.54646257920717,0</coordinates>
@@ -1290,7 +1242,7 @@ DOMICILIO: C JOSE DE GALVEZ 120 COL GARITA DE OTAY</description>
 						<range>302.5714468328936</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9447765414786,32.54606645493583,0</coordinates>
@@ -1310,7 +1262,7 @@ DOMICILIO: C. SEBASTIAN VIZCAINO 422, COL. GARITA DE OTAY</description>
 						<range>150.5186569369628</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9402532746774,32.54116596540325,0</coordinates>
@@ -1330,7 +1282,7 @@ DOMICILIO: C. SEBASTIAN VIZCAINO 420, COL. GARITA DE OTAY</description>
 						<range>150.5186569369628</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.940221193078,32.54136441298552,0</coordinates>
@@ -1350,7 +1302,7 @@ DOMICILIO: C. SEBASTIAN VIZCAINO 416, COL. GARITA DE OTAY</description>
 						<range>127.6253347763359</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9401463853329,32.54175228200334,0</coordinates>
@@ -1370,7 +1322,7 @@ ES UN TERRENO BALDIO</description>
 						<range>112.5907397699175</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.98227845672,32.4862676014039,0</coordinates>
@@ -1389,7 +1341,7 @@ AVE. ROSARIO SANSORES 5757 COL. MONTE BELLO</description>
 						<range>160.0013376316442</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9839477991662,32.4958302038082,0</coordinates>
@@ -1409,7 +1361,7 @@ Dom. c. los pollos 4670, las lilas</description>
 						<range>193.273097462887</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9715338603329,32.50289152891246,0</coordinates>
@@ -1430,7 +1382,7 @@ aparece con mas area construida como tornillos match</description>
 						<range>159.3325796939422</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9704688713747,32.50422640529811,0</coordinates>
@@ -1450,7 +1402,7 @@ Dom. Av. dolores 303, col jose sandoval</description>
 						<range>300.8173894644648</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9735879405808,32.50462402673891,0</coordinates>
@@ -1470,7 +1422,7 @@ DOMICILIO EN FICHA: BLVD. FEDERICO BENITEZ COL. EL PRADO</description>
 						<range>369.9126131815461</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9846479014735,32.51023697913501,0</coordinates>
@@ -1490,7 +1442,7 @@ APARECE CON EL NOMBRE DE &quot;PROMOTINOX&quot;</description>
 						<range>104.8911065306401</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.011245452239,32.53321407279272,0</coordinates>
@@ -1509,7 +1461,7 @@ AVE 18 DE MARZO585 COL. LAZARO CARDENAS</description>
 						<range>211.3622374172234</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.0966380064163,32.5308049122411,0</coordinates>
@@ -1529,7 +1481,7 @@ DOMICILIO: AVE. 36 SUR 3600 COL. URIAS</description>
 						<roll>-35.56547803063283</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9433886774096,32.48336033830406,0</coordinates>
@@ -1549,7 +1501,7 @@ DOMICILIO: C. BOLIVIA 198, COL. VAIM</description>
 						<range>131.9693114629667</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9433188403012,32.49289562457105,0</coordinates>
@@ -1569,7 +1521,7 @@ DOMICILIO: C. SEXTA 100 COL. LA CIENEGA PONIENTE</description>
 						<range>398.2791043350846</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9384774810566,32.49022310270415,0</coordinates>
@@ -1589,7 +1541,7 @@ DOMICILIO: BLVD PACIFICO 9515 COL.PARQUE INDUSTRIAL PACIFICO</description>
 						<range>142.7469643867767</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9826449200811,32.46238870627331,0</coordinates>
@@ -1609,7 +1561,7 @@ Dom.Av. La Joya 811, col La Joya</description>
 						<range>128.577104343604</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9451088431811,32.49000966299054,0</coordinates>
@@ -1628,7 +1580,7 @@ C. JOSE DE JESUS NUÑEZ Y DOMINGUEZ 8280 COL. MORELOS</description>
 						<range>190.106193629881</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.0345080590592,32.51835215339668,0</coordinates>
@@ -1648,7 +1600,7 @@ DOMICILIO: C. NOGALES 347, COL. PINOS DE AGUERO</description>
 						<range>266.6314928080603</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9454320073543,32.48364089548863,0</coordinates>
@@ -1668,7 +1620,7 @@ DOMICILIO: PROL. SEBASTIAN VIZCAINO 1496, COL. CAÑON DE LA OEDRERA</description
 						<roll>9.97284885630541</roll>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</Camera>
-					<styleUrl>#m_ylw-pushpin32</styleUrl>
+					<styleUrl>#m_ylw-pushpin01020</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-117.0216422945724,32.50263127588493,0</coordinates>
@@ -4414,7 +4366,6 @@ Dom. Av. Rio colorado 9551, col. marron 22015</description>
 		<Folder>
 			<name>INYGEOCULIACAN</name>
 			<visibility>0</visibility>
-			<open>1</open>
 			<Placemark>
 				<name>FD-854-134</name>
 				<visibility>0</visibility>
@@ -4430,7 +4381,7 @@ Boulevard Carretera Libre Antiguo Camino Tijuana No. 25420, Interior Suite F2-C 
 					<range>286.3056884603525</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.8707459879561,32.45545846577456,0</coordinates>
@@ -4454,7 +4405,7 @@ OBSERVACIONES:
 					<range>120.2855854982772</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9692858910429,32.50807812737123,0</coordinates>
@@ -4476,7 +4427,7 @@ OBSERVACIONES:
 					<range>312.8193665299045</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9150965757667,32.54255877805677,0</coordinates>
@@ -4496,7 +4447,7 @@ DIRECCION: GOBERNADOR IBARRA 9721 COL AMERICA</description>
 					<range>366.3119269209027</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-117.0209751513249,32.51780485231792,0</coordinates>
@@ -4517,7 +4468,7 @@ C. PASEO DEL VALLE 32990 COL. VALLE REDONDO</description>
 					<range>587.1282802562147</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.7307432467885,32.50998587840382,0</coordinates>
@@ -4537,7 +4488,7 @@ C. LOMAS DEL RIO 10301 COL. TEJAMEN</description>
 					<range>225.3005638347153</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-117.0139007654503,32.48798209368461,0</coordinates>
@@ -4557,7 +4508,7 @@ NO HAY ESPECTACULARES EN DONDE MUESTRE EL NOMBRE DE LA EMPRESA, SE LOCALIZÓ CON
 					<range>322.241251650052</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9148856073794,32.46128761742706,0</coordinates>
@@ -4583,99 +4534,10 @@ NO CORRESPONDE EL ÁREA de LA INDUSTRIA AL NOMBRE</description>
 					<range>424.6798215376209</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9902199068045,32.4738102917803,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-000-042</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO, S.A DE C.V
-
-Dom. Carretera Lib. camino Tijuana Tecate 28704</description>
-				<LookAt>
-					<longitude>-116.8795961425093</longitude>
-					<latitude>32.44772600473983</latitude>
-					<altitude>0</altitude>
-					<heading>19.68755407983292</heading>
-					<tilt>39.3083818210427</tilt>
-					<range>442.5349530528241</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8784382097329,32.44787030992264,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-854-091</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO, S.A DE C.V
-
-SKATE PARK HYUNDAI
- SE ENCUENTRA A LA PAR DEL DOMICILIO
-DOM. C. ENCANTADA, PARQUE INDUSTRIAL EL FLORIDO</description>
-				<LookAt>
-					<longitude>-116.8837728021874</longitude>
-					<latitude>32.44903476156782</latitude>
-					<altitude>0</altitude>
-					<heading>48.11123399072498</heading>
-					<tilt>37.89851195499331</tilt>
-					<range>271.0367965299534</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8839905820159,32.4488137480305,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FV-074-502</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO, S.A DE C.V
-
-Dom. cl. tijuana-tecate 28102 col cuenca lechera
-
-ubicacion encontrada por hyundai oficial donde mencionan la cuena lechera</description>
-				<LookAt>
-					<longitude>-116.8728594</longitude>
-					<latitude>32.4477375</latitude>
-					<altitude>0</altitude>
-					<heading>1.590277340731758e-15</heading>
-					<tilt>0</tilt>
-					<range>1000.000000001621</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8728637388444,32.44759417096923,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FC-019-845</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO, S.A DE C.V 
-
-Dom. cc. Tijuana-Tecate col. Ferrocarril
-no existe referencia ferrocarril</description>
-				<LookAt>
-					<longitude>-116.7981682751151</longitude>
-					<latitude>32.46830426410928</latitude>
-					<altitude>0</altitude>
-					<heading>6.361109362927034e-15</heading>
-					<tilt>0</tilt>
-					<range>491.4780408407217</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.7976835611419,32.46886690699249,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -4699,66 +4561,10 @@ AVE. 10 DE ABRIL 0, COL. RANCHO EL FLORIDO</description>
 					<range>258.3426174485489</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.7984250343695,32.47518287709416,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-000-010</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO, S.A. DE C.V.
-C. DERECHO DE VIA 28650, COL. EL FLORIDO 1RA Y 2DA SECCION 
-NOMBRE DE CALLE NO CORRESPONDE</description>
-				<LookAt>
-					<gx:TimeStamp><when>2025-02-23</when>
-</gx:TimeStamp>
-					<gx:ViewerOptions>
-						<gx:option name="historicalimagery"></gx:option>
-						<gx:option enabled="0" name="sunlight"></gx:option>
-						<gx:option enabled="0" name="streetview"></gx:option>
-					</gx:ViewerOptions>
-					<longitude>-116.8702106235337</longitude>
-					<latitude>32.45137076056726</latitude>
-					<altitude>0</altitude>
-					<heading>0.003971914712338923</heading>
-					<tilt>13.38761007314042</tilt>
-					<range>391.8588083896443</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8702943136595,32.4513804388406,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FV-074-531</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO DE S.A. DE C.V.
-AVE. 10 DE ABRIL 0 COL. RANCHO EL FLORIDO
-NO HAY SUFICIENTES DATOS PARA LOCALIZAR CON PRECISION</description>
-				<LookAt>
-					<gx:TimeStamp><when>2025-02-23</when>
-</gx:TimeStamp>
-					<gx:ViewerOptions>
-						<gx:option name="historicalimagery"></gx:option>
-						<gx:option enabled="0" name="sunlight"></gx:option>
-						<gx:option enabled="0" name="streetview"></gx:option>
-					</gx:ViewerOptions>
-					<longitude>-116.7986634895565</longitude>
-					<latitude>32.47650751780039</latitude>
-					<altitude>0</altitude>
-					<heading>-2.965945792213976e-06</heading>
-					<tilt>0</tilt>
-					<range>743.3207337937494</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.7983594919284,32.47594054538816,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -4783,7 +4589,7 @@ EL PARQUE INDUSTRIAL YA CUENTA CON CONSTRUCCIONES</description>
 					<range>1020.290358162395</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.7989951247423,32.47245941257277,0</coordinates>
@@ -4806,7 +4612,7 @@ OBSERVACIONES:
 					<roll>-35.60595231168936</roll>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</Camera>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9690444097005,32.52927758656278,0</coordinates>
@@ -4828,182 +4634,10 @@ OBSERVACIONES:
 					<range>192.7316698128564</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9307688842116,32.47934865110286,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-852-004</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO S.A DE C.V
-DIRECCION: BLVD DE LOS OLIVOS O COL.PARQUE INDUSTIAL EL FLORIDO</description>
-				<LookAt>
-					<longitude>-116.8713460216758</longitude>
-					<latitude>32.45214625373131</latitude>
-					<altitude>0</altitude>
-					<heading>0.001309121621843155</heading>
-					<tilt>0.03833786861173777</tilt>
-					<range>461.5254665404734</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8713141867747,32.45244598181311,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-854-001</name>
-				<visibility>0</visibility>
-				<description>HYUNDAY DE MEXICO S.A DE C.V
-DOMICILIO: AND. ORIENTE COL. PARQUE INDUSTRIAL EL FLORIDO</description>
-				<LookAt>
-					<longitude>-116.8872067451257</longitude>
-					<latitude>32.44498491697293</latitude>
-					<altitude>0</altitude>
-					<heading>1.590277340731758e-14</heading>
-					<tilt>0</tilt>
-					<range>384.777300248742</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8873145976125,32.44511808735868,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-854-061</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO S.A DE C.V
-DOMICILIO: AND ORIENTE O COL PARQUE INDUSTRIAL EL FLORIDO 
-OBSERVACIONES: NO CORRESPONDE SUPERFICIE</description>
-				<LookAt>
-					<longitude>-116.877437972967</longitude>
-					<latitude>32.44811981957572</latitude>
-					<altitude>0</altitude>
-					<heading>-0.001605389468597105</heading>
-					<tilt>19.75491070793234</tilt>
-					<range>641.6038920723023</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8774484503279,32.44811292213855,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-852-001</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO S.A DE C.V
-DIRECCION: BLVD LOS OLIVOS COL. PARQUE INDUSTRIAL EL FLORIDO 
-OBSERVACION:
--LA SUPERFIE TANTO EN TEERNO COMO EN CONSTRUCCION NO CORRESPONDE</description>
-				<LookAt>
-					<longitude>-116.8737786270756</longitude>
-					<latitude>32.45093915029138</latitude>
-					<altitude>0</altitude>
-					<heading>0.0008853409890303554</heading>
-					<tilt>0</tilt>
-					<range>614.3456977343048</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8742635890113,32.45083417370198,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-852-006</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO S.A DE C.V
-DIRECCION: BLVD LOS OLIVOS O COL. PARQUE INDUSTRIAL EL FLORIDO 
-OBSERVACION: MISMA DIRECCION EN VARIOS DE LOS PINES</description>
-				<LookAt>
-					<longitude>-116.8710694043548</longitude>
-					<latitude>32.45215961630996</latitude>
-					<altitude>0</altitude>
-					<heading>-3.017145385364081e-05</heading>
-					<tilt>0</tilt>
-					<range>200.628212808055</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8711976906067,32.45206697408742,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-000-531</name>
-				<visibility>0</visibility>
-				<description>HYUNDAI DE MEXICO S.A DE C.V
-DIRECCION: BLVD LOS OLIVOS COL. PARQUE INDUSTRIAL EL FLORIDO 
-OBSERVACIONES: 
--SE REPITE LA MISMA DIRECCION</description>
-				<LookAt>
-					<longitude>-116.8761232818056</longitude>
-					<latitude>32.45052441624976</latitude>
-					<altitude>0</altitude>
-					<heading>-0.0004189799040105473</heading>
-					<tilt>0</tilt>
-					<range>659.5812682900073</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8760301084854,32.45055626906729,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-852-031</name>
-				<visibility>0</visibility>
-				<description>NOMBRE: HYUNDAI DE MEXICO S.A. DE C.V.
-
-DOMICILIO: BLVD. LOS OLIVOS 0 COL. PARQUE INDUSTRIAL EL FLORIDO	
-
-OBSERVACIONES: LA SUPERFICIE DEL TERRENO SE ACERCA PERO LA SUPERFICIE CONTRUIDA NO CONCUERDA.</description>
-				<LookAt>
-					<longitude>-116.8712058156273</longitude>
-					<latitude>32.45211144331336</latitude>
-					<altitude>0</altitude>
-					<heading>8.632003976985165e-05</heading>
-					<tilt>0</tilt>
-					<range>429.8445184313976</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.871346272123,32.45232873954692,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-000-501</name>
-				<visibility>0</visibility>
-				<description>NOMBRE: HYUNDAI DE MEXICO, S.A. DE C.V.
-
-DOMICILIO: C. LA ENCANTADA 7474 COL. PARQUE INDUSTRIAL EL FLORIDO.
-
-OBSERVACIONES: LA UBICACION DE HYNUDAI QUE MAS CONCUERDA CON LA SUPERFICIE ES ESTA PERO NO DEL TODO.</description>
-				<LookAt>
-					<longitude>-116.8766713214825</longitude>
-					<latitude>32.44901792207689</latitude>
-					<altitude>0</altitude>
-					<heading>6.498157791021899e-05</heading>
-					<tilt>0</tilt>
-					<range>748.571456631126</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8743718603423,32.44948110756386,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -5021,7 +4655,7 @@ DOMICILIO: AVE. DE LOS OLIVOS 3270 COL. NEIDHART</description>
 					<roll>38.53074157188824</roll>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</Camera>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-117.0148096915887,32.51364701305424,0</coordinates>
@@ -5042,40 +4676,10 @@ DOMICILIO: AVE. PASEO DE LOS HEROES 11110 COL. ZONA  URBANA RIO TIJUANA</descrip
 					<range>246.7142510407349</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-117.0040034004434,32.51828465414999,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>FD-852-005</name>
-				<visibility>0</visibility>
-				<description>NOMBRE: HYUNDAI DE MEXICO S.A. DE C.V.
-
-DOMICILIO: C. LA ENCANTADA 0, COL. PARQUE INDUSTRIAL EL FLORIDO
-
-OBSERVACION: NO CONCUERDA EL AREA.</description>
-				<LookAt>
-					<gx:TimeStamp><when>2025-02-23</when>
-</gx:TimeStamp>
-					<gx:ViewerOptions>
-						<gx:option name="historicalimagery"></gx:option>
-						<gx:option enabled="0" name="sunlight"></gx:option>
-						<gx:option enabled="0" name="streetview"></gx:option>
-					</gx:ViewerOptions>
-					<longitude>-116.8772790630802</longitude>
-					<latitude>32.44803117544918</latitude>
-					<altitude>0</altitude>
-					<heading>-0.0001991813250954226</heading>
-					<tilt>0</tilt>
-					<range>297.0779286361072</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#m_ylw-pushpin300</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.8777783341864,32.44805911572561,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
@@ -5271,6 +4875,368 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 			<name>Hechos</name>
 			<visibility>0</visibility>
 			<Placemark>
+				<name>FV-074-531</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO DE S.A. DE C.V.
+AVE. 10 DE ABRIL 0 COL. RANCHO EL FLORIDO
+NO HAY SUFICIENTES DATOS PARA LOCALIZAR CON PRECISION</description>
+				<LookAt>
+					<gx:TimeStamp><when>2025-02-23</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-116.7986634895565</longitude>
+					<latitude>32.47650751780039</latitude>
+					<altitude>0</altitude>
+					<heading>-2.965945792213976e-06</heading>
+					<tilt>0</tilt>
+					<range>743.3207337937494</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.7983594919284,32.47594054538816,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-000-010</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO, S.A. DE C.V.
+C. DERECHO DE VIA 28650, COL. EL FLORIDO 1RA Y 2DA SECCION 
+NOMBRE DE CALLE NO CORRESPONDE</description>
+				<LookAt>
+					<gx:TimeStamp><when>2025-02-23</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-116.8702106235337</longitude>
+					<latitude>32.45137076056726</latitude>
+					<altitude>0</altitude>
+					<heading>0.003971914712338923</heading>
+					<tilt>13.38761007314042</tilt>
+					<range>391.8588083896443</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8702943136595,32.4513804388406,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FV-074-502</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO, S.A DE C.V
+
+Dom. cl. tijuana-tecate 28102 col cuenca lechera
+
+ubicacion encontrada por hyundai oficial donde mencionan la cuena lechera</description>
+				<LookAt>
+					<longitude>-116.8728594</longitude>
+					<latitude>32.4477375</latitude>
+					<altitude>0</altitude>
+					<heading>1.590277340731758e-15</heading>
+					<tilt>0</tilt>
+					<range>1000.000000001621</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8728637388444,32.44759417096923,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FC-019-845</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO, S.A DE C.V 
+
+Dom. cc. Tijuana-Tecate col. Ferrocarril
+no existe referencia ferrocarril</description>
+				<LookAt>
+					<longitude>-116.7981682751151</longitude>
+					<latitude>32.46830426410928</latitude>
+					<altitude>0</altitude>
+					<heading>6.361109362927034e-15</heading>
+					<tilt>0</tilt>
+					<range>491.4780408407217</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.7976835611419,32.46886690699249,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-854-091</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO, S.A DE C.V
+
+SKATE PARK HYUNDAI
+ SE ENCUENTRA A LA PAR DEL DOMICILIO
+DOM. C. ENCANTADA, PARQUE INDUSTRIAL EL FLORIDO</description>
+				<LookAt>
+					<longitude>-116.8837728021874</longitude>
+					<latitude>32.44903476156782</latitude>
+					<altitude>0</altitude>
+					<heading>48.11123399072498</heading>
+					<tilt>37.89851195499331</tilt>
+					<range>271.0367965299534</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin3000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8839905820159,32.4488137480305,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-000-042</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO, S.A DE C.V
+
+Dom. Carretera Lib. camino Tijuana Tecate 28704</description>
+				<LookAt>
+					<longitude>-116.8795961425093</longitude>
+					<latitude>32.44772600473983</latitude>
+					<altitude>0</altitude>
+					<heading>19.68755407983292</heading>
+					<tilt>39.3083818210427</tilt>
+					<range>442.5349530528241</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8784382097329,32.44787030992264,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-000-501</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>NOMBRE: HYUNDAI DE MEXICO, S.A. DE C.V.
+
+DOMICILIO: C. LA ENCANTADA 7474 COL. PARQUE INDUSTRIAL EL FLORIDO.
+
+OBSERVACIONES: LA UBICACION DE HYNUDAI QUE MAS CONCUERDA CON LA SUPERFICIE ES ESTA PERO NO DEL TODO.</description>
+				<LookAt>
+					<longitude>-116.8766713214825</longitude>
+					<latitude>32.44901792207689</latitude>
+					<altitude>0</altitude>
+					<heading>6.498157791021899e-05</heading>
+					<tilt>0</tilt>
+					<range>748.571456631126</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8743718603423,32.44948110756386,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-852-005</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>NOMBRE: HYUNDAI DE MEXICO S.A. DE C.V.
+
+DOMICILIO: C. LA ENCANTADA 0, COL. PARQUE INDUSTRIAL EL FLORIDO
+
+OBSERVACION: NO CONCUERDA EL AREA.</description>
+				<LookAt>
+					<gx:TimeStamp><when>2025-02-23</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-116.8772790630802</longitude>
+					<latitude>32.44803117544918</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001991813250954226</heading>
+					<tilt>0</tilt>
+					<range>297.0779286361072</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8777783341864,32.44805911572561,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-852-031</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>NOMBRE: HYUNDAI DE MEXICO S.A. DE C.V.
+
+DOMICILIO: BLVD. LOS OLIVOS 0 COL. PARQUE INDUSTRIAL EL FLORIDO	
+
+OBSERVACIONES: LA SUPERFICIE DEL TERRENO SE ACERCA PERO LA SUPERFICIE CONTRUIDA NO CONCUERDA.</description>
+				<LookAt>
+					<longitude>-116.8712058156273</longitude>
+					<latitude>32.45211144331336</latitude>
+					<altitude>0</altitude>
+					<heading>8.632003976985165e-05</heading>
+					<tilt>0</tilt>
+					<range>429.8445184313976</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.871346272123,32.45232873954692,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-852-006</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO S.A DE C.V
+DIRECCION: BLVD LOS OLIVOS O COL. PARQUE INDUSTRIAL EL FLORIDO 
+OBSERVACION: MISMA DIRECCION EN VARIOS DE LOS PINES</description>
+				<LookAt>
+					<longitude>-116.8710694043548</longitude>
+					<latitude>32.45215961630996</latitude>
+					<altitude>0</altitude>
+					<heading>-3.017145385364081e-05</heading>
+					<tilt>0</tilt>
+					<range>200.628212808055</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8711976906067,32.45206697408742,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-852-001</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO S.A DE C.V
+DIRECCION: BLVD LOS OLIVOS COL. PARQUE INDUSTRIAL EL FLORIDO 
+OBSERVACION:
+-LA SUPERFIE TANTO EN TEERNO COMO EN CONSTRUCCION NO CORRESPONDE</description>
+				<LookAt>
+					<longitude>-116.8737786270756</longitude>
+					<latitude>32.45093915029138</latitude>
+					<altitude>0</altitude>
+					<heading>0.0008853409890303554</heading>
+					<tilt>0</tilt>
+					<range>614.3456977343048</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8742635890113,32.45083417370198,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-000-531</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO S.A DE C.V
+DIRECCION: BLVD LOS OLIVOS COL. PARQUE INDUSTRIAL EL FLORIDO 
+OBSERVACIONES: 
+-SE REPITE LA MISMA DIRECCION</description>
+				<LookAt>
+					<longitude>-116.8761232818056</longitude>
+					<latitude>32.45052441624976</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0004189799040105473</heading>
+					<tilt>0</tilt>
+					<range>659.5812682900073</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8760301084854,32.45055626906729,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-852-004</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO S.A DE C.V
+DIRECCION: BLVD DE LOS OLIVOS O COL.PARQUE INDUSTIAL EL FLORIDO</description>
+				<LookAt>
+					<longitude>-116.8713460216758</longitude>
+					<latitude>32.45214625373131</latitude>
+					<altitude>0</altitude>
+					<heading>0.001309121621843155</heading>
+					<tilt>0.03833786861173777</tilt>
+					<range>461.5254665404734</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8713141867747,32.45244598181311,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-854-061</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAI DE MEXICO S.A DE C.V
+DOMICILIO: AND ORIENTE O COL PARQUE INDUSTRIAL EL FLORIDO 
+OBSERVACIONES: NO CORRESPONDE SUPERFICIE</description>
+				<LookAt>
+					<longitude>-116.877437972967</longitude>
+					<latitude>32.44811981957572</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001605389468597105</heading>
+					<tilt>19.75491070793234</tilt>
+					<range>641.6038920723023</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8774484503279,32.44811292213855,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FD-854-001</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<description>HYUNDAY DE MEXICO S.A DE C.V
+DOMICILIO: AND. ORIENTE COL. PARQUE INDUSTRIAL EL FLORIDO</description>
+				<LookAt>
+					<longitude>-116.8872067451257</longitude>
+					<latitude>32.44498491697293</latitude>
+					<altitude>0</altitude>
+					<heading>1.590277340731758e-14</heading>
+					<tilt>0</tilt>
+					<range>384.777300248742</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-116.8873145976125,32.44511808735868,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
 				<name>FD854091</name>
 				<visibility>0</visibility>
 				<open>1</open>
@@ -5283,7 +5249,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 					<range>697.8182681557392</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.8788943235518,32.44968062125002,0</coordinates>
@@ -5302,7 +5268,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 					<range>1330.748626488067</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.8186958432007,32.45654942919042,0</coordinates>
@@ -5374,7 +5340,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.876321258234,32.4497567496178,0</coordinates>
 				</Point>
@@ -5445,7 +5411,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.8815973331511,32.44943931433556,0</coordinates>
 				</Point>
@@ -5516,7 +5482,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.8797879694083,32.44866949087028,0</coordinates>
 				</Point>
@@ -5587,7 +5553,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.8803513977501,32.44855563502649,0</coordinates>
 				</Point>
@@ -5658,7 +5624,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.8814819723892,32.44842224370252,0</coordinates>
 				</Point>
@@ -5728,7 +5694,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.9931454624881,32.44307683193877,0</coordinates>
 				</Point>
@@ -5799,7 +5765,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.876485327385,32.44814569904899,0</coordinates>
 				</Point>
@@ -5869,7 +5835,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.8893065268584,32.44461841537677,0</coordinates>
 				</Point>
@@ -5939,7 +5905,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.818896961443,32.45524236928421,0</coordinates>
 				</Point>
@@ -6009,7 +5975,7 @@ OBSERVACION: NO CONCUERDA EL AREA.</description>
 </body>
 
 </html>]]></description>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<coordinates>-116.7997200292967,32.47453978347835,0</coordinates>
 				</Point>
@@ -6029,7 +5995,7 @@ BLVD. ESMERALDA 4401 COL. PARQUE INDUSTRIAL LA JOLLA</description>
 					<range>834.0923100398812</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-117.0872724629121,32.49232784106854,0</coordinates>
@@ -6052,7 +6018,7 @@ OBSERVACIONES: EN EL DOCUMENTO SE INDICA QUE SE TRATA DE UN TERRENO BALDIO DE MA
 					<range>875.6926217001115</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9831673055375,32.45707531592396,0</coordinates>
@@ -6073,7 +6039,7 @@ Dom. Blvd. Insurgentes 25420, Fideicomiso el Florido 22245</description>
 					<range>1000.000000000269</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.8576943328607,32.45997300893526,0</coordinates>
@@ -6096,7 +6062,7 @@ Dom. c. 9 Sur 1, Ciudad Industrial 22444</description>
 					<range>265.9810103190505</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9215799696492,32.5332713162064,0</coordinates>
@@ -6120,7 +6086,7 @@ Dom. Cam. Vecinal 33271, Carretera Tijuana A Tecate</description>
 					<range>586.3653082154518</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.7929624255177,32.49050085789292,0</coordinates>
@@ -6143,7 +6109,7 @@ INZI Display México S.A. de C.V. es una planta ubicada en Blvd. Olivos Sur 2000
 					<range>484.8424042983955</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.8878008262894,32.44766249098765,0</coordinates>
@@ -6166,7 +6132,7 @@ OBSERVACIONES: EL DOCUMENTO INDICA QUE SE TRATA DE UN LOTE FRACCIONADO SIN CONST
 					<range>216.3611299622906</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9374937548722,32.37335304204608,0</coordinates>
@@ -6194,7 +6160,7 @@ NUMERO DE DOMICILIO NO CORRESPONDE</description>
 					<range>674.5416044636893</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9924998014247,32.44383313991704,0</coordinates>
@@ -6217,7 +6183,7 @@ EL PUNTO UBICADO APARECE COMO PLANTA 3</description>
 					<range>982.5214483183478</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9916275429913,32.44269641622353,0</coordinates>
@@ -6245,7 +6211,7 @@ EL NUMERO DE DOMICILIO NO CORRESPONDE</description>
 					<range>601.4933980955036</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9906274553247,32.44340901904854,0</coordinates>
@@ -6272,7 +6238,7 @@ AVE. CABO 14850 COL. EL TECOLOTE</description>
 					<range>674.5416044636893</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.989382673334,32.44404040284743,0</coordinates>
@@ -6302,7 +6268,7 @@ OBSERVACION: EL AREA DEL TERRENO NO CONCUERDA, QUEDA EN DUDA SI SE TRATA DE ESE 
 					<range>341.8020767906007</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9814347746894,32.44824335014572,0</coordinates>
@@ -6325,7 +6291,7 @@ OBSERVACIONES: NO FUE POSIBLE UBICAR DE MANERA EXACTA CON LA INFORMACION DISPONI
 					<range>1501.26939439528</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9359265171791,32.51516515131534,0</coordinates>
@@ -6348,7 +6314,7 @@ se ubica en MANUFACTURA METÁLICAS DEL NOROESTE S DE RL DE CV</description>
 					<range>400.1454765118565</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.973703394627,32.51028929413297,0</coordinates>
@@ -6369,7 +6335,7 @@ OBSERVACIONES La propiedad corresponde a una oficina pequeña de bienes raíces 
 					<range>211.0567806998768</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_blue-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin300</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-117.00694184273,32.51537071914512,0</coordinates>
