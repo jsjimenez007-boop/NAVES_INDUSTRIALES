@@ -40,6 +40,28 @@
 			<color>00d3f2c9</color>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="inline">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
 	<StyleMap id="inline177">
 		<Pair>
 			<key>normal</key>
@@ -62,6 +84,16 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="m_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
@@ -332,16 +364,6 @@
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin4</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin10">
 		<Pair>
 			<key>normal</key>
@@ -360,6 +382,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin2">
@@ -398,6 +430,22 @@
 		</LineStyle>
 		<PolyStyle>
 			<color>38ff5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Style id="s_ylw-pushpin005">
@@ -611,6 +659,22 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl00">
 		<IconStyle>
@@ -858,24 +922,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin4">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -917,6 +963,22 @@
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -995,8 +1057,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ffff00ff</color>
 			<width>2</width>
@@ -1035,6 +1095,1400 @@
 	<Folder>
 		<name>28-ENERO-2026</name>
 		<open>1</open>
+		<Folder>
+			<name>UBICADOS_CINCO</name>
+			<Document>
+				<name>UBICACION_INMUEBLES_290126(5).kmz</name>
+				<StyleMap id="m_ylw-pushpin0">
+					<Pair>
+						<key>normal</key>
+						<styleUrl>#s_ylw-pushpin0</styleUrl>
+					</Pair>
+					<Pair>
+						<key>highlight</key>
+						<styleUrl>#s_ylw-pushpin_hl01</styleUrl>
+					</Pair>
+				</StyleMap>
+				<Style id="s_ylw-pushpin0">
+					<IconStyle>
+						<scale>1.1</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+					<LineStyle>
+						<color>ffff00ff</color>
+						<width>2</width>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<Style id="s_ylw-pushpin_hl01">
+					<IconStyle>
+						<scale>1.3</scale>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+						</Icon>
+						<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+					</IconStyle>
+					<LineStyle>
+						<color>ffff00ff</color>
+						<width>2</width>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<Folder>
+					<name>Mis lugares</name>
+					<Style>
+						<ListStyle>
+							<listItemType>check</listItemType>
+							<ItemIcon>
+								<state>open</state>
+								<href>mysavedplaces_open_3.png</href>
+							</ItemIcon>
+							<ItemIcon>
+								<state>closed</state>
+								<href>mysavedplaces_closed_3.png</href>
+							</ItemIcon>
+							<bgColor>00ffffff</bgColor>
+							<maxSnippetLines>2</maxSnippetLines>
+						</ListStyle>
+					</Style>
+					<Placemark>
+						<name>PP018107</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9813011083438,32.45498794575836,0 -116.9802093572138,32.45551025979474,0 -116.9789887119111,32.45596475451894,0 -116.979750218857,32.45670370130703,0 -116.9805964653929,32.45629865549341,0 -116.9817800515887,32.45570741733329,0 -116.9813011083438,32.45498794575836,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>PP018107</name>
+						<LookAt>
+							<longitude>-116.9806701308013</longitude>
+							<latitude>32.45589906792129</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001064183386380843</heading>
+							<tilt>0.1141865899251638</tilt>
+							<range>540.5942516482617</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.980443686278,32.45589315026334,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>GY005001</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9079671281661,32.49493326052811,0 -116.9070540946689,32.49516836005035,0 -116.9064443235701,32.49530668819842,0 -116.9063866661152,32.49536478747599,0 -116.9063921137828,32.49569186696596,0 -116.9063289321327,32.49607265248716,0 -116.9081290767234,32.49595724680615,0 -116.9083698465755,32.49599417619363,0 -116.9079671281661,32.49493326052811,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>GY005001</name>
+						<LookAt>
+							<longitude>-116.9072632440169</longitude>
+							<latitude>32.49554538655147</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001136503371868572</heading>
+							<tilt>0.1359273191755061</tilt>
+							<range>351.1225533447454</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9072317238485,32.49560759128655,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>AI000106</name>
+						<description>SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9297592968945,32.50306090758082,0 -116.9291936162846,32.50196761346176,0 -116.9287457892871,32.50236801510229,0 -116.9284927010032,32.50256821152617,0 -116.9282865207045,32.50274447845167,0 -116.9281805089695,32.50300762459963,0 -116.9284562043226,32.50380207686503,0 -116.93012969337,32.50381343474176,0 -116.9297592968945,32.50306090758082,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>AI000106</name>
+						<description>SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.9290526978728</longitude>
+							<latitude>32.50304725718667</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0002148317227960762</heading>
+							<tilt>0.3324201325067692</tilt>
+							<range>318.8869427114536</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9290154177016,32.50316340127772,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ID042123</name>
+						<description>SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.911602883053,32.55225535967307,0 -116.9113705271716,32.55050187047776,0 -116.9101926576527,32.55059603433898,0 -116.9103814316372,32.55236168233895,0 -116.911602883053,32.55225535967307,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>ID042123</name>
+						<description>SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.9113182648527</longitude>
+							<latitude>32.55144422916516</latitude>
+							<altitude>0</altitude>
+							<heading>-3.180554681463516e-15</heading>
+							<tilt>0</tilt>
+							<range>528.0765280187394</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9109235761012,32.55144160275697,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ID042003</name>
+						<description>SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9117813305941,32.55224498644847,0 -116.912947392331,32.55214384359338,0 -116.9130366152686,32.55207122935818,0 -116.9130796872808,32.55197268187352,0 -116.9129073775319,32.55052300685794,0 -116.9115752002624,32.55063711782325,0 -116.9117813305941,32.55224498644847,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>ID042003</name>
+						<description>SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.9116659591701</longitude>
+							<latitude>32.55118560824327</latitude>
+							<altitude>0</altitude>
+							<heading>0.000153951935266846</heading>
+							<tilt>0</tilt>
+							<range>394.7679473057427</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9123722150758,32.55137045256808,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>PP007002</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9941907115626,32.47203436549987,0 -116.9942459221208,32.47226103034879,0 -116.9942805485904,32.47225713198588,0 -116.9943057871264,32.47244206601398,0 -116.9944206092252,32.47243271730304,0 -116.9943445999907,32.47300376564451,0 -116.9946021871236,32.47308072232155,0 -116.9948878949643,32.47323749166451,0 -116.995206796514,32.4734593289865,0 -116.9953133049546,32.47349289324384,0 -116.9954203592165,32.47350039053629,0 -116.9955020634471,32.47347432386031,0 -116.9956477860695,32.47336681301346,0 -116.9958659396933,32.47323132390181,0 -116.9961612875105,32.47305558927532,0 -116.9961756808123,32.47307756132599,0 -116.9962045470373,32.4730590393108,0 -116.9962204432453,32.47307407459383,0 -116.9963103429949,32.47307960272944,0 -116.9964218465158,32.47300059315251,0 -116.9950672180205,32.47165503668813,0 -116.9950960986919,32.47161406644793,0 -116.9949047667288,32.47124613254812,0 -116.9940722796626,32.47136334646767,0 -116.9941907115626,32.47203436549987,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>PP007002</name>
+						<LookAt>
+							<longitude>-116.9949057877459</longitude>
+							<latitude>32.47072539230972</latitude>
+							<altitude>0</altitude>
+							<heading>0.01758540984174872</heading>
+							<tilt>18.22379245667187</tilt>
+							<range>606.0041935714921</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9949770037242,32.47243033742048,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>FG000018</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9138514252076,32.46046003937895,0 -116.9144510411965,32.46204384401742,0 -116.9154843642738,32.46177720764086,0 -116.9155417106734,32.46173937531425,0 -116.9155986523647,32.46168709803996,0 -116.9158030246791,32.46115400389669,0 -116.9138514252076,32.46046003937895,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>FG000018</name>
+						<LookAt>
+							<longitude>-116.914657322461</longitude>
+							<latitude>32.46137456754374</latitude>
+							<altitude>0</altitude>
+							<heading>0.0001191562750084143</heading>
+							<tilt>2.512136787934424</tilt>
+							<range>215.4224481610238</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9148749752455,32.46127858908922,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ID105102</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9105282566055,32.54348132634867,0 -116.9098581578193,32.5435447898076,0 -116.910109227903,32.54573692715967,0 -116.91077156409,32.54567198461166,0 -116.9105282566055,32.54348132634867,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>ID105102</name>
+						<LookAt>
+							<longitude>-116.9113573698008</longitude>
+							<latitude>32.54481688843858</latitude>
+							<altitude>0</altitude>
+							<heading>0.002433061905589783</heading>
+							<tilt>9.053096983378255</tilt>
+							<range>408.0343044671579</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9103125496272,32.54465735733073,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>PP002003</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9956900253772,32.47661078645613,0 -116.9965518147151,32.47757874954925,0 -116.9971715784597,32.47749805794767,0 -116.9971669973868,32.47747221734284,0 -116.9980207134124,32.47736417730014,0 -116.9977107731568,32.4767329350619,0 -116.9973803257323,32.47621915345159,0 -116.997395078855,32.47620598850745,0 -116.9973634829558,32.47618557613843,0 -116.9973706410086,32.47614191000537,0 -116.9973870984646,32.47608633854306,0 -116.9974238881063,32.47599991799476,0 -116.9975077398504,32.47586567379344,0 -116.9972392202891,32.47538930522976,0 -116.9970182812508,32.47563009984895,0 -116.9968336539909,32.47586232864196,0 -116.9966012612423,32.47609735530267,0 -116.996381209496,32.47625292287341,0 -116.9956900253772,32.47661078645613,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>PP002003</name>
+						<LookAt>
+							<longitude>-116.9973369280043</longitude>
+							<latitude>32.47658956842326</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0002560521676281155</heading>
+							<tilt>30.00066132935948</tilt>
+							<range>145.6104401857389</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9968391962358,32.47664326826005,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>PP018125</name>
+						<description>SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9836056094154,32.45076204147109,0 -116.9840737607645,32.45043360438753,0 -116.9836553619495,32.45012021812365,0 -116.9837983305226,32.44928372589018,0 -116.9837115033692,32.44923169936647,0 -116.9836521717868,32.44881105507901,0 -116.9835119406825,32.44861777793125,0 -116.9833629377802,32.44846269708125,0 -116.9825497167497,32.44799141119013,0 -116.982445865445,32.44812044049998,0 -116.9833625166936,32.44865903796199,0 -116.9835907093351,32.44932930032516,0 -116.9835167332188,32.44983258090113,0 -116.9823108151558,32.44982396506656,0 -116.9822272570826,32.45116861822329,0 -116.9835843251236,32.45123077232503,0 -116.9836056094154,32.45076204147109,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>PP018125</name>
+						<description>SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.982335805677</longitude>
+							<latitude>32.4498188794345</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0002800000183373002</heading>
+							<tilt>4.653916554513607</tilt>
+							<range>365.4659408147706</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9829770265591,32.45046277624938,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ZA038101</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9125694304495,32.46532723448803,0 -116.9125462712549,32.46554662788483,0 -116.9125253813034,32.46591732651718,0 -116.91234543941,32.46611958099248,0 -116.9122098804191,32.46718799908803,0 -116.9126234875038,32.46741918431113,0 -116.9136146275018,32.46613060073604,0 -116.9130815308611,32.46583994126221,0 -116.9137022469018,32.4650283364701,0 -116.9128184004397,32.46457233983453,0 -116.9125694304495,32.46532723448803,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>ZA038101</name>
+						<LookAt>
+							<longitude>-116.9118778989634</longitude>
+							<latitude>32.46577161764313</latitude>
+							<altitude>0</altitude>
+							<heading>-7.951386703658793e-15</heading>
+							<tilt>0</tilt>
+							<range>663.9856969871173</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9128699357994,32.46605842535848,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>FD850106</name>
+						<description>UBICADO SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8877733053722,32.45187603542009,0 -116.8884131357877,32.45268106968368,0 -116.8903563127517,32.45162415529096,0 -116.8902469252973,32.45149237780486,0 -116.8900223776832,32.45131478812888,0 -116.8899323250635,32.45119577709006,0 -116.8898417777873,32.45095754593722,0 -116.889756177653,32.45077443306685,0 -116.8877733053722,32.45187603542009,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>FD850106</name>
+						<description>UBICADO SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.8889449278688</longitude>
+							<latitude>32.45240783461004</latitude>
+							<altitude>0</altitude>
+							<heading>-0.0003459748623884367</heading>
+							<tilt>0</tilt>
+							<range>567.4525457285118</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.8889341100684,32.45181323091297,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>FD000204</name>
+						<description>UBICADO SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8690025500798,32.4489187464529,0 -116.8690078067975,32.44894545270228,0 -116.8668004476674,32.44926174139471,0 -116.8661315118897,32.44934981748101,0 -116.8657740147235,32.44942782672538,0 -116.8654084091304,32.44952500643117,0 -116.8651917750694,32.44958105244405,0 -116.8654031141712,32.45081588164036,0 -116.8693458504799,32.4502426835314,0 -116.8693256987449,32.45013130356686,0 -116.8693364620972,32.45009709836903,0 -116.8691013577211,32.44890232356468,0 -116.8690025500798,32.4489187464529,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>FD000204</name>
+						<description>UBICADO SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.8655872559378</longitude>
+							<latitude>32.45031885362564</latitude>
+							<altitude>0</altitude>
+							<heading>-1.590277340731758e-14</heading>
+							<tilt>0</tilt>
+							<range>702.2651668345076</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.8674664812246,32.44983487626497,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>ID022070</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9076251905432,32.5413666039581,0 -116.9074180367158,32.54172825700704,0 -116.9074705799142,32.54214992946036,0 -116.9074905780206,32.54216705746716,0 -116.9075826379085,32.54245995955444,0 -116.9076749046998,32.54267851656605,0 -116.9078038149373,32.54258440230128,0 -116.908023864043,32.54247122189632,0 -116.9094905266056,32.54234251096329,0 -116.9093617589017,32.54121130273212,0 -116.9076251905432,32.5413666039581,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>ID022070</name>
+						<LookAt>
+							<longitude>-116.908210951879</longitude>
+							<latitude>32.54177580066656</latitude>
+							<altitude>0</altitude>
+							<heading>0.0002827295078941003</heading>
+							<tilt>0</tilt>
+							<range>482.7178382708481</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9085047744776,32.54189561914095,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>WR310003</name>
+						<description>UBICADO SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0296558124083,32.43005099607408,0 -117.0297104042159,32.42879004622327,0 -117.0288680125542,32.42890573510899,0 -117.0275510958238,32.42906754921209,0 -117.0270585553445,32.42968714442739,0 -117.0288726281718,32.43025319011269,0 -117.0296558124083,32.43005099607408,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>WR310003</name>
+						<description>UBICADO SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-117.0273330876302</longitude>
+							<latitude>32.42963836931764</latitude>
+							<altitude>0</altitude>
+							<heading>-3.180554681463516e-15</heading>
+							<tilt>0</tilt>
+							<range>472.6407719467881</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-117.0286451658376,32.42951347818286,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>OF152002</name>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8963416585497,32.4197980840792,0 -116.8962359503559,32.41977962319167,0 -116.8960500501434,32.41976423985284,0 -116.8960500497482,32.41969962316586,0 -116.8957511521874,32.41969654798783,0 -116.8957219916231,32.41974270286119,0 -116.8948471704339,32.41971500995535,0 -116.8947633333015,32.41973347145883,0 -116.8946940764314,32.41975500995279,0 -116.8945810780862,32.41981962586364,0 -116.8945118206389,32.4199088578216,0 -116.8944717238477,32.41999193600007,0 -116.8943477821583,32.42077964136112,0 -116.8960391254958,32.42106580165546,0 -116.8963416585497,32.4197980840792,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>OF152002</name>
+						<LookAt>
+							<longitude>-116.8952936937131</longitude>
+							<latitude>32.42045502376059</latitude>
+							<altitude>0</altitude>
+							<heading>-1.590277340731758e-15</heading>
+							<tilt>0</tilt>
+							<range>468.3900373943372</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.8953754140266,32.42037089863783,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>PP027201</name>
+						<description>SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9880438232209,32.45441910300904,0 -116.9876137480979,32.45486449183085,0 -116.9872553499734,32.45506244148054,0 -116.9872814154519,32.45530437874211,0 -116.9861475628653,32.45578824815476,0 -116.986023749269,32.45592571136449,0 -116.985554554349,32.4565085559673,0 -116.9868578443032,32.45707491938421,0 -116.9880959811753,32.45726736878235,0 -116.9894122643197,32.45490296021281,0 -116.9880438232209,32.45441910300904,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>PP027201</name>
+						<description>SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.9872325427802</longitude>
+							<latitude>32.45582399352745</latitude>
+							<altitude>0</altitude>
+							<heading>6.361109362927034e-15</heading>
+							<tilt>0</tilt>
+							<range>837.0155351012953</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9878172025099,32.45590310066812,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>AI026106</name>
+						<description>SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9301017798909,32.50538260783418,0 -116.9293794385541,32.50449019251123,0 -116.9283258530484,32.5047695589529,0 -116.9282890404209,32.5056930198625,0 -116.9301109881461,32.50575121736573,0 -116.9301017798909,32.50538260783418,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>AI026106</name>
+						<description>SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.9288158400551</longitude>
+							<latitude>32.50482582111796</latitude>
+							<altitude>0</altitude>
+							<heading>6.361109362927034e-15</heading>
+							<tilt>0</tilt>
+							<range>590.6428845036423</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.929088407296,32.5051119979041,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>PR034003</name>
+						<description>SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9280852075408,32.46921521730663,0 -116.9280544243839,32.46877010162383,0 -116.9279137348553,32.46882203358406,0 -116.9277950225338,32.46838804656232,0 -116.9275092453315,32.46813210724744,0 -116.9272938161831,32.46823596978435,0 -116.9272806270409,32.46831015607285,0 -116.9267926132259,32.46853271632912,0 -116.9274521051345,32.46973081525376,0 -116.927416933122,32.46980129217213,0 -116.9280104714967,32.46956389237999,0 -116.9280852075408,32.46921521730663,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>PR034003</name>
+						<description>SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.926566191959</longitude>
+							<latitude>32.46915402297651</latitude>
+							<altitude>0</altitude>
+							<heading>-6.361109362927033e-15</heading>
+							<tilt>0</tilt>
+							<range>564.6439875711472</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9275525278063,32.46886428435831,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>EC822201</name>
+						<description>SIN LIMITES CLAROS</description>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9127431225379,32.52747928292211,0 -116.9118838219755,32.52708805198851,0 -116.9112788702527,32.52775894215004,0 -116.9124079945866,32.52747638631341,0 -116.9124320552721,32.52753144862975,0 -116.9127499974161,32.52752999829895,0 -116.9127431225379,32.52747928292211,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>EC822201</name>
+						<description>SIN LIMITES CLAROS</description>
+						<LookAt>
+							<longitude>-116.912030761723</longitude>
+							<latitude>32.52745102919969</latitude>
+							<altitude>0</altitude>
+							<heading>-1.272221872585407e-14</heading>
+							<tilt>0</tilt>
+							<range>220.5744528734467</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<styleUrl>#m_ylw-pushpin0</styleUrl>
+						<Point>
+							<gx:drawOrder>1</gx:drawOrder>
+							<coordinates>-116.9119588874092,32.52741930812235,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+			</Document>
+		</Folder>
+		<Folder>
+			<name>UBICADOS_CUATRO</name>
+			<Folder>
+				<name>UBICADOS_CUATRO</name>
+				<Style>
+					<ListStyle>
+						<listItemType>check</listItemType>
+						<ItemIcon>
+							<state>open</state>
+							<href>mysavedplaces_open_4.png</href>
+						</ItemIcon>
+						<ItemIcon>
+							<state>closed</state>
+							<href>mysavedplaces_closed_4.png</href>
+						</ItemIcon>
+						<bgColor>00ffffff</bgColor>
+						<maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+				</Style>
+				<Placemark>
+					<name>XL324003</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.0401505799159,32.47313139956734,0 -117.0400852792668,32.47306889321662,0 -117.0382833023901,32.4730245600296,0 -117.0384829484798,32.4744170963197,0 -117.0400265797058,32.47446795877226,0 -117.0401766013398,32.47430407715478,0 -117.0401505799159,32.47313139956734,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>XL324003</name>
+					<LookAt>
+						<longitude>-117.0397009144226</longitude>
+						<latitude>32.47374602539442</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0004382533460521963</heading>
+						<tilt>0</tilt>
+						<range>370.4028083857556</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.03922677837,32.47377749672759,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ID104006</name>
+					<description>SIN LIMITES CLAROS</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.9085111768487,32.53425959484675,0 -116.9083896169985,32.5343572833002,0 -116.9082369367046,32.534452603506,0 -116.9080587867695,32.53453840369852,0 -116.9088140157229,32.5352920502749,0 -116.9096791383041,32.53466235545125,0 -116.9096845849612,32.53446213148143,0 -116.9085111768487,32.53425959484675,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>ID104006</name>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9083882025244</longitude>
+						<latitude>32.53472315471938</latitude>
+						<altitude>0</altitude>
+						<heading>0.000285685347896864</heading>
+						<tilt>0.1489452806657386</tilt>
+						<range>362.935268172367</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9088421552185,32.53474218012301,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PK061004</name>
+					<description>SIN LIMITES CLAROS</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.9001204306153,32.491130338377,0 -116.8999761257012,32.49003501763274,0 -116.8991601651386,32.49006020963328,0 -116.8976675569638,32.49117651558925,0 -116.8978367151141,32.49235156915016,0 -116.8997323837003,32.49295588107196,0 -116.8995582075763,32.4911765089895,0 -116.9001204306153,32.491130338377,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>PK061004</name>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.898192460619</longitude>
+						<latitude>32.49135906935108</latitude>
+						<altitude>0</altitude>
+						<heading>-3.180554681463516e-15</heading>
+						<tilt>0</tilt>
+						<range>638.8262865599311</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.898720347443,32.49172195519078,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FD855149</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8537350170006,32.46223895323218,0 -116.8536773859231,32.46228759188498,0 -116.8535289105158,32.46234998674535,0 -116.8534668406826,32.46227667257948,0 -116.8533706385051,32.46217717955696,0 -116.8533737386889,32.46212612596556,0 -116.8533659772239,32.46205151177639,0 -116.8527211212332,32.46131927269398,0 -116.8526442714067,32.46124637694277,0 -116.8525290086788,32.46125042672996,0 -116.8513617544236,32.46201391474943,0 -116.852923328057,32.4637882675294,0 -116.8543112709952,32.46289220559408,0 -116.8537350170006,32.46223895323218,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>FD855149</name>
+					<LookAt>
+						<longitude>-116.8521341357936</longitude>
+						<latitude>32.46232891966009</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0004326700131599259</heading>
+						<tilt>0</tilt>
+						<range>591.7341368130542</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8528167999864,32.46255646978079,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ID009007</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.9155441366857,32.54044766461783,0 -116.9144973381849,32.54053301000326,0 -116.9146423355996,32.54187208311553,0 -116.914682246529,32.54191719297069,0 -116.9147332064091,32.54194369179714,0 -116.9147824684323,32.54194870575775,0 -116.915702139659,32.54187409697793,0 -116.9155441366857,32.54044766461783,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>ID009007</name>
+					<LookAt>
+						<longitude>-116.9147872637644</longitude>
+						<latitude>32.54108256906698</latitude>
+						<altitude>0</altitude>
+						<heading>1.796041507048875e-05</heading>
+						<tilt>0.08991893783931072</tilt>
+						<range>479.7501754938806</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9151297398527,32.54126879249226,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ID040004</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.9092518059535,32.55073197094179,0 -116.9075716957483,32.55087492177338,0 -116.9076623978129,32.55193207767053,0 -116.9093701371485,32.55180574879521,0 -116.9092518059535,32.55073197094179,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>ID040004</name>
+					<LookAt>
+						<longitude>-116.909694696134</longitude>
+						<latitude>32.55124850493926</latitude>
+						<altitude>0</altitude>
+						<heading>0.002581500341783617</heading>
+						<tilt>11.27104062045672</tilt>
+						<range>361.1968292088097</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9086549440228,32.55135878584098,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TC082101</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.9868430744502,32.44513479507665,0 -116.9867643328026,32.44408295813647,0 -116.9867320158662,32.44401152621337,0 -116.9866279060158,32.44398523370184,0 -116.9855298450875,32.44461972350865,0 -116.9858111590635,32.44443392560789,0 -116.9852109480127,32.44487095218904,0 -116.9845811375985,32.44552710245718,0 -116.9845808421302,32.44555798657446,0 -116.9845895605478,32.44560434432607,0 -116.9845983224596,32.44564687219327,0 -116.9846757893475,32.44569717395058,0 -116.9857721041505,32.44631602098448,0 -116.9868430744502,32.44513479507665,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>TC082101</name>
+					<LookAt>
+						<longitude>-116.98566608145</longitude>
+						<latitude>32.44566815193874</latitude>
+						<altitude>0</altitude>
+						<heading>-3.434065099934004e-05</heading>
+						<tilt>1.320492011620841</tilt>
+						<range>291.6066504687768</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9858079130755,32.44524888866729,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FD850006</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8876545638282,32.44891084525059,0 -116.8864830204415,32.44741953219217,0 -116.8860995008534,32.44765356234529,0 -116.8859424950659,32.44779207626375,0 -116.8857541976496,32.44798931600669,0 -116.8854538747642,32.44825961520974,0 -116.8852872019368,32.44839827677158,0 -116.8851606136113,32.44848702458776,0 -116.885044074814,32.44855490939344,0 -116.8850330675384,32.4485889396078,0 -116.8850370263743,32.44862302832294,0 -116.8850608626933,32.44866144831458,0 -116.886091652729,32.44980430885846,0 -116.8876545638282,32.44891084525059,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>FD850006</name>
+					<LookAt>
+						<longitude>-116.8862408205854</longitude>
+						<latitude>32.44826171525857</latitude>
+						<altitude>0</altitude>
+						<heading>0.000375690045645657</heading>
+						<tilt>4.113014136741486</tilt>
+						<range>314.8890647319523</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8864164764565,32.4486806418204,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ID012001</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.9184316610909,32.53934033566293,0 -116.9184021709638,32.53904552201971,0 -116.918424682294,32.53904362211161,0 -116.9183390253618,32.53838417003882,0 -116.9178130184905,32.53844252435556,0 -116.9179142052073,32.53938409252219,0 -116.9184316610909,32.53934033566293,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>ID012001</name>
+					<LookAt>
+						<longitude>-116.9186463094943</longitude>
+						<latitude>32.53916552909921</latitude>
+						<altitude>0</altitude>
+						<heading>-7.951386703658792e-15</heading>
+						<tilt>0</tilt>
+						<range>184.676727214084</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9181458622798,32.53888923801446,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PP018129</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.982117518925,32.45331710948879,0 -116.9820069659899,32.45317806815664,0 -116.9818828945598,32.45303310692952,0 -116.9818215362506,32.45286933695473,0 -116.9817739910151,32.45265827118191,0 -116.981748331117,32.4524717509734,0 -116.9817062767372,32.45207080144618,0 -116.9802731213408,32.45205154189157,0 -116.9806968319377,32.45391943824558,0 -116.9810343309883,32.45413718311625,0 -116.981942881703,32.45333649905056,0 -116.9823820052513,32.45363633191344,0 -116.9829844946659,32.45394544771059,0 -116.9832191139641,32.45402713035644,0 -116.9832136660573,32.45397249931538,0 -116.9832479117563,32.45393774664842,0 -116.9829588324515,32.45382019712723,0 -116.9826648069103,32.45368772796223,0 -116.982407917844,32.45354189988423,0 -116.982117518925,32.45331710948879,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>PP018129</name>
+					<LookAt>
+						<longitude>-116.982834427904</longitude>
+						<latitude>32.45334372478187</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0009261768059433893</heading>
+						<tilt>16.46642431948698</tilt>
+						<range>431.9093900818028</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.981114621443,32.45294333196882,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PP015003</name>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.984889864618,32.46054283130322,0 -116.9831740537281,32.45983440393815,0 -116.9824650868249,32.46039887360438,0 -116.9826024205007,32.46073802754591,0 -116.982998835593,32.46094925409007,0 -116.9832884085891,32.46128238951846,0 -116.9834562223204,32.46147987198994,0 -116.9834518066681,32.46153203748738,0 -116.9839596660152,32.46173696940169,0 -116.9835125529947,32.46216063038582,0 -116.983685829366,32.46227173509888,0 -116.98417312402,32.46181958795007,0 -116.984889864618,32.46054283130322,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>PP015003</name>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9834082366757</longitude>
+						<latitude>32.46137298142644</latitude>
+						<altitude>0</altitude>
+						<heading>-6.361109362927034e-15</heading>
+						<tilt>0</tilt>
+						<range>617.0610659889821</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.98374119224,32.4608642775894,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FD854001</name>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8792254972015,32.44744380645535,0 -116.8735692381211,32.44825206961931,0 -116.8736904765524,32.44892114265048,0 -116.8793497435758,32.44809428795043,0 -116.8792254972015,32.44744380645535,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>FD854001</name>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.8740030179167</longitude>
+						<latitude>32.44943001640496</latitude>
+						<altitude>0</altitude>
+						<heading>-4.770832022195274e-15</heading>
+						<tilt>0</tilt>
+						<range>1314.830292867483</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8765335282678,32.44808496501748,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ID040334</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.917179959022,32.54584172612167,0 -116.9172947846755,32.54683521631456,0 -116.9185878953414,32.54673054569766,0 -116.9184782223072,32.54575022474728,0 -116.917179959022,32.54584172612167,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>ID040334</name>
+					<LookAt>
+						<longitude>-116.9171906730471</longitude>
+						<latitude>32.54657758313458</latitude>
+						<altitude>0</altitude>
+						<heading>0.0002991648996459411</heading>
+						<tilt>8.461527256968198</tilt>
+						<range>317.697383969915</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.917904836652,32.54628632872453,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RW048005</name>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.0350025709538,32.48629258614005,0 -117.034937331064,32.48627747992377,0 -117.034887441798,32.48627532205887,0 -117.0348349941916,32.4862850336457,0 -117.0347915010611,32.48630229846091,0 -117.0343815098211,32.4865255020065,0 -117.0343467912483,32.48821215508087,0 -117.0359959723536,32.48824248441247,0 -117.0361109642856,32.48670017877974,0 -117.0350025709538,32.48629258614005,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>RW048005</name>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-117.0333419758135</longitude>
+						<latitude>32.48773474681428</latitude>
+						<altitude>0</altitude>
+						<heading>-9.541664044390549e-15</heading>
+						<tilt>0</tilt>
+						<range>736.6007966323083</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.0352412820566,32.48735547044485,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ID041001</name>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.9165225729177,32.55024574317578,0 -116.9165286462057,32.55029709624953,0 -116.9165063410224,32.55046826621061,0 -116.916692836189,32.55175738044733,0 -116.91661500011,32.5517620271302,0 -116.9166210855766,32.55183269281572,0 -116.9181294978295,32.55169919520015,0 -116.9187272779348,32.55003629317239,0 -116.9165225729177,32.55024574317578,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>ID041001</name>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9167080324414</longitude>
+						<latitude>32.55190014127461</latitude>
+						<altitude>0</altitude>
+						<heading>0.000125603346025822</heading>
+						<tilt>14.29478269804326</tilt>
+						<range>670.7479517889676</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9173893430239,32.55094084012265,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FD651707</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8582806918982,32.44109160331055,0 -116.8590616488556,32.4402520291186,0 -116.8588245658854,32.44016964617877,0 -116.8586804575375,32.44013826297104,0 -116.8584805662109,32.44011080362878,0 -116.8582806756681,32.44009903672237,0 -116.8578994904949,32.44010688721691,0 -116.8569604768708,32.44015397011987,0 -116.8565792933139,32.44019320160385,0 -116.8551893565024,32.44053058440782,0 -116.8553055689896,32.44072674528103,0 -116.8554031908329,32.44070713042795,0 -116.8556123736861,32.44107983535357,0 -116.8559749707785,32.44084052353067,0 -116.8576205803899,32.44073852149094,0 -116.8582806918982,32.44109160331055,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>FD651707</name>
+					<LookAt>
+						<longitude>-116.8568558838604</longitude>
+						<latitude>32.4404776323201</latitude>
+						<altitude>0</altitude>
+						<heading>-1.113194138512231e-14</heading>
+						<tilt>0</tilt>
+						<range>597.2028909737645</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8568632794482,32.44047734361647,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ID027015</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.9178213327087,32.53092548298983,0 -116.9161703550411,32.52993129911712,0 -116.9144495819981,32.53014851749523,0 -116.9143141004284,32.53087759502458,0 -116.9145499424104,32.53099543577017,0 -116.9176029850213,32.53131214373641,0 -116.9178213327087,32.53092548298983,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>ID027015</name>
+					<LookAt>
+						<longitude>-116.9160895522219</longitude>
+						<latitude>32.53091628077374</latitude>
+						<altitude>0</altitude>
+						<heading>0.005463970606389127</heading>
+						<tilt>0.01610488817794154</tilt>
+						<range>560.5464511379877</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9161619751759,32.53068780118148,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FD191003</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.862959246126,32.44529402060429,0 -116.861979013253,32.44605727585965,0 -116.8619335379071,32.44611270754872,0 -116.861928484258,32.44621077960764,0 -116.8619739584588,32.44629606000017,0 -116.8631815738534,32.44747292696184,0 -116.8633028420794,32.44750277475543,0 -116.8643740306883,32.44668834164054,0 -116.862959246126,32.44529402060429,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>FD191003</name>
+					<LookAt>
+						<longitude>-116.862825349165</longitude>
+						<latitude>32.44656682689325</latitude>
+						<altitude>0</altitude>
+						<heading>-1.590277340731758e-14</heading>
+						<tilt>0</tilt>
+						<range>649.0839376826318</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.8631201399492,32.44644729133669,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PP027062</name>
+					<description>SIN LIMITES CLAROS</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.985761954242,32.45955497650224,0 -116.9857408826814,32.45939775282638,0 -116.985780305583,32.45926227942685,0 -116.985838004826,32.45915338758633,0 -116.9859260184989,32.45907589613769,0 -116.9859846670068,32.45902951568418,0 -116.986073031023,32.45898322147826,0 -116.9857244775094,32.45884483289994,0 -116.9847016486596,32.4586817815179,0 -116.9853832611582,32.45722749776543,0 -116.9856149076408,32.45697515498585,0 -116.9852928979292,32.45684759889102,0 -116.9845932708025,32.45758911823973,0 -116.9843566174847,32.45746313002415,0 -116.9842804249606,32.45755997704372,0 -116.9845231113484,32.45769622433608,0 -116.9843161531079,32.45806987185934,0 -116.9846203600339,32.45816418957869,0 -116.9843688293037,32.45877843519249,0 -116.9842568490642,32.45926223121472,0 -116.9841045936099,32.45943429847189,0 -116.9840127248224,32.45953915374547,0 -116.9838481492205,32.45963389237763,0 -116.9837493294924,32.45973957629602,0 -116.9852021181677,32.46044833453031,0 -116.9854352854999,32.45995767137111,0 -116.9855075717891,32.45990965170215,0 -116.9856466627302,32.45987236774294,0 -116.9859873573809,32.45990433556352,0 -116.985761954242,32.45955497650224,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>PP027062</name>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9847817007605</longitude>
+						<latitude>32.45841159269755</latitude>
+						<altitude>0</altitude>
+						<heading>0.002282996171337714</heading>
+						<tilt>7.877432886699856</tilt>
+						<range>757.4023911239925</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9848161860066,32.45910528632725,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FD854134</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8714229291398,32.45580828479335,0 -116.8711730303593,32.4555893208415,0 -116.8708750762786,32.4553216977831,0 -116.8706347861596,32.454778334225,0 -116.8706732375189,32.45511895228046,0 -116.8703272398797,32.45530548690174,0 -116.8683665710617,32.45623003186506,0 -116.8675976694539,32.45666796564991,0 -116.8646180788122,32.4579330832287,0 -116.8652523885488,32.45904418455792,0 -116.8688471341029,32.45749518655334,0 -116.8685780166087,32.45714645733617,0 -116.8714229291398,32.45580828479335,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>FD854134</name>
+					<LookAt>
+						<longitude>-116.8686404900873</longitude>
+						<latitude>32.45576371052475</latitude>
+						<altitude>0</altitude>
+						<heading>-7.951386703658792e-15</heading>
+						<tilt>0</tilt>
+						<range>1234.529878229345</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.868126360305,32.45697130312744,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TC016121</name>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.9819011835664,32.44426735883973,0 -116.9815976614474,32.44408805406901,0 -116.9809526643711,32.4447604366965,0 -116.981313098797,32.44497176178465,0 -116.9819011835664,32.44426735883973,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>TC016121</name>
+					<LookAt>
+						<longitude>-116.9818841093385</longitude>
+						<latitude>32.44449308881305</latitude>
+						<altitude>0</altitude>
+						<heading>0.0002218572740070331</heading>
+						<tilt>0</tilt>
+						<range>487.39849100565</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9814142593417,32.44452662270481,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
 		<Folder>
 			<name>UBICADOS_TRES</name>
 			<Placemark>
@@ -1985,6 +3439,17 @@
 		</Folder>
 		<Folder>
 			<name>NO_VOLAR_RADIO</name>
+			<Placemark>
+				<name>EST_6_4KM</name>
+				<open>1</open>
+				<styleUrl>#inline</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-116.9983510136461,32.48691874092097,227.1428920334411 -116.9986427375748,32.48379448829386,250.9678279274651 -116.9992561320344,32.48070357079965,230.0611664783677 -117.0001864965119,32.47766950914888,175.5374906485872 -117.0014267203977,32.4747153890509,239.0475358263007 -117.0029673380007,32.4718636857162,210.2019749777673 -117.0047966013863,32.46913609306746,240.1413480084662 -117.0069005704611,32.4665533589512,266.1077707394238 -117.0092632195979,32.46413512759392,289.6841174972782 -117.0118665599724,32.46189979049089,285.0833559998892 -117.0146907766716,32.45986434685008,303.530323674807 -117.0177143795235,32.4580442746406,306.0997782159665 -117.020914366499,32.45645341321404,278.9676745726097 -117.0242663984491,32.45510385837917,269.574027531651 -117.0277449838563,32.45400587071622,330.3646879702138 -117.0313236722097,32.45316779781745,280.307133056489 -117.0349752545516,32.45259601103512,250.048153219304 -117.0386719696915,32.45229485721047,256.6804243384047 -117.0423857145467,32.45226662574384,227.2112195036607 -117.0460882570353,32.45251153125213,242.9334690680155 -117.0497514499324,32.4530277119431,207.6454308744817 -117.053347444093,32.45381124371865,236.9396142904214 -117.0568488994488,32.45485616990153,255.5206531552652 -117.0602291922025,32.45615454636403,241.1377933366039 -117.0634626166695,32.45769650172078,217.485712057762 -117.0665245802547,32.45947031213613,214.0373656685617 -117.0693917901015,32.46146249018652,187.6670328109468 -117.0720424300072,32.46365788711253,214.0973274625225 -117.0744563262713,32.46603980769466,224.863536989419 -117.0766151012184,32.46859013689123,204.9653175824449 -117.0785023132299,32.47128947728769,115.1456209733456 -117.0801035822124,32.47411729632415,210.5954484070755 -117.0814066995395,32.47705208219277,156.9438742776914 -117.0824017216143,32.48007150723019,194.2651907331394 -117.0830810463214,32.48315259757162,167.866653323043 -117.083439471764,32.48627190778368,200.1372469279133 -117.0834742368105,32.48940569915425,215.2165554982097 -117.0831850431162,32.49253012028657,176.5965928539468 -117.082574058419,32.49562138862601,181.7602440476509 -117.0816459010543,32.49865597153815,175.562062686213 -117.0804076057761,32.50161076555793,173.0161064516012 -117.0788685711146,32.50446327244155,181.6619370938494 -117.0770404886435,32.50719177067459,201.0432637780645 -117.0749372546708,32.50977548112317,181.6084338795416 -117.0725748650049,32.51219472555697,135.3256973014093 -117.0699712935803,32.51443107682689,128.7284741256374 -117.0671463558553,32.51646749954151,149.5583001721056 -117.0641215580156,32.51828848015897,168.1973833051797 -117.0609199331295,32.5198801454909,187.7836501581329 -117.0575658655086,32.52123036870337,146.7529209956475 -117.0540849046185,32.5223288619955,126.6828305657175 -117.0505035699734,32.52316725523875,105.8927328481346 -117.0468491485161,32.5237391599682,86.53105343825609 -117.0431494860532,32.52404021822985,70.28302909441712 -117.0394327743559,32.5240681359054,55.33104506451975 -117.0357273355784,32.52382270025623,55.63703204021338 -117.0320614056658,32.52330578155023,39.23624091948718 -117.0284629184294,32.52252131875917,34.40212891827208 -117.0249592919657,32.52147528943734,35.22933091536504 -117.0215772190744,32.52017566401509,37.53394933157038 -117.0183424632965,32.51863234486165,37.68529599419603 -117.0152796621505,32.51685709058921,35.00970054547258 -117.0124121390851,32.51486342618462,37.61268745606792 -117.0097617255942,32.51266653966393,42.9763458240865 -117.0073485948606,32.51028316604869,56.57880980117883 -117.0051911082005,32.50773145956015,65.92766560371446 -117.0033056754758,32.50503085501736,79.83916527829625 -117.001706630535,32.50220191950676,87.78565729582618 -117.0004061226167,32.49926619546537,98.58307281754574 -116.9994140245298,32.4962460363826,139.4039059617345 -116.998737858287,32.49316443638195,188.5750894330523 -116.9983827387364,32.49004485498804,208.8777244775774 -116.9983510136461,32.48691874092097,227.1428920334411 
+					</coordinates>
+				</LineString>
+			</Placemark>
 			<Placemark>
 				<name>EST_11_4KM</name>
 				<styleUrl>#inline177</styleUrl>
@@ -3327,7 +4792,6 @@
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
 					<styleUrl>#msn_ylw-pushpin11</styleUrl>
-					<gx:balloonVisibility>1</gx:balloonVisibility>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>-116.9050865495396,32.53132944634753,0</coordinates>
