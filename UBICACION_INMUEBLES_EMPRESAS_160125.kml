@@ -61,26 +61,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="dji_style_Point2D8CF0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#dji_style_Point2D8CF03</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#dji_style_Point2D8CF02</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="dji_style_Point2D8CF00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#dji_style_Point2D8CF01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#dji_style_Point2D8CF05</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="dji_style_Point2D8CF05">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -102,6 +82,26 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="dji_style_Point2D8CF00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dji_style_Point2D8CF01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dji_style_Point2D8CF05</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="dji_style_Point2D8CF0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dji_style_Point2D8CF03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dji_style_Point2D8CF02</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="dji_style_Point2D8CF001">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -250,17 +250,91 @@
 			<styleUrl>#dji_style_Point2D8CF001</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="dji_style_PointE23C39">
+	<StyleMap id="dji_style_PointE23C394">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#dji_style_PointE23C390</styleUrl>
+			<styleUrl>#dji_style_PointE23C3900</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#dji_style_PointE23C391</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="dji_style_PointE23C393">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff393ce2</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="dji_style_PointE23C39">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff393ce2</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="dji_style_PointE23C392">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dji_style_PointE23C393</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dji_style_PointE23C39</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="dji_style_PointE23C390">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="dji_style_PointE23C3902">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dji_style_PointE23C390</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dji_style_PointE23C3901</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="dji_style_PointE23C3901">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="dji_style_PointE23C3900">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -20419,15 +20493,991 @@
 		</Folder>
 		<Folder>
 			<name>VUELOS_SIMM</name>
-			<visibility>0</visibility>
+			<Folder>
+				<name>VOLADAS6-2-2026</name>
+				<open>1</open>
+				<Folder>
+					<name>VOLADAS</name>
+					<open>1</open>
+					<Placemark>
+						<name>FD651554</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8585050335726,32.44506195265959,104.9901112602714</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>EC352010</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8913768776046,32.50857625201955,129.7773768638835</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>MT091020</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.007342976802,32.47289030152731,228.7625892544229</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>MT091020</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.006638761821,32.47279592248474,227.1390826951526 -117.0076742338183,32.47323831945305,221.0625161027935 -117.0080868245997,32.47295985175663,226.269644192477 -117.0068197694478,32.47246131609241,227.18454375472 -117.006638761821,32.47279592248474,227.1390826951526 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>MT091051</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.0075877199936,32.47261965287088,231.2807910633359</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>MT091051</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0069368925454,32.4722794158073,225.519414433085 -117.0068197706865,32.47246131575334,227.1845376781874 -117.0080868248454,32.472959851653,226.2696438397789 -117.0082465359612,32.47279366965324,228.5094542338906 -117.0069368925454,32.4722794158073,225.519414433085 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>MZ065005</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8466893900552,32.51178634190841,172.1944950428782</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>RW047001</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.0341659040278,32.48639050742091,204.7598610554713</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>RW047001</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0342115835262,32.48617187679977,204.2985318165745 -117.0338701444037,32.48659912318716,198.6421869308186 -117.0339492859662,32.48661819683172,201.0551337713811 -117.0339899874531,32.48657814247854,201.7710394609093 -117.0340329499949,32.48660293809935,203.0152394456895 -117.0343427323244,32.48640266606984,209.2257050013866 -117.0344015226698,32.48625389261596,209.5979150850712 -117.0342115835262,32.48617187679977,204.2985318165745 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>RW061024</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.0366229162845,32.4823032487886,227.0976460020835</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>RW061024</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0365878889186,32.48204653869632,226.3752031277346 -117.0363873809734,32.48282697988768,224.9746034524161 -117.0364960403934,32.48245027419186,227.618413092302 -117.0366521945782,32.48247841721444,227.3200711456009 -117.0365682820891,32.48279274535745,225.0921706967734 -117.0366469009265,32.4825414715392,226.8647504953924 -117.0367719138747,32.48208586634686,226.355777116397 -117.0365878889186,32.48204653869632,226.3752031277346 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>MZ065005</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8463887179886,32.51182711197738,175.2765312484576 -116.8467322541639,32.51203730016005,169.7918184767902 -116.8469861715609,32.51174917689802,169.1288079606793 -116.8466389017401,32.5115319045133,174.7098301009941 -116.8463887179886,32.51182711197738,175.2765312484576 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>PP007018</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.9909757049352,32.4717174441956,235.6624876028657</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>PP007018</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.9905026265328,32.47160423711716,246.2254059530406 -116.9913995715608,32.47196543249173,224.7943821466355 -116.9914712310353,32.47183304016666,226.2571506175979 -116.9905762484761,32.47147350481121,246.6280959476852 -116.9905026265328,32.47160423711716,246.2254059530406 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>MZ302002</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8864645681845,32.51209013501345,149.610622597427</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>MZ302002</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8863784159615,32.51192878498384,149.8225831812493 -116.8863698352699,32.51228877155388,150.6656042490982 -116.8865285783219,32.51228877145916,149.6252655765824 -116.8865307230219,32.51193059383028,148.8283770449495 -116.8863784159615,32.51192878498384,149.8225831812493 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>FD193001</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8633362389388,32.4442463613942,83.11748454760965</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>FD193001</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8637545741772,32.44443862234883,83.74352343593348 -116.8639688730791,32.44438620123193,82.67288213494965 -116.8642204420217,32.44437833663407,80.81838871394577 -116.8632669663428,32.44404023022317,81.61794017131368 -116.8627886788266,32.44383579047869,81.72734766069944 -116.8625836989417,32.44371260171193,82.06747620306857 -116.8623911421106,32.44359203344071,82.36373214505264 -116.8623445556702,32.44357892792799,82.56408574697949 -116.8634471020307,32.44460636756641,86.44410026059447 -116.863543381193,32.44452511617379,84.89751713118191 -116.8637545741772,32.44443862234883,83.74352343593348 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>EC352010</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8914437340835,32.50848917849952,129.6233651169338 -116.8913205425161,32.5084800657126,129.8724726121741 -116.8912946078447,32.50870060162607,129.5042224924441 -116.8914232028262,32.50870880318692,129.1935042488435 -116.8914437340835,32.50848917849952,129.6233651169338 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>FD651554</name>
+						<styleUrl>#dji_style_PointE23C392</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8587736810262,32.44512538261395,101.5543311517685 -116.8587957209435,32.44507888307811,101.6860724568369 -116.8588006185045,32.44503445023807,101.9884883444367 -116.8587859248503,32.44498588417758,102.5379865801128 -116.8587638845185,32.44494145143462,103.1346173551886 -116.8585936857015,32.44478748703873,106.2267836455107 -116.8581112529399,32.44512641630857,108.6837598576194 -116.8583965501275,32.4454012802115,103.0109080597332 -116.8587406209798,32.44516051563999,101.6339974397516 -116.8587736810262,32.44512538261395,101.5543311517685 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+			</Folder>
+			<Folder>
+				<name>VOLADAS5-2-2026</name>
+				<Folder>
+					<name>VOLADAS</name>
+					<Placemark>
+						<name>VR010001</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.0309421304282,32.48999076629551,193.306770777529</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>VR010001</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0312288596984,32.48996545973267,191.6928592881264 -117.0307434649077,32.48981067592296,193.939302258817 -117.0306586182858,32.49003203097872,195.0785272096805 -117.0311380946416,32.49017849295594,193.91034783953 -117.0312288596984,32.48996545973267,191.6928592881264 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>FD651584</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8582287806651,32.44483611284394,109.7797225347757</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>FD651584</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8585963667974,32.44485054631083,105.6923959465754 -116.8583352455736,32.44454435959339,110.9969175597026 -116.8578322449026,32.44481575220747,116.550754401357 -116.8581071083501,32.44514745574181,108.578424743093 -116.8585963667974,32.44485054631083,105.6923959465754 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>FD651708</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.860021193636,32.44152734866783,89.01253107572094</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>FD651708</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8612149061825,32.44211102645379,83.8789132162495 -116.8611765297643,32.44210697852632,83.89365504846332 -116.8610949798598,32.44209483428978,83.93788219895075 -116.8609990383188,32.44204220653712,84.12954311810562 -116.8609270810253,32.44192480480428,84.55709935768462 -116.8609126878555,32.4417912091442,85.0436310013566 -116.8609462657294,32.44171429000893,85.32375681748918 -116.8610949718291,32.44164141790674,85.58914405864437 -116.8611957081319,32.44158878798414,85.78081288031102 -116.8610469964944,32.4413013562825,86.82758803870931 -116.8608503175358,32.44108679547806,87.85140261376279 -116.8600492238619,32.44067386887869,87.42266879561059 -116.85961750014,32.44042691928147,87.6020968851812 -116.8590562610553,32.44025688568537,87.7256395175843 -116.8582935405585,32.44109894001174,89.79750490655334 -116.8607304149418,32.44269399581793,86.06926458501189 -116.8611237794129,32.44291665418628,85.64746950022192 -116.8612964702359,32.44273447516659,83.83143563506758 -116.8611813316087,32.44234583214636,83.5034999007889 -116.8612149061825,32.44211102645379,83.8789132162495 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>JB102008</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.0312246681414,32.47594480815125,224.9990394140779</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>JB102008</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0314020050061,32.47586080581598,221.4095786953132 -117.0312897406396,32.47581789151995,221.7922838938663 -117.0308143718136,32.47599694905074,230.3239153683196 -117.0310003096029,32.4760665004327,229.8434192381776 -117.0314248095556,32.47605170171234,224.8483129628584 -117.0315265485199,32.47590224013918,220.8636083501286 -117.0314020050061,32.47586080581598,221.4095786953132 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>JB102006</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.031565292701,32.47614318812277,224.6048987970225</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>JB102006</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0316233000059,32.47594476723859,220.3762996605355 -117.0315812207349,32.47591389910605,220.3886515582419 -117.0315245054206,32.47590309544583,220.9027505756691 -117.0314677906106,32.47598798356346,223.1710187365617 -117.0314220527514,32.4760481769378,224.8228631458056 -117.031454985668,32.47632753522205,228.8733838078433 -117.0317147799409,32.47637846712114,225.9855932521693 -117.0316452544443,32.47596637495997,220.4660256453662 -117.0316233000059,32.47594476723859,220.3762996605355 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>FD852005</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8798308332162,32.44869257241818,71.52800745182184</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>FD852005</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8801942220494,32.44906933199895,72.51420912655179 -116.880016226993,32.44814014239821,75.7448885923522 -116.8795401880538,32.44821349605181,74.62445812987335 -116.8794863674196,32.4491601517014,71.4471490218302 -116.8801942220494,32.44906933199895,72.51420912655179 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>FD651614</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8579208113646,32.44448394030747,117.596126713251</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>FD651614</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8580183907652,32.44421300753379,119.2768593389178 -116.857493209539,32.44455873834798,124.7819132453813 -116.8577801640326,32.44482527212786,117.4226841579468 -116.8582891029909,32.44448106315851,112.2108223444512 -116.8580183907652,32.44421300753379,119.2768593389178 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>RW047002</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.0347191867034,32.48591223674895,213.8298941760573</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>RW047002</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0349310567063,32.48539448755407,212.7713172563144 -117.034761240936,32.4855427297141,211.7523806405455 -117.0345519328097,32.48590583810967,210.7878893464753 -117.0343406480043,32.48641219131378,209.2434735730425 -117.0348698468013,32.48613402957692,217.6383841917341 -117.0349310567063,32.48539448755407,212.7713172563144 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>JB101004</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.031298740088,32.4747179155511,211.7386699207424</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>JB101004</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0308811962173,32.47483009835347,215.7823077034116 -117.0311026386962,32.4750522955415,217.3336929736134 -117.0317149604761,32.47458101069748,203.6948963412489 -117.0314750642992,32.47448901921983,205.8369449785307 -117.0314515779805,32.4744677902568,205.7039907920776 -117.0308811962173,32.47483009835347,215.7823077034116 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>RW048003</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.0338681574425,32.48712129840023,202.5591675234212</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>RW048003</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.0336861503943,32.48692692226888,196.1068582689988 -117.0337191213014,32.48734827037855,201.7146471879802 -117.0340026758304,32.48732880205398,205.8878581489595 -117.0339730005216,32.48675309840136,202.6247471679498 -117.0336861503943,32.48692692226888,196.1068582689988 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>JB101006</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-117.030308784942,32.47403255150823,207.6746574880841</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>JB101006</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-117.03069668734,32.47406421466375,204.6660989699474 -117.0304294392927,32.47397654242067,205.7235583041491 -117.0300823335401,32.47384107427179,206.9737181384275 -117.0296038474395,32.47360160755355,208.7152427895448 -117.029527613663,32.47365634204065,211.8383201369045 -117.0299687942604,32.47393685998934,211.9395633569266 -117.0305123758012,32.47445460110539,211.9407988464047 -117.030916295491,32.47418662271036,205.3831083672866 -117.03069668734,32.47406421466375,204.6660989699474 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>MW151033</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8736840908438,32.47726553767455,110.4155102180293</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>MW151033</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.873359229542,32.47740683095611,110.5688491397799 -116.8740347243676,32.47745362129468,109.815885607612 -116.8740426475429,32.47736505226552,109.8169419551078 -116.8734087530215,32.47695228837501,113.3159564369581 -116.873359229542,32.47740683095611,110.5688491397799 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>EV015001</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>true</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Point>
+							<coordinates>-116.8644522873566,32.48754000485098,142.1478978055602</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>EV015001</name>
+						<styleUrl>#dji_style_PointE23C3902</styleUrl>
+						<ExtendedData>
+							<Data name="color" type="string">
+								<value>#E23C39</value>
+							</Data>
+							<Data name="clampToGround" type="boolean">
+								<value>false</value>
+							</Data>
+							<Data name="is3d" type="boolean">
+								<value>false</value>
+							</Data>
+						</ExtendedData>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-116.8641350517703,32.48750035200943,142.4837921955812 -116.8643835266936,32.48779978800334,143.9506263344203 -116.8647841370453,32.4875752037533,141.8951597118065 -116.86455591722,32.48727475304526,140.2585330365065 -116.8641350517703,32.48750035200943,142.4837921955812 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+			</Folder>
 			<Folder>
 				<name>VOLADAS04-02-2026</name>
-				<visibility>0</visibility>
-				<open>1</open>
 				<Placemark>
 					<name>XL321033</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20446,8 +21496,7 @@
 				</Placemark>
 				<Placemark>
 					<name>XL321033</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20471,8 +21520,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RW048004</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20491,8 +21539,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RW048004</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20516,8 +21563,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD000024</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20536,8 +21582,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD000024</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20561,8 +21606,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD000975</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20581,8 +21625,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD000975</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20606,8 +21649,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD651632</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20626,8 +21668,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD651632</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20651,8 +21692,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD851103</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20671,8 +21711,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD851103</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20696,8 +21735,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GY001004</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20716,8 +21754,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GY001004</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20741,8 +21778,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP007009</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20761,8 +21797,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP007009</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20786,8 +21821,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP012104</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20806,8 +21840,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP012104</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20831,8 +21864,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB101002</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20851,8 +21883,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB101002</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20876,8 +21907,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB101007</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20896,8 +21926,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB101007</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20921,8 +21950,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB102005</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20941,8 +21969,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB102005</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20966,8 +21993,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091023</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -20986,8 +22012,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091023</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21011,8 +22036,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091025</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21031,8 +22055,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091025</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21056,8 +22079,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OF262897</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21076,8 +22098,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OF262897</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21101,8 +22122,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RW079004</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21121,8 +22141,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RW079004</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21146,8 +22165,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP025201</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21166,8 +22184,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP025201</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21191,8 +22208,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091012</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21211,8 +22227,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091012</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21236,8 +22251,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091016</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21256,8 +22270,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091016</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21281,8 +22294,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091024</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21301,8 +22313,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091024</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21326,8 +22337,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MZ303001</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21346,8 +22356,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MZ303001</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21371,8 +22380,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB101003</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21396,8 +22404,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB101003</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21416,8 +22423,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091022</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21436,8 +22442,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091022</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21461,8 +22466,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OF007015</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21481,8 +22485,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OF007015</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21506,8 +22509,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BZ004001</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21526,8 +22528,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD000016</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21546,8 +22547,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD000016</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21571,8 +22571,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OF000502</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21591,8 +22590,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OF000502</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21616,8 +22614,7 @@
 				</Placemark>
 				<Placemark>
 					<name>EV040010</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21636,8 +22633,7 @@
 				</Placemark>
 				<Placemark>
 					<name>EV040010</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21661,8 +22657,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OF000532</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21681,8 +22676,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091019</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21701,8 +22695,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP007006</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21721,8 +22714,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP007006</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21746,8 +22738,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RW048002</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21766,8 +22757,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RW048002</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21791,8 +22781,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP007038</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21811,8 +22800,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP007038</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21836,8 +22824,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP018201</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21861,8 +22848,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MT091019</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21886,8 +22872,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GY001003</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21906,8 +22891,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GY001003</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21931,8 +22915,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GY014001</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21951,8 +22934,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GY014001</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -21976,8 +22958,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OF000532</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -22001,8 +22982,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP018201</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -22021,8 +23001,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD857101</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -22041,8 +23020,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB106008</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -22066,8 +23044,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JB106008</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -22086,8 +23063,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FD857101</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -22111,8 +23087,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BZ004001</name>
-					<visibility>0</visibility>
-					<styleUrl>#dji_style_PointE23C39</styleUrl>
+					<styleUrl>#dji_style_PointE23C394</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#E23C39</value>
@@ -22137,15 +23112,11 @@
 			</Folder>
 			<Folder>
 				<name>Naves Industriales y Comerci</name>
-				<visibility>0</visibility>
-				<open>1</open>
 				<Folder>
 					<name>VOLADAS</name>
-					<visibility>0</visibility>
 					<open>1</open>
 					<Placemark>
 						<name>Simm_2 113</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22170,7 +23141,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000505</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22189,7 +23159,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000204</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22214,7 +23183,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID012007</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22233,7 +23201,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID012007</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22258,7 +23225,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD850006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22277,7 +23243,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM893068</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22296,7 +23261,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM893068</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22321,7 +23285,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB101008</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22340,7 +23303,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB101008</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22365,7 +23327,6 @@
 					</Placemark>
 					<Placemark>
 						<name>Simm_2 123</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22390,7 +23351,6 @@
 					</Placemark>
 					<Placemark>
 						<name>Simm_2 124</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22415,7 +23375,6 @@
 					</Placemark>
 					<Placemark>
 						<name>Simm_2 126</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22440,7 +23399,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID101001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22465,7 +23423,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID101001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22484,7 +23441,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD851201</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22503,7 +23459,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000021</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22522,7 +23477,6 @@
 					</Placemark>
 					<Placemark>
 						<name>EV611401</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22541,7 +23495,6 @@
 					</Placemark>
 					<Placemark>
 						<name>EV611401</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22566,7 +23519,6 @@
 					</Placemark>
 					<Placemark>
 						<name>EV611402</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22585,7 +23537,6 @@
 					</Placemark>
 					<Placemark>
 						<name>EV611402</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22610,7 +23561,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000021</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22635,7 +23585,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD651707</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22654,7 +23603,6 @@
 					</Placemark>
 					<Placemark>
 						<name>11760.45	5211.5</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22679,7 +23627,6 @@
 					</Placemark>
 					<Placemark>
 						<name>AO000315</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22698,7 +23645,6 @@
 					</Placemark>
 					<Placemark>
 						<name>AO000315</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22723,7 +23669,6 @@
 					</Placemark>
 					<Placemark>
 						<name>BZ004005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22742,7 +23687,6 @@
 					</Placemark>
 					<Placemark>
 						<name>BZ004005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22767,7 +23711,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY002001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22792,7 +23735,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD852208</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22811,7 +23753,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM000402</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22830,7 +23771,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM000402</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22855,7 +23795,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM893078</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22874,7 +23813,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM893078</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22899,7 +23837,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD850006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22924,7 +23861,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY000016</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22943,7 +23879,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD854134</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22962,7 +23897,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD651707</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -22987,7 +23921,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD656033</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23006,7 +23939,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD656033</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23031,7 +23963,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD854134</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23056,7 +23987,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY000016</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23081,7 +24011,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY001002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23100,7 +24029,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY001002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23125,7 +24053,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY002001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23144,7 +24071,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY004061</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23163,7 +24089,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY004061</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23188,7 +24113,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY005001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23207,7 +24131,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY005001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23232,7 +24155,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000138</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23251,7 +24173,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY014003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23270,7 +24191,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY014003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23295,7 +24215,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY014032</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23314,7 +24233,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY014032</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23339,7 +24257,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY014062</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23358,7 +24275,6 @@
 					</Placemark>
 					<Placemark>
 						<name>GY014062</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23383,7 +24299,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000138</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23408,7 +24323,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID035017</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23427,7 +24341,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID035017</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23452,7 +24365,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID023008</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23471,7 +24383,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID023008</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23496,7 +24407,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID027015</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23515,7 +24425,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID027015</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23540,7 +24449,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD851201</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23565,7 +24473,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD852208</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23590,7 +24497,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD852211</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23609,7 +24515,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD852211</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23634,7 +24539,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD853105</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23653,7 +24557,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD853105</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23678,7 +24581,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD855146</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23697,7 +24599,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD855146</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23722,7 +24623,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD855147</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23747,7 +24647,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD855147</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23766,7 +24665,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD855149</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23785,7 +24683,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD855149</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23810,7 +24707,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD855151</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23829,7 +24725,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD855151</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23854,7 +24749,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD930001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23873,7 +24767,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD930001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23898,7 +24791,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD930002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23917,7 +24809,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD930002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23942,7 +24833,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD930005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23961,7 +24851,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD930005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -23986,7 +24875,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD930006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24005,7 +24893,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD930008</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24030,7 +24917,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD930008</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24049,7 +24935,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000103</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24068,7 +24953,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000103</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24093,7 +24977,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000139</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24112,7 +24995,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000139</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24137,7 +25019,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000175</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24156,7 +25037,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000175</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24181,7 +25061,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000204</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24200,7 +25079,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000403</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24219,7 +25097,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000403</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24244,7 +25121,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000435</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24263,7 +25139,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000435</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24288,7 +25163,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000505</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24313,7 +25187,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000962</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24332,7 +25205,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000962</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24357,7 +25229,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000976</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24376,7 +25247,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD000976</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24401,7 +25271,6 @@
 					</Placemark>
 					<Placemark>
 						<name>Simm_2 114</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24426,7 +25295,6 @@
 					</Placemark>
 					<Placemark>
 						<name>Simm_2 122</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24451,7 +25319,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM893098</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24470,7 +25337,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM893098</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24495,7 +25361,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PK061004</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24514,7 +25379,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD140103</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24533,7 +25397,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD140103</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24558,7 +25421,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD160101</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24583,7 +25445,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD160101</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24602,7 +25463,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD160201</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24621,7 +25481,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD160201</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24646,7 +25505,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24665,7 +25523,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24690,7 +25547,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24709,7 +25565,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24734,7 +25589,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191004</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24753,7 +25607,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191004</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24778,7 +25631,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24803,7 +25655,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24822,7 +25673,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24841,7 +25691,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24866,7 +25715,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191105</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24885,7 +25733,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD191105</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24910,7 +25757,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD192002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24929,7 +25775,6 @@
 					</Placemark>
 					<Placemark>
 						<name>FD192002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24954,7 +25799,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID104006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24973,7 +25817,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID104006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -24998,7 +25841,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID105001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25017,7 +25859,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID105001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25042,7 +25883,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID105101</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25061,7 +25901,6 @@
 					</Placemark>
 					<Placemark>
 						<name>ID105101</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25086,7 +25925,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB101010</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25105,7 +25943,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB101010</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25130,7 +25967,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB105004</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25149,7 +25985,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB105004</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25174,7 +26009,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB105005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25193,7 +26027,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB105005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25218,7 +26051,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB105026</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25237,7 +26069,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB105026</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25262,7 +26093,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB105030</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25281,7 +26111,6 @@
 					</Placemark>
 					<Placemark>
 						<name>JB105030</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25306,7 +26135,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PK061004</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25331,7 +26159,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PK061006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25350,7 +26177,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PK061006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25375,7 +26201,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PK061032</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25394,7 +26219,6 @@
 					</Placemark>
 					<Placemark>
 						<name>MZ377001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25413,7 +26237,6 @@
 					</Placemark>
 					<Placemark>
 						<name>MZ377001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25438,7 +26261,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PK061032</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25463,7 +26285,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PK072000</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25482,7 +26303,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PK072000</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25507,7 +26327,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP006019</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25526,7 +26345,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP006019</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25551,7 +26369,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP006022</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25570,7 +26387,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP006022</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25595,7 +26411,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP005005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25614,7 +26429,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP000000</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25633,7 +26447,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP000000</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25658,7 +26471,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP005005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25683,7 +26495,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP006001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25702,7 +26513,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP006001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25727,7 +26537,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25752,7 +26561,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25771,7 +26579,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25790,7 +26597,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25815,7 +26621,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25834,7 +26639,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25859,7 +26663,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007008</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25878,7 +26681,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007008</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25903,7 +26705,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007033</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25922,7 +26723,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007033</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25947,7 +26747,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007036</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25966,7 +26765,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP007036</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -25991,7 +26789,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP010009</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26010,7 +26807,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP010009</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26035,7 +26831,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26054,7 +26849,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26079,7 +26873,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26098,7 +26891,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013002</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26123,7 +26915,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26142,7 +26933,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013006</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26167,7 +26957,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013072</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26186,7 +26975,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013072</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26211,7 +26999,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013192</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26230,7 +27017,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013192</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26255,7 +27041,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013252</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26274,7 +27059,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013252</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26299,7 +27083,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013332</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26318,7 +27101,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP013332</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26343,7 +27125,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP015003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26368,7 +27149,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP015003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26387,7 +27167,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP015033</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26406,7 +27185,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP015033</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26431,7 +27209,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP018107</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26450,7 +27227,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP018107</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26475,7 +27251,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP018202</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26494,7 +27269,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP018202</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26519,7 +27293,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP025202</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26538,7 +27311,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP025202</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26563,7 +27335,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP027000</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26582,7 +27353,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP027000</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26607,7 +27377,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP027062</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26632,7 +27401,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP027062</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26651,7 +27419,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP027101</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26670,7 +27437,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP027101</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26695,7 +27461,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP027201</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26714,7 +27479,6 @@
 					</Placemark>
 					<Placemark>
 						<name>PP027201</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26739,7 +27503,6 @@
 					</Placemark>
 					<Placemark>
 						<name>RW030001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26758,7 +27521,6 @@
 					</Placemark>
 					<Placemark>
 						<name>RW030001</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26783,7 +27545,6 @@
 					</Placemark>
 					<Placemark>
 						<name>RW047003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26802,7 +27563,6 @@
 					</Placemark>
 					<Placemark>
 						<name>RW047003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26827,7 +27587,6 @@
 					</Placemark>
 					<Placemark>
 						<name>RW048005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26846,7 +27605,6 @@
 					</Placemark>
 					<Placemark>
 						<name>RW048005</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26871,7 +27629,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM945032</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26890,7 +27647,6 @@
 					</Placemark>
 					<Placemark>
 						<name>WM945032</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26915,7 +27671,6 @@
 					</Placemark>
 					<Placemark>
 						<name>XL324003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26934,7 +27689,6 @@
 					</Placemark>
 					<Placemark>
 						<name>XL324003</name>
-						<visibility>0</visibility>
 						<styleUrl>#dji_style_PolygonE23C391</styleUrl>
 						<ExtendedData>
 							<Data name="color" type="string">
@@ -26961,7 +27715,6 @@
 			</Folder>
 			<Placemark>
 				<name>RW047003</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-117.0349715296387</longitude>
@@ -26980,7 +27733,6 @@
 			</Placemark>
 			<Placemark>
 				<name>PP013252</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.9893090853841</longitude>
@@ -26999,7 +27751,6 @@
 			</Placemark>
 			<Placemark>
 				<name>PP000000</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>SIN LIMITES CLAROS</description>
 				<LookAt>
@@ -27019,7 +27770,6 @@
 			</Placemark>
 			<Placemark>
 				<name>PK061032</name>
-				<visibility>0</visibility>
 				<description>UBICADO SIN LIMITES CLAROS</description>
 				<LookAt>
 					<longitude>-116.9013837242241</longitude>
@@ -27038,7 +27788,6 @@
 			</Placemark>
 			<Placemark>
 				<name>JB105030</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>UBICADO SIN LIMITES CLAROS</description>
 				<LookAt>
@@ -27058,7 +27807,6 @@
 			</Placemark>
 			<Placemark>
 				<name>GY014062</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>UBICADO SIN LIMITES CLAROS</description>
 				<LookAt>
@@ -27078,7 +27826,6 @@
 			</Placemark>
 			<Placemark>
 				<name>GY014032</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.9000831092608</longitude>
@@ -27097,7 +27844,6 @@
 			</Placemark>
 			<Placemark>
 				<name>GY014003</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.9015014467877</longitude>
@@ -27116,7 +27862,6 @@
 			</Placemark>
 			<Placemark>
 				<name>GY004061</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.9059925905906</longitude>
@@ -27135,7 +27880,6 @@
 			</Placemark>
 			<Placemark>
 				<name>GY002001</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.9110543771409</longitude>
@@ -27154,7 +27898,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD930008</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8797305520013</longitude>
@@ -27173,7 +27916,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD930006</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>UBICADO SIN LIMITES CLAROS</description>
 				<LookAt>
@@ -27193,7 +27935,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD930005</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8838995134698</longitude>
@@ -27212,7 +27953,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD930002</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>UBICADO SIN LIMITES CLAROS</description>
 				<LookAt>
@@ -27232,7 +27972,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD855151</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8515686829433</longitude>
@@ -27251,7 +27990,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD855142</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8582508048201</longitude>
@@ -27270,7 +28008,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD855111</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8584095353368</longitude>
@@ -27289,7 +28026,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD853105</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>UBICADO SIN LIMITES CLAROS</description>
 				<LookAt>
@@ -27309,7 +28045,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD852211</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.885949526299</longitude>
@@ -27328,7 +28063,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD852031</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>UBICADOS SIN LIMITES CLAROS</description>
 				<LookAt>
@@ -27348,7 +28082,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD851201</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8726558131021</longitude>
@@ -27367,7 +28100,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD191105</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8644047017448</longitude>
@@ -27386,7 +28118,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD191006</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8617458318919</longitude>
@@ -27405,7 +28136,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD191004</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8640168762592</longitude>
@@ -27424,7 +28154,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD191002</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8637524273637</longitude>
@@ -27443,7 +28172,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD160101</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8585715827315</longitude>
@@ -27462,7 +28190,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD000976</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8722780776231</longitude>
@@ -27481,7 +28208,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD000403</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8630322479658</longitude>
@@ -27500,7 +28226,6 @@
 			</Placemark>
 			<Placemark>
 				<name>FD000021</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.8732686507855</longitude>
@@ -27519,7 +28244,6 @@
 			</Placemark>
 			<Placemark>
 				<name>AO000315</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>-116.9028325470308</longitude>
