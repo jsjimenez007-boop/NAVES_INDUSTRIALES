@@ -32732,12 +32732,15 @@
 		</Folder>
 		<Folder>
 			<name>HECHOS</name>
+			<visibility>0</visibility>
 			<open>1</open>
 			<Folder>
 				<name>9-FEBRERO-2026-HECHOS</name>
+				<visibility>0</visibility>
 				<open>1</open>
 				<Placemark>
 					<name>LO148005</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32757,6 +32760,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LO144009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32776,6 +32780,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LO127002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32795,6 +32800,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LO138003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32814,6 +32820,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LO126001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32833,6 +32840,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LO125002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32852,6 +32860,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LO111009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32871,6 +32880,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF139027</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32890,6 +32900,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF140105</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32909,6 +32920,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF140106</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32928,6 +32940,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF140107</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32947,6 +32960,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF140108</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32966,6 +32980,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF140102</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -32985,6 +33000,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF140103</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33004,6 +33020,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF140104</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33023,6 +33040,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF139025</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33042,6 +33060,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF140110</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33061,6 +33080,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF140109</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33080,6 +33100,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF129001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33099,6 +33120,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF133003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33118,6 +33140,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF134004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33137,6 +33160,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF141030</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33156,6 +33180,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF081007</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33175,6 +33200,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF081009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33194,6 +33220,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF091026</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33213,6 +33240,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF085001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33232,6 +33260,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF095001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33251,6 +33280,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF095002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33270,6 +33300,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF095004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33289,6 +33320,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF124019</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33308,6 +33340,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF122001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33327,6 +33360,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT118002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33346,6 +33380,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI172019</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33365,6 +33400,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI084006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33384,6 +33420,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI059052</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33403,6 +33440,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI059019</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33422,6 +33460,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI052042</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33441,6 +33480,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI046002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33460,6 +33500,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI046005</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33479,6 +33520,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI051003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33498,6 +33540,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI051005</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33517,6 +33560,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI051006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33536,6 +33580,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI550001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33555,6 +33600,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI550031</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33574,6 +33620,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI550034</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33593,6 +33640,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI044010</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33612,6 +33660,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI044007</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33631,6 +33680,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI044011</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33650,6 +33700,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI108013</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33669,6 +33720,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI123007</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33688,6 +33740,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI123010</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33707,6 +33760,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI031002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33726,6 +33780,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI031001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33745,6 +33800,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI019001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33764,6 +33820,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI002006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33783,6 +33840,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GP039001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33802,6 +33860,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GP037112</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33821,6 +33880,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GP037111</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33840,6 +33900,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB112036</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33859,6 +33920,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI011010</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33878,6 +33940,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB131002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33897,6 +33960,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB105001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33916,6 +33980,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI011039</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33935,6 +34000,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI011009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -33954,6 +34020,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI011012</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33973,6 +34040,7 @@
 				</Placemark>
 				<Placemark>
 					<name>IB092002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -33992,6 +34060,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB014001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34011,6 +34080,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB012013</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34030,6 +34100,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB031007</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34049,6 +34120,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB031027</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34068,6 +34140,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB032013</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34087,6 +34160,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB021009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34106,6 +34180,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB020015</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34125,6 +34200,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB003001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34144,6 +34220,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB010034</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34163,6 +34240,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB008019</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>UBICADO SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -34182,6 +34260,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB010008</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
@@ -34201,6 +34280,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB010002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9937573247386</longitude>
@@ -34219,6 +34299,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MF052232</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF00</styleUrl>
 					<ExtendedData>
