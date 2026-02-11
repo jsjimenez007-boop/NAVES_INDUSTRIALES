@@ -1544,22 +1544,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1568,8 +1552,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ffff00ff</color>
 			<width>2</width>
@@ -1646,6 +1628,22 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="sn_grn-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1689,24 +1687,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin11">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Style id="sn_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1748,6 +1728,22 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1768,12 +1764,11 @@
 	</Style>
 	<Folder>
 		<name>28-30-ENERO-FEBRERO-2026</name>
+		<open>1</open>
 		<Folder>
 			<name>UBICADOS-DOCE</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
-				<open>1</open>
 				<Placemark>
 					<name>AE009005</name>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
@@ -6212,10 +6207,8 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_ONCE</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
-				<open>1</open>
 				<Placemark>
 					<name>LO111009</name>
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
@@ -12184,10 +12177,8 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_DIEZ</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR-04-FEBRERO-2026</name>
-				<open>1</open>
 				<Placemark>
 					<name>ZA144103</name>
 					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
@@ -25602,10 +25593,8 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_NUEVE</name>
-			<open>1</open>
 			<Document>
 				<name>UBICACION_INMUEBLES_300126(3).kmz</name>
-				<open>1</open>
 				<StyleMap id="m_ylw-pushpin03">
 					<Pair>
 						<key>normal</key>
@@ -26415,10 +26404,8 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_OCHO</name>
-			<open>1</open>
 			<Document>
 				<name>UBICACION_INMUEBLES_300126(2).kmz</name>
-				<open>1</open>
 				<StyleMap id="m_ylw-pushpin0500">
 					<Pair>
 						<key>normal</key>
@@ -27264,10 +27251,8 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_SIETE</name>
-			<open>1</open>
 			<Document>
 				<name>UBICACION_INMUEBLES_300126(1).kmz</name>
-				<open>1</open>
 				<StyleMap id="m_ylw-pushpin060">
 					<Pair>
 						<key>normal</key>
@@ -28088,10 +28073,8 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_SEIS</name>
-			<open>1</open>
 			<Document>
 				<name>UBICACION_INMUEBLES_290126(6).kmz</name>
-				<open>1</open>
 				<StyleMap id="m_ylw-pushpin30">
 					<Pair>
 						<key>normal</key>
@@ -28790,10 +28773,8 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_CINCO</name>
-			<open>1</open>
 			<Document>
 				<name>UBICACION_INMUEBLES_290126(5).kmz</name>
-				<open>1</open>
 				<StyleMap id="m_ylw-pushpin301">
 					<Pair>
 						<key>normal</key>
@@ -29594,7 +29575,6 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_TRES</name>
-			<open>1</open>
 			<Placemark>
 				<name>ID105101</name>
 				<styleUrl>#msn_ylw-pushpin10</styleUrl>
@@ -31024,11 +31004,14 @@
 		</Folder>
 		<Folder>
 			<name>HECHOS</name>
+			<visibility>0</visibility>
 			<Folder>
 				<name>10-FEBRERO-2026-HECHOS</name>
+				<visibility>0</visibility>
 				<open>1</open>
 				<Placemark>
 					<name>AO017004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9315571012562</longitude>
@@ -31047,6 +31030,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO036031</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31066,6 +31050,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31085,6 +31070,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017060</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31104,6 +31090,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017030</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31123,6 +31110,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017069</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31142,6 +31130,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017049</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31161,6 +31150,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017029</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31180,6 +31170,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017068</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31199,6 +31190,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017028</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31218,6 +31210,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017067</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31237,6 +31230,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017027</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31256,6 +31250,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017136</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31275,6 +31270,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017116</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31294,6 +31290,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017085</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31313,6 +31310,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017086</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31332,6 +31330,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017066</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31351,6 +31350,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017065</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31370,6 +31370,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017025</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31389,6 +31390,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017063</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31408,6 +31410,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017023</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31427,6 +31430,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017022</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31446,6 +31450,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017021</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31465,6 +31470,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO015031</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9305917507424</longitude>
@@ -31483,6 +31489,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO015051</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9295307121518</longitude>
@@ -31501,6 +31508,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO015171</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31520,6 +31528,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO015071</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9289167197507</longitude>
@@ -31538,6 +31547,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO015091</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31557,6 +31567,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO015111</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31576,6 +31587,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO015131</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31595,6 +31607,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003018</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31614,6 +31627,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003017</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31633,6 +31647,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003016</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31652,6 +31667,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003015</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31671,6 +31687,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003014</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31690,6 +31707,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003013</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31709,6 +31727,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003012</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31728,6 +31747,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003011</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31747,6 +31767,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003010</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31766,6 +31787,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO003009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31785,6 +31807,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO002038</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31804,6 +31827,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO002008</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31823,6 +31847,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO002007</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31842,6 +31867,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PR034002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31861,6 +31887,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PR034001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -31880,6 +31907,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PR034003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -31899,6 +31927,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000109</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9340333834332</longitude>
@@ -31917,6 +31946,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000108</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31936,6 +31966,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI101515</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -31955,6 +31986,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000907</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9310675611725</longitude>
@@ -31973,6 +32005,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000906</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -31992,6 +32025,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI026105</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32011,6 +32045,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000905</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32030,6 +32065,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000904</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>UBICADO SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -32049,6 +32085,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI026104</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -32068,6 +32105,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI026103</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32087,6 +32125,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000910</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -32106,6 +32145,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000913</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>UBICADO SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -32125,6 +32165,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000123</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -32144,6 +32185,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000120</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9211178577055</longitude>
@@ -32162,6 +32204,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI000214</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32181,6 +32224,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GY118261</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32200,6 +32244,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT071001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32219,6 +32264,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT143011</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32238,6 +32284,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT143012</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32257,6 +32304,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LO050012</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32276,6 +32324,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OS000009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32295,6 +32344,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OS000131</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32314,6 +32364,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LP094001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9415014096746</longitude>
@@ -32332,6 +32383,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BY045000</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9365342168929</longitude>
@@ -32350,6 +32402,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BY042052</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32369,6 +32422,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BY042022</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9355207617774</longitude>
@@ -32387,6 +32441,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BY037012</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32406,6 +32461,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DC052005</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32425,6 +32481,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LP070011</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32444,6 +32501,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LP047006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32463,6 +32521,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LP050006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32482,6 +32541,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LP031001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9455884961434</longitude>
@@ -32500,6 +32560,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LP033001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -32519,6 +32580,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LP004011</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32538,6 +32600,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LP003002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32557,6 +32620,7 @@
 				</Placemark>
 				<Placemark>
 					<name>WM104034</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -32576,6 +32640,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT139241</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32595,6 +32660,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT139181</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32614,6 +32680,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT139151</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32633,6 +32700,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT137003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32652,6 +32720,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT139121</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-116.9481014692144</longitude>
@@ -32670,6 +32739,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT139091</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32689,6 +32759,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT124011</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32708,6 +32779,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT139061</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32727,6 +32799,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT036011</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32746,6 +32819,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT036001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32765,6 +32839,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FC009917</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32784,6 +32859,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OS000014</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32803,6 +32879,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OS000052</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32822,6 +32899,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OS000020</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32841,6 +32919,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PR011007</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
@@ -32860,6 +32939,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PR011008</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#msn_ylw-pushpin1</styleUrl>
 					<ExtendedData>
