@@ -60,16 +60,6 @@
 			<styleUrl>#dji_style_Point2D8CF05</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="dji_style_Point2D8CF002">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#dji_style_Point2D8CF012</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#dji_style_Point2D8CF050</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="dji_style_Point2D8CF000">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -104,30 +94,21 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<StyleMap id="dji_style_Point2D8CF002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dji_style_Point2D8CF012</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dji_style_Point2D8CF050</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="dji_style_Point2D8CF01">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>ffff00ff</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="dji_style_Point2D8CF012">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -184,6 +165,23 @@
 			<styleUrl>#dji_style_Point2D8CF021</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="dji_style_Point2D8CF012">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="dji_style_Point2D8CF02">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -262,8 +260,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ffff00ff</color>
 			<width>2</width>
@@ -797,7 +793,7 @@
 	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -807,6 +803,16 @@
 	<StyleMap id="msn_ylw-pushpin10">
 		<Pair>
 			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin100">
+		<Pair>
+			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
@@ -814,7 +820,7 @@
 			<styleUrl>#sh_ylw-pushpin2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin100">
+	<StyleMap id="msn_ylw-pushpin1000">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_ylw-pushpin2</styleUrl>
@@ -1538,7 +1544,7 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin">
+	<Style id="sh_ylw-pushpin5">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1546,6 +1552,24 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 		<LineStyle>
 			<color>ffff00ff</color>
 			<width>2</width>
@@ -1665,6 +1689,24 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1726,7 +1768,6 @@
 	</Style>
 	<Folder>
 		<name>28-30-ENERO-FEBRERO-2026</name>
-		<open>1</open>
 		<Folder>
 			<name>UBICADOS-DOCE</name>
 			<open>1</open>
@@ -1780,24 +1821,6 @@
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9277364508819,32.50503905999953,106.105214352456</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AI026105</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -1816,24 +1839,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017049</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9290497056385,32.47304192378666,30.90349641126124</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017049</name>
@@ -1867,24 +1872,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9294546153836,32.47238360846434,29.94169640085791</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017085</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -1900,24 +1887,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017086</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9291035236799,32.47226613646816,29.92263327130261</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017086</name>
@@ -1951,24 +1920,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9289011642483,32.47247350846687,30.22835772253192</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017136</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -1984,24 +1935,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO036031</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9328168014193,32.47327854003669,32.08126955051777</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO036031</name>
@@ -3136,24 +3069,6 @@
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9123107573011,32.50500219185893,66.57067143636678</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>GY118261</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -3304,24 +3219,6 @@
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.949194615313,32.49272673274687,26.8181581196166</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>HT036001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -3340,24 +3237,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>HT071001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9561619014171,32.48056888677266,108.3457445466967</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>HT071001</name>
@@ -3388,24 +3267,6 @@
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9476096303133,32.49096696662805,27.3514042835816</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>HT139061</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -3430,24 +3291,6 @@
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9546693048375,32.48573746100746,73.78413253839857</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>HT143011</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -3466,24 +3309,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>HT143012</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9549887042622,32.48554813214879,74.36874711357271</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>HT143012</name>
@@ -4126,24 +3951,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>LP003002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.945708082025,32.48472354927439,38.00720051010126</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>LP003002</name>
@@ -6786,24 +6593,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9311046294788,32.47170793704171,30.77661952161054</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017023</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -6828,24 +6617,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9308278862352,32.47177995438206,30.43449759815858</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017063</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -6864,24 +6635,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>LP070011</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9403776984242,32.48176220946443,31.70461560592398</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>LP070011</name>
@@ -7434,24 +7187,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9380064787859,32.47858562785861,37.52559179720492</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>DC052005</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -7470,24 +7205,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO003015</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9299884152328,32.47018274893955,31.79617181797879</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO003015</name>
@@ -8274,24 +7991,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9278388125679,32.4701634928953,32.64210925744403</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO002007</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -8310,24 +8009,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO002008</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9280089284801,32.4703530342003,31.95905102213103</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO002008</name>
@@ -8358,24 +8039,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9280619575931,32.47057859297258,31.20060795802596</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO002038</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -8394,24 +8057,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO003009</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.928082997204,32.47088532368529,29.9695206641989</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO003009</name>
@@ -8442,24 +8087,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9283384706888,32.47079525798692,30.38992085049149</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO003010</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -8478,24 +8105,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO003013</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9294348936566,32.47038090495676,31.34841682017484</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO003013</name>
@@ -8526,24 +8135,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9297010130668,32.47028182131177,31.5761881422397</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO003014</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -8562,24 +8153,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO003018</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9311806458611,32.46970528591778,33.53386788946244</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO003018</name>
@@ -8610,24 +8183,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9313158774241,32.47380095587665,30.36568674007022</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017001</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -8646,24 +8201,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017025</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9296357105903,32.47214916028017,30.34788453656645</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017025</name>
@@ -8694,24 +8231,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9291671985753,32.4724917007043,30.46144705625691</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017027</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -8730,24 +8249,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017028</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9295607817863,32.47270842879085,29.15987073409553</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017028</name>
@@ -8778,24 +8279,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9292837521772,32.47314128795778,30.65559845701446</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017029</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -8814,24 +8297,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017030</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.928560408508,32.47274394961866,29.02555284544697</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017030</name>
@@ -8862,24 +8327,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9294334863407,32.47218513163295,29.98558624023537</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017065</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -8898,24 +8345,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017066</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9291993926873,32.47214891565329,29.73635696521254</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017066</name>
@@ -8946,24 +8375,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9293693179649,32.47259104675596,29.88821070018466</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017067</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -8982,24 +8393,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017068</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9297735090549,32.47285288580155,28.38966851993033</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017068</name>
@@ -9030,24 +8423,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9288156880095,32.47290647465595,30.32930205251419</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017069</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -9066,24 +8441,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017116</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9288267913382,32.47232010713504,29.65183801582622</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017116</name>
@@ -9570,24 +8927,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>BY037012</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9332792083411,32.48119933730002,28.07121363918414</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>BY037012</name>
@@ -10368,24 +9707,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9499926203552,32.49330440325723,25.96608250256693</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>HT036011</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -10434,24 +9755,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9450238996054,32.48966682366393,27.88277693799997</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>HT124011</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -10470,24 +9773,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>HT137003</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9477489058983,32.48940637223674,33.63347967432218</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>HT137003</name>
@@ -11166,24 +10451,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9470054509743,32.5047960606199,39.27697043596827</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>LO050012</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -11202,24 +10469,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>LP004011</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9454213532088,32.48365893311075,33.83562898357953</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>LP004011</name>
@@ -11250,24 +10499,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9440600430871,32.48199844904043,35.57003588042636</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>LP047006</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -11286,24 +10517,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>LP050006</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9434950983574,32.48337842836563,29.70347889882335</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>LP050006</name>
@@ -12254,24 +11467,6 @@
 					</Polygon>
 				</Placemark>
 				<Placemark>
-					<name>OS000020</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9440210374442,32.49342818418832,17.00134275530921</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>PP018117</name>
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
@@ -12360,24 +11555,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9442112559237,32.49566550270484,8.68871924150595</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>PR011007</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -12396,24 +11573,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>PR011008</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9449137657353,32.49572895990393,8.474180019346779</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>PR011008</name>
@@ -13445,24 +12604,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9447564222922,32.49192198415435,22.59472045569935</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>OS000014</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -13613,24 +12754,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9347550573119,32.50083004506872,33.25896263148915</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AI000108</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -13646,24 +12769,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AI000905</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9275451525317,32.50463300098182,106.6963020134201</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AI000905</name>
@@ -13697,24 +12802,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9343163058141,32.50398719937466,86.21083237011531</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AI101515</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -13730,24 +12817,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO015091</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9285826182793,32.4715712145403,27.4896023805505</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO015091</name>
@@ -14237,24 +13306,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9402134780149,32.48868132918903,21.69615285604939</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>OS000131</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -14480,24 +13531,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>HT139091</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.948748586798,32.4909042878285,31.21155627031436</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>HT139091</name>
@@ -14852,24 +13885,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO015171</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9300411073661,32.47085034247828,29.79394535614912</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO015171</name>
@@ -15335,24 +14350,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9436700699492,32.49294990891533,19.70938333922137</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>OS000052</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -15503,24 +14500,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9214605271617,32.49918963122044,90.72025752782578</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AI000214</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -15536,24 +14515,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AI026103</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.926032440573,32.50587703099466,107.7615998396101</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AI026103</name>
@@ -15587,24 +14548,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9279865177146,32.47176933997406,26.47820618109011</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO015111</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -15620,24 +14563,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO015131</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9276564831428,32.47194055234393,25.73900974406691</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO015131</name>
@@ -15917,24 +14842,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9494517438046,32.48974986995101,31.22409660367714</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>HT139181</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -15950,24 +14857,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>HT139241</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9488134117481,32.48920834519831,33.60590080980232</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>HT139241</name>
@@ -16571,24 +15460,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9276365198942,32.4702896727235,32.24713591505453</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>PR034002</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -16991,24 +15862,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9466940286765,32.4913184054416,26.42313401005076</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>FC009917</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -17363,24 +16216,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9307761472285,32.46985842352768,32.90484223295041</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO003017</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -17405,24 +16240,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9319242351136,32.47146481220719,31.45803736042581</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO017021</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -17438,24 +16255,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017022</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9314452506683,32.47159986934476,31.12698957738925</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017022</name>
@@ -17729,24 +16528,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9371517684693,32.48333031527038,32.81865096901585</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>BY042052</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -17858,24 +16639,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>OS000009</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9421286892773,32.48974671568659,23.95136737553798</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>OS000009</name>
@@ -18629,24 +17392,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9287216870713,32.47065113732941,30.72262934430118</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO003011</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -18662,24 +17407,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO003012</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9290623354074,32.47050699152252,31.07092258636633</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO003012</name>
@@ -18713,24 +17440,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9303503361513,32.47004763260095,32.18153080716949</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>AO003016</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -18746,24 +17455,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AO017060</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.9282519774094,32.47250922469578,26.71630397627662</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AO017060</name>
@@ -18920,24 +17611,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>HT139151</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-116.947876456273,32.48971314294899,30.66252489576793</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>HT139151</name>
@@ -27024,24 +25697,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>WM104034</name>
-						<description>SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.9488864330044</longitude>
-							<latitude>32.48386093283357</latitude>
-							<altitude>0</altitude>
-							<heading>-2.001046989418229e-05</heading>
-							<tilt>0.1566342267874202</tilt>
-							<range>452.5043230548475</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin03</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9489333736458,32.48411146302337,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>AI000906</name>
 						<description>SIN LIMITES CLAROS</description>
 						<styleUrl>#m_ylw-pushpin03</styleUrl>
@@ -27057,24 +25712,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>AI000906</name>
-						<description>SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.9286307047996</longitude>
-							<latitude>32.50453091457304</latitude>
-							<altitude>0</altitude>
-							<heading>-9.54166404439055e-15</heading>
-							<tilt>0</tilt>
-							<range>464.4661996798595</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin03</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9290251562238,32.504318106382,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>BY042022</name>
 						<styleUrl>#m_ylw-pushpin03</styleUrl>
 						<Polygon>
@@ -27087,23 +25724,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>BY042022</name>
-						<LookAt>
-							<longitude>-116.9355207617774</longitude>
-							<latitude>32.48362443625188</latitude>
-							<altitude>0</altitude>
-							<heading>-1.272221872585407e-14</heading>
-							<tilt>0</tilt>
-							<range>386.6669193651578</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin03</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9358106270387,32.48346495527769,0</coordinates>
-						</Point>
 					</Placemark>
 					<Placemark>
 						<name>ID038035</name>
@@ -27148,24 +25768,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>AI026104</name>
-						<description>SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.9266226502118</longitude>
-							<latitude>32.50518585002558</latitude>
-							<altitude>0</altitude>
-							<heading>-3.180554681463517e-15</heading>
-							<tilt>0</tilt>
-							<range>281.9638930708409</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin03</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9268205272542,32.50551664831217,0</coordinates>
-						</Point>
 					</Placemark>
 					<Placemark>
 						<name>PP017054</name>
@@ -27466,23 +26068,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>AO015051</name>
-						<LookAt>
-							<longitude>-116.9295307121518</longitude>
-							<latitude>32.47151820034376</latitude>
-							<altitude>0</altitude>
-							<heading>-9.541664044390549e-15</heading>
-							<tilt>0</tilt>
-							<range>372.7990247127127</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin03</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9299981634416,32.47133746003986,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>LP031001</name>
 						<styleUrl>#m_ylw-pushpin03</styleUrl>
 						<Polygon>
@@ -27495,23 +26080,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>LP031001</name>
-						<LookAt>
-							<longitude>-116.9455884961434</longitude>
-							<latitude>32.48016460607657</latitude>
-							<altitude>0</altitude>
-							<heading>0.000164301214341901</heading>
-							<tilt>0</tilt>
-							<range>265.5661118250378</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin03</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9461897935217,32.48008689912824,0</coordinates>
-						</Point>
 					</Placemark>
 					<Placemark>
 						<name>PP002002</name>
@@ -27587,24 +26155,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>AI000904</name>
-						<description>UBICADO SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.9264008207273</longitude>
-							<latitude>32.50512351605852</latitude>
-							<altitude>0</altitude>
-							<heading>-0.001874044899091422</heading>
-							<tilt>5.246158509456981</tilt>
-							<range>306.3825184924183</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin03</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9266400535893,32.50489408811834,0</coordinates>
-						</Point>
 					</Placemark>
 					<Placemark>
 						<name>FD930002</name>
@@ -27760,23 +26310,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>AI000120</name>
-						<LookAt>
-							<longitude>-116.9211178577055</longitude>
-							<latitude>32.50426233821489</latitude>
-							<altitude>0</altitude>
-							<heading>-1.590277340731758e-14</heading>
-							<tilt>0</tilt>
-							<range>542.59583029674</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin03</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9214880104756,32.50431362914101,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>AO015071</name>
 						<styleUrl>#m_ylw-pushpin03</styleUrl>
 						<Polygon>
@@ -27789,23 +26322,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>AO015071</name>
-						<LookAt>
-							<longitude>-116.9289167197507</longitude>
-							<latitude>32.4715195251999</latitude>
-							<altitude>0</altitude>
-							<heading>-6.361109362927034e-15</heading>
-							<tilt>0</tilt>
-							<range>353.3608031965103</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin03</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9290404010278,32.47133692383984,0</coordinates>
-						</Point>
 					</Placemark>
 					<Placemark>
 						<name>PP013001</name>
@@ -28040,24 +26556,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>AI000123</name>
-						<description>SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.9223031104544</longitude>
-							<latitude>32.50383780469077</latitude>
-							<altitude>0</altitude>
-							<heading>9.259658093498604e-05</heading>
-							<tilt>0</tilt>
-							<range>526.7139491394462</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin0500</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9225742336809,32.50389031101506,0</coordinates>
-						</Point>
 					</Placemark>
 					<Placemark>
 						<name>ID040034</name>
@@ -28322,23 +26820,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>AI000109</name>
-						<LookAt>
-							<longitude>-116.9340333834332</longitude>
-							<latitude>32.50039525948753</latitude>
-							<altitude>0</altitude>
-							<heading>0.0258390304760926</heading>
-							<tilt>0.1119357520251806</tilt>
-							<range>269.5221472572892</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin0500</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9339251280384,32.50027932517312,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>PP013252</name>
 						<styleUrl>#m_ylw-pushpin0500</styleUrl>
 						<Polygon>
@@ -28497,23 +26978,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>HT139121</name>
-						<LookAt>
-							<longitude>-116.9481014692144</longitude>
-							<latitude>32.48996732618772</latitude>
-							<altitude>0</altitude>
-							<heading>-0.0001186263280231108</heading>
-							<tilt>7.046296551898639</tilt>
-							<range>204.9775870460662</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin0500</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9484404015096,32.49003813527783,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>ZT497306</name>
 						<description>UBICADO SIN LIMITES CLAROS</description>
 						<styleUrl>#m_ylw-pushpin0500</styleUrl>
@@ -28618,24 +27082,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>PR034001</name>
-						<description>SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.9269852668835</longitude>
-							<latitude>32.47080154464439</latitude>
-							<altitude>0</altitude>
-							<heading>4.770832022195276e-15</heading>
-							<tilt>0</tilt>
-							<range>718.5479924947924</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin0500</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9270934306824,32.47074041630022,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>FD850003</name>
 						<styleUrl>#m_ylw-pushpin0500</styleUrl>
 						<Polygon>
@@ -28663,24 +27109,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>AI000910</name>
-						<description>SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.9257109164798</longitude>
-							<latitude>32.50487561606757</latitude>
-							<altitude>0</altitude>
-							<heading>-4.770832022195275e-15</heading>
-							<tilt>0</tilt>
-							<range>371.1148785798071</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin0500</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9256498276884,32.50510099192499,0</coordinates>
-						</Point>
 					</Placemark>
 					<Placemark>
 						<name>ID103115</name>
@@ -28830,24 +27258,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>LP033001</name>
-						<description>SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.9458121854544</longitude>
-							<latitude>32.4795966635001</latitude>
-							<altitude>0</altitude>
-							<heading>-5.711783221932849e-10</heading>
-							<tilt>0</tilt>
-							<range>441.0282902857622</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin0500</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9466479943236,32.4791398758747,0</coordinates>
-						</Point>
 					</Placemark>
 				</Folder>
 			</Document>
@@ -29455,24 +27865,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>AI000913</name>
-						<description>UBICADO SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.9254041967636</longitude>
-							<latitude>32.50410365474724</latitude>
-							<altitude>0</altitude>
-							<heading>-9.34786437767698e-05</heading>
-							<tilt>0</tilt>
-							<range>287.7531401611477</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin060</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9258743659809,32.50391034061224,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>FD000012</name>
 						<description>UBICADO SIN LIMITES CLAROS</description>
 						<styleUrl>#m_ylw-pushpin060</styleUrl>
@@ -29645,23 +28037,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>AO015031</name>
-						<LookAt>
-							<longitude>-116.9305917507424</longitude>
-							<latitude>32.47102016715256</latitude>
-							<altitude>0</altitude>
-							<heading>1.113194138512231e-14</heading>
-							<tilt>0</tilt>
-							<range>409.2202680509387</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin060</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9309670013583,32.47076966334705,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>FG106002</name>
 						<description>SIN LIMITES CLAROS</description>
 						<styleUrl>#m_ylw-pushpin060</styleUrl>
@@ -29713,6 +28088,7 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_SEIS</name>
+			<open>1</open>
 			<Document>
 				<name>UBICACION_INMUEBLES_290126(6).kmz</name>
 				<open>1</open>
@@ -30048,23 +28424,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>AI000907</name>
-						<LookAt>
-							<longitude>-116.9310675611725</longitude>
-							<latitude>32.50497553141556</latitude>
-							<altitude>0</altitude>
-							<heading>0.0004141926328572086</heading>
-							<tilt>0</tilt>
-							<range>418.852386671996</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin30</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9309622577738,32.504860449516,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>FD851201</name>
 						<styleUrl>#m_ylw-pushpin30</styleUrl>
 						<Polygon>
@@ -30383,23 +28742,6 @@
 						</Polygon>
 					</Placemark>
 					<Placemark>
-						<name>LP094001</name>
-						<LookAt>
-							<longitude>-116.9415014096746</longitude>
-							<latitude>32.48637008374005</latitude>
-							<altitude>0</altitude>
-							<heading>0.0002510343555367818</heading>
-							<tilt>0</tilt>
-							<range>682.0124009671365</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin30</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.94216267574,32.48653521469308,0</coordinates>
-						</Point>
-					</Placemark>
-					<Placemark>
 						<name>PP018121</name>
 						<description>SIN LIMITES CLAROS</description>
 						<styleUrl>#m_ylw-pushpin30</styleUrl>
@@ -30448,6 +28790,7 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_CINCO</name>
+			<open>1</open>
 			<Document>
 				<name>UBICACION_INMUEBLES_290126(5).kmz</name>
 				<open>1</open>
@@ -30837,24 +29180,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>PR034003</name>
-						<description>SIN LIMITES CLAROS</description>
-						<LookAt>
-							<longitude>-116.926566191959</longitude>
-							<latitude>32.46915402297651</latitude>
-							<altitude>0</altitude>
-							<heading>-6.361109362927033e-15</heading>
-							<tilt>0</tilt>
-							<range>564.6439875711472</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin301</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-116.9275525278063,32.46886428435831,0</coordinates>
-						</Point>
 					</Placemark>
 					<Placemark>
 						<name>EC822201</name>
@@ -31269,9 +29594,10 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_TRES</name>
+			<open>1</open>
 			<Placemark>
 				<name>ID105101</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31285,7 +29611,7 @@
 			</Placemark>
 			<Placemark>
 				<name>ID040009</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31299,7 +29625,7 @@
 			</Placemark>
 			<Placemark>
 				<name>DM008347</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31314,7 +29640,7 @@
 			<Placemark>
 				<name>MP090002</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31329,7 +29655,7 @@
 			<Placemark>
 				<name>OF153003</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31344,7 +29670,7 @@
 			<Placemark>
 				<name>TC084002</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31359,7 +29685,7 @@
 			<Placemark>
 				<name>WM893068</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31374,7 +29700,7 @@
 			<Placemark>
 				<name>PP025202</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31388,7 +29714,7 @@
 			</Placemark>
 			<Placemark>
 				<name>FD000203</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31402,7 +29728,7 @@
 			</Placemark>
 			<Placemark>
 				<name>OE400013</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31417,7 +29743,7 @@
 			<Placemark>
 				<name>PK072000</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31441,7 +29767,7 @@
 					<range>472.2005818618907</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9038781140426,32.4861058490121,0</coordinates>
@@ -31450,7 +29776,7 @@
 			<Placemark>
 				<name>WM000402</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31464,7 +29790,7 @@
 			</Placemark>
 			<Placemark>
 				<name>AO017004</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31477,25 +29803,8 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<name>AO017004</name>
-				<LookAt>
-					<longitude>-116.9315571012562</longitude>
-					<latitude>32.47317188854952</latitude>
-					<altitude>0</altitude>
-					<heading>-0.0002331814888696395</heading>
-					<tilt>35.7114396303181</tilt>
-					<range>453.0154812886664</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9316786148221,32.47260134234018,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
 				<name>ID012007</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31509,7 +29818,7 @@
 			</Placemark>
 			<Placemark>
 				<name>AI106501</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31523,7 +29832,7 @@
 			</Placemark>
 			<Placemark>
 				<name>ID040013</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31537,7 +29846,7 @@
 			</Placemark>
 			<Placemark>
 				<name>OF152004</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31551,7 +29860,7 @@
 			</Placemark>
 			<Placemark>
 				<name>PP401010</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31565,7 +29874,7 @@
 			</Placemark>
 			<Placemark>
 				<name>ZA004039</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31588,7 +29897,7 @@
 					<range>391.3540403827145</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9239765293639,32.48206009022767,0</coordinates>
@@ -31597,7 +29906,7 @@
 			<Placemark>
 				<name>FD850001</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31611,7 +29920,7 @@
 			</Placemark>
 			<Placemark>
 				<name>BY045000</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31624,26 +29933,9 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<name>BY045000</name>
-				<LookAt>
-					<longitude>-116.9365342168929</longitude>
-					<latitude>32.48610124764257</latitude>
-					<altitude>0</altitude>
-					<heading>0.0009192595602438697</heading>
-					<tilt>0</tilt>
-					<range>668.1263458446579</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-116.9372881594823,32.48617203566174,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
 				<name>DM176008</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31658,7 +29950,7 @@
 			<Placemark>
 				<name>ID034002</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31673,7 +29965,7 @@
 			<Placemark>
 				<name>AI000101</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31688,7 +29980,7 @@
 			<Placemark>
 				<name>DB285002</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31703,7 +29995,7 @@
 			<Placemark>
 				<name>ID103001</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31718,7 +30010,7 @@
 			<Placemark>
 				<name>PP000000</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31732,7 +30024,7 @@
 			</Placemark>
 			<Placemark>
 				<name>FD000136</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31746,7 +30038,7 @@
 			</Placemark>
 			<Placemark>
 				<name>FD850005</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31761,7 +30053,7 @@
 			<Placemark>
 				<name>DB000089</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31775,7 +30067,7 @@
 			</Placemark>
 			<Placemark>
 				<name>FD000501</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31789,7 +30081,7 @@
 			</Placemark>
 			<Placemark>
 				<name>ID035017</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31803,7 +30095,7 @@
 			</Placemark>
 			<Placemark>
 				<name>FD852208</name>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31818,7 +30110,7 @@
 			<Placemark>
 				<name>DB000120</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31833,7 +30125,7 @@
 			<Placemark>
 				<name>ZA147025</name>
 				<description>SIN LIMITES CLAROS</description>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
 					<outerBoundaryIs>
@@ -31857,7 +30149,7 @@
 					<range>582.5776332711179</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.9216045570941,32.4804077698641,0</coordinates>
@@ -32732,8 +31024,1860 @@
 		</Folder>
 		<Folder>
 			<name>HECHOS</name>
-			<visibility>0</visibility>
-			<open>1</open>
+			<Folder>
+				<name>10-FEBRERO-2026-HECHOS</name>
+				<open>1</open>
+				<Placemark>
+					<name>AO017004</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9315571012562</longitude>
+						<latitude>32.47317188854952</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0002331814888696395</heading>
+						<tilt>35.7114396303181</tilt>
+						<range>453.0154812886664</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9316786148221,32.47260134234018,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO036031</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9328168014193,32.47327854003669,32.08126955051777</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017001</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9313158774241,32.47380095587665,30.36568674007022</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017060</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9282519774094,32.47250922469578,26.71630397627662</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017030</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.928560408508,32.47274394961866,29.02555284544697</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017069</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9288156880095,32.47290647465595,30.32930205251419</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017049</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9290497056385,32.47304192378666,30.90349641126124</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017029</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9292837521772,32.47314128795778,30.65559845701446</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017068</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9297735090549,32.47285288580155,28.38966851993033</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017028</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9295607817863,32.47270842879085,29.15987073409553</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017067</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9293693179649,32.47259104675596,29.88821070018466</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017027</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9291671985753,32.4724917007043,30.46144705625691</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017136</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9289011642483,32.47247350846687,30.22835772253192</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017116</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9288267913382,32.47232010713504,29.65183801582622</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017085</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9294546153836,32.47238360846434,29.94169640085791</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017086</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9291035236799,32.47226613646816,29.92263327130261</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017066</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9291993926873,32.47214891565329,29.73635696521254</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017065</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9294334863407,32.47218513163295,29.98558624023537</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017025</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9296357105903,32.47214916028017,30.34788453656645</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017063</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9308278862352,32.47177995438206,30.43449759815858</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017023</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9311046294788,32.47170793704171,30.77661952161054</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017022</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9314452506683,32.47159986934476,31.12698957738925</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO017021</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9319242351136,32.47146481220719,31.45803736042581</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO015031</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9305917507424</longitude>
+						<latitude>32.47102016715256</latitude>
+						<altitude>0</altitude>
+						<heading>1.113194138512231e-14</heading>
+						<tilt>0</tilt>
+						<range>409.2202680509387</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9309670013583,32.47076966334705,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO015051</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9295307121518</longitude>
+						<latitude>32.47151820034376</latitude>
+						<altitude>0</altitude>
+						<heading>-9.541664044390549e-15</heading>
+						<tilt>0</tilt>
+						<range>372.7990247127127</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9299981634416,32.47133746003986,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO015171</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9300411073661,32.47085034247828,29.79394535614912</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO015071</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9289167197507</longitude>
+						<latitude>32.4715195251999</latitude>
+						<altitude>0</altitude>
+						<heading>-6.361109362927034e-15</heading>
+						<tilt>0</tilt>
+						<range>353.3608031965103</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9290404010278,32.47133692383984,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO015091</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9285826182793,32.4715712145403,27.4896023805505</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO015111</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9279865177146,32.47176933997406,26.47820618109011</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO015131</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9276564831428,32.47194055234393,25.73900974406691</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003018</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9311806458611,32.46970528591778,33.53386788946244</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003017</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9307761472285,32.46985842352768,32.90484223295041</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003016</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9303503361513,32.47004763260095,32.18153080716949</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003015</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9299884152328,32.47018274893955,31.79617181797879</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003014</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9297010130668,32.47028182131177,31.5761881422397</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003013</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9294348936566,32.47038090495676,31.34841682017484</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003012</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9290623354074,32.47050699152252,31.07092258636633</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003011</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9287216870713,32.47065113732941,30.72262934430118</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003010</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9283384706888,32.47079525798692,30.38992085049149</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO003009</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.928082997204,32.47088532368529,29.9695206641989</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO002038</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9280619575931,32.47057859297258,31.20060795802596</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO002008</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9280089284801,32.4703530342003,31.95905102213103</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AO002007</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9278388125679,32.4701634928953,32.64210925744403</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PR034002</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9276365198942,32.4702896727235,32.24713591505453</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PR034001</name>
+					<open>1</open>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9269852668835</longitude>
+						<latitude>32.47080154464439</latitude>
+						<altitude>0</altitude>
+						<heading>4.770832022195276e-15</heading>
+						<tilt>0</tilt>
+						<range>718.5479924947924</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9270934306824,32.47074041630022,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PR034003</name>
+					<open>1</open>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.926566191959</longitude>
+						<latitude>32.46915402297651</latitude>
+						<altitude>0</altitude>
+						<heading>-6.361109362927033e-15</heading>
+						<tilt>0</tilt>
+						<range>564.6439875711472</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9275525278063,32.46886428435831,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000109</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9340333834332</longitude>
+						<latitude>32.50039525948753</latitude>
+						<altitude>0</altitude>
+						<heading>0.0258390304760926</heading>
+						<tilt>0.1119357520251806</tilt>
+						<range>269.5221472572892</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9339251280384,32.50027932517312,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000108</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9347550573119,32.50083004506872,33.25896263148915</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI101515</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9343163058141,32.50398719937466,86.21083237011531</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000907</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9310675611725</longitude>
+						<latitude>32.50497553141556</latitude>
+						<altitude>0</altitude>
+						<heading>0.0004141926328572086</heading>
+						<tilt>0</tilt>
+						<range>418.852386671996</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9309622577738,32.504860449516,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000906</name>
+					<open>1</open>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9286307047996</longitude>
+						<latitude>32.50453091457304</latitude>
+						<altitude>0</altitude>
+						<heading>-9.54166404439055e-15</heading>
+						<tilt>0</tilt>
+						<range>464.4661996798595</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9290251562238,32.504318106382,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI026105</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9277364508819,32.50503905999953,106.105214352456</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000905</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9275451525317,32.50463300098182,106.6963020134201</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000904</name>
+					<open>1</open>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9264008207273</longitude>
+						<latitude>32.50512351605852</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001874044899091422</heading>
+						<tilt>5.246158509456981</tilt>
+						<range>306.3825184924183</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9266400535893,32.50489408811834,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI026104</name>
+					<open>1</open>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9266226502118</longitude>
+						<latitude>32.50518585002558</latitude>
+						<altitude>0</altitude>
+						<heading>-3.180554681463517e-15</heading>
+						<tilt>0</tilt>
+						<range>281.9638930708409</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9268205272542,32.50551664831217,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI026103</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.926032440573,32.50587703099466,107.7615998396101</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000910</name>
+					<open>1</open>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9257109164798</longitude>
+						<latitude>32.50487561606757</latitude>
+						<altitude>0</altitude>
+						<heading>-4.770832022195275e-15</heading>
+						<tilt>0</tilt>
+						<range>371.1148785798071</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9256498276884,32.50510099192499,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000913</name>
+					<open>1</open>
+					<description>UBICADO SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9254041967636</longitude>
+						<latitude>32.50410365474724</latitude>
+						<altitude>0</altitude>
+						<heading>-9.34786437767698e-05</heading>
+						<tilt>0</tilt>
+						<range>287.7531401611477</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9258743659809,32.50391034061224,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000123</name>
+					<open>1</open>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9223031104544</longitude>
+						<latitude>32.50383780469077</latitude>
+						<altitude>0</altitude>
+						<heading>9.259658093498604e-05</heading>
+						<tilt>0</tilt>
+						<range>526.7139491394462</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9225742336809,32.50389031101506,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000120</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9211178577055</longitude>
+						<latitude>32.50426233821489</latitude>
+						<altitude>0</altitude>
+						<heading>-1.590277340731758e-14</heading>
+						<tilt>0</tilt>
+						<range>542.59583029674</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9214880104756,32.50431362914101,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AI000214</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9214605271617,32.49918963122044,90.72025752782578</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GY118261</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9123107573011,32.50500219185893,66.57067143636678</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT071001</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9561619014171,32.48056888677266,108.3457445466967</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT143011</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9546693048375,32.48573746100746,73.78413253839857</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT143012</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9549887042622,32.48554813214879,74.36874711357271</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LO050012</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9470054509743,32.5047960606199,39.27697043596827</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OS000009</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9421286892773,32.48974671568659,23.95136737553798</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OS000131</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9402134780149,32.48868132918903,21.69615285604939</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LP094001</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9415014096746</longitude>
+						<latitude>32.48637008374005</latitude>
+						<altitude>0</altitude>
+						<heading>0.0002510343555367818</heading>
+						<tilt>0</tilt>
+						<range>682.0124009671365</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.94216267574,32.48653521469308,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BY045000</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9365342168929</longitude>
+						<latitude>32.48610124764257</latitude>
+						<altitude>0</altitude>
+						<heading>0.0009192595602438697</heading>
+						<tilt>0</tilt>
+						<range>668.1263458446579</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9372881594823,32.48617203566174,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BY042052</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9371517684693,32.48333031527038,32.81865096901585</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BY042022</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9355207617774</longitude>
+						<latitude>32.48362443625188</latitude>
+						<altitude>0</altitude>
+						<heading>-1.272221872585407e-14</heading>
+						<tilt>0</tilt>
+						<range>386.6669193651578</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9358106270387,32.48346495527769,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BY037012</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9332792083411,32.48119933730002,28.07121363918414</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>DC052005</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9380064787859,32.47858562785861,37.52559179720492</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LP070011</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9403776984242,32.48176220946443,31.70461560592398</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LP047006</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9440600430871,32.48199844904043,35.57003588042636</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LP050006</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9434950983574,32.48337842836563,29.70347889882335</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LP031001</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9455884961434</longitude>
+						<latitude>32.48016460607657</latitude>
+						<altitude>0</altitude>
+						<heading>0.000164301214341901</heading>
+						<tilt>0</tilt>
+						<range>265.5661118250378</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9461897935217,32.48008689912824,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LP033001</name>
+					<open>1</open>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9458121854544</longitude>
+						<latitude>32.4795966635001</latitude>
+						<altitude>0</altitude>
+						<heading>-5.711783221932849e-10</heading>
+						<tilt>0</tilt>
+						<range>441.0282902857622</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9466479943236,32.4791398758747,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LP004011</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9454213532088,32.48365893311075,33.83562898357953</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LP003002</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.945708082025,32.48472354927439,38.00720051010126</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WM104034</name>
+					<open>1</open>
+					<description>SIN LIMITES CLAROS</description>
+					<LookAt>
+						<longitude>-116.9488864330044</longitude>
+						<latitude>32.48386093283357</latitude>
+						<altitude>0</altitude>
+						<heading>-2.001046989418229e-05</heading>
+						<tilt>0.1566342267874202</tilt>
+						<range>452.5043230548475</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9489333736458,32.48411146302337,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT139241</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9488134117481,32.48920834519831,33.60590080980232</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT139181</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9494517438046,32.48974986995101,31.22409660367714</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT139151</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.947876456273,32.48971314294899,30.66252489576793</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT137003</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9477489058983,32.48940637223674,33.63347967432218</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT139121</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-116.9481014692144</longitude>
+						<latitude>32.48996732618772</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0001186263280231108</heading>
+						<tilt>7.046296551898639</tilt>
+						<range>204.9775870460662</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-116.9484404015096,32.49003813527783,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT139091</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.948748586798,32.4909042878285,31.21155627031436</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT124011</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9450238996054,32.48966682366393,27.88277693799997</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT139061</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9476096303133,32.49096696662805,27.3514042835816</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT036011</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9499926203552,32.49330440325723,25.96608250256693</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HT036001</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.949194615313,32.49272673274687,26.8181581196166</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FC009917</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9466940286765,32.4913184054416,26.42313401005076</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OS000014</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9447564222922,32.49192198415435,22.59472045569935</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OS000052</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9436700699492,32.49294990891533,19.70938333922137</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OS000020</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9440210374442,32.49342818418832,17.00134275530921</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PR011007</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9442112559237,32.49566550270484,8.68871924150595</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PR011008</name>
+					<open>1</open>
+					<styleUrl>#msn_ylw-pushpin1</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-116.9449137657353,32.49572895990393,8.474180019346779</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 			<Folder>
 				<name>9-FEBRERO-2026-HECHOS</name>
 				<visibility>0</visibility>
@@ -43968,7 +44112,7 @@ NO TIENE ESPECTACULAR CON EL NOMBRE</description>
 				<roll>6.681280088031743</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<styleUrl>#msn_ylw-pushpin100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9103736719246,32.46038681224963,0</coordinates>
@@ -43986,7 +44130,7 @@ NO TIENE ESPECTACULAR CON EL NOMBRE</description>
 				<range>188.9411596232046</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<styleUrl>#msn_ylw-pushpin100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.8639627330805,32.44538193235527,0</coordinates>
@@ -44004,7 +44148,7 @@ NO TIENE ESPECTACULAR CON EL NOMBRE</description>
 				<range>507.5245165040146</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<styleUrl>#msn_ylw-pushpin100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.7611895799705,32.54505191817523,0</coordinates>
@@ -44022,7 +44166,7 @@ NO TIENE ESPECTACULAR CON EL NOMBRE</description>
 				<range>74.60175958992599</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<styleUrl>#msn_ylw-pushpin100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9920923652862,32.53860068374725,0</coordinates>
@@ -44040,7 +44184,7 @@ NO TIENE ESPECTACULAR CON EL NOMBRE</description>
 				<range>66.46095305589159</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<styleUrl>#msn_ylw-pushpin100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9613534187392,32.49234532323831,0</coordinates>
@@ -44058,7 +44202,7 @@ NO TIENE ESPECTACULAR CON EL NOMBRE</description>
 				<range>91.80725992596841</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<styleUrl>#msn_ylw-pushpin100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9181016361335,32.5226050475438,0</coordinates>
@@ -44076,7 +44220,7 @@ NO TIENE ESPECTACULAR CON EL NOMBRE</description>
 				<range>81.27332119589983</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<styleUrl>#msn_ylw-pushpin100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-117.0366517388908,32.48223924860186,0</coordinates>
@@ -44094,7 +44238,7 @@ NO TIENE ESPECTACULAR CON EL NOMBRE</description>
 				<range>123.1675286934507</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<styleUrl>#msn_ylw-pushpin100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9463474884665,32.5176135466431,0</coordinates>
@@ -44112,7 +44256,7 @@ NO TIENE ESPECTACULAR CON EL NOMBRE</description>
 				<range>198.9874742810114</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<styleUrl>#msn_ylw-pushpin100</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9283613467155,32.48978715140961,0</coordinates>
@@ -44162,7 +44306,7 @@ OBSERVACIONES: EL AREA NO CONCUERDA</description>
 				<range>299.2692672152554</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin100</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9032638553291,32.49584136850894,0</coordinates>
@@ -44188,7 +44332,7 @@ OBSERVACIONES: EL AREA NO CONCUERDA</description>
 				<range>284.9030224617307</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_ylw-pushpin100</styleUrl>
+			<styleUrl>#msn_ylw-pushpin1000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-116.9032169804164,32.49540580220955,0</coordinates>
