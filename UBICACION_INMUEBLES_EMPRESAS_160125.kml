@@ -40,16 +40,6 @@
 			<color>00d3f2c9</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="dji_style_Point2D8CF06">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#dji_style_Point2D8CF08</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#dji_style_Point2D8CF07</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="dji_style_Point2D8CF0">
 		<Pair>
 			<key>normal</key>
@@ -60,86 +50,6 @@
 			<styleUrl>#dji_style_Point2D8CF02</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="dji_style_Point2D8CF01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#dji_style_Point2D8CF03</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#dji_style_Point2D8CF022</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="dji_style_Point2D8CF02">
-		<IconStyle>
-		</IconStyle>
-		<LabelStyle>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ffff00ff</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="dji_style_Point2D8CF07">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ffff00ff</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="dji_style_Point2D8CF05">
-		<IconStyle>
-		</IconStyle>
-		<LabelStyle>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ffff00ff</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="dji_style_Point2D8CF08">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LabelStyle>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>ffff00ff</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<StyleMap id="dji_style_Point2D8CF00">
 		<Pair>
 			<key>normal</key>
@@ -184,7 +94,7 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="dji_style_Point2D8CF002">
+	<StyleMap id="dji_style_Point2D8CF0020">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#dji_style_Point2D8CF012</styleUrl>
@@ -194,23 +104,26 @@
 			<styleUrl>#dji_style_Point2D8CF0500</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="dji_style_Point2D8CF013">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>ffff00ff</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
+	<StyleMap id="dji_style_Point2D8CF002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dji_style_Point2D8CF0120</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dji_style_Point2D8CF05000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="dji_style_Point2D8CF01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dji_style_Point2D8CF03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dji_style_Point2D8CF022</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="dji_style_Point2D8CF010">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -255,6 +168,25 @@
 			<styleUrl>#dji_style_Point2D8CF021</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="dji_style_Point2D8CF0120">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="dji_style_Point2D8CF012">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -272,9 +204,9 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="dji_style_Point2D8CF022">
+	<Style id="dji_style_Point2D8CF013">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
 			</Icon>
@@ -285,6 +217,16 @@
 			<width>2</width>
 		</LineStyle>
 		<PolyStyle>
+			<color>ffff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="dji_style_Point2D8CF02">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
@@ -299,6 +241,22 @@
 		</Pair>
 	</StyleMap>
 	<Style id="dji_style_Point2D8CF021">
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="dji_style_Point2D8CF022">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 		<LineStyle>
 			<color>ffff00ff</color>
 			<width>2</width>
@@ -342,6 +300,15 @@
 			<styleUrl>#dji_style_Point2D8CF001</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="dji_style_Point2D8CF05">
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="dji_style_Point2D8CF050">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -370,6 +337,67 @@
 		<LineStyle>
 			<color>ffff00ff</color>
 			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="dji_style_Point2D8CF05000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="dji_style_Point2D8CF06">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dji_style_Point2D8CF08</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dji_style_Point2D8CF07</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="dji_style_Point2D8CF07">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="dji_style_Point2D8CF08">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
 		</LineStyle>
 		<PolyStyle>
 			<color>ffff00ff</color>
@@ -1857,6 +1885,7 @@
 		<open>1</open>
 		<Folder>
 			<name>UBICADOS-TRECE</name>
+			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
 				<open>1</open>
@@ -2201,24 +2230,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>LC352001</name>
-					<styleUrl>#dji_style_Point2D8CF0</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0913401692898,32.49390364772858,188.6687931889073</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>LC352001</name>
@@ -3016,12 +3027,13 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS-DOCE</name>
+			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
 				<open>1</open>
 				<Placemark>
 					<name>AE009005</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3039,7 +3051,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AE009005</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3063,7 +3075,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AI026105</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3087,7 +3099,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017049</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3111,7 +3123,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017085</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3135,7 +3147,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017086</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3159,7 +3171,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO017136</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3183,7 +3195,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO036031</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3207,7 +3219,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO043004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3225,7 +3237,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO043004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3249,7 +3261,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO066002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3267,7 +3279,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO066002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3291,7 +3303,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO066003</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3309,7 +3321,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO066003</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3333,7 +3345,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO069003</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3351,7 +3363,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO069003</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3375,7 +3387,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO080010</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3393,7 +3405,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AO080010</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3417,7 +3429,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BG042014</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3435,7 +3447,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BG042014</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3459,7 +3471,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI031001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3483,7 +3495,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI051005</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3507,7 +3519,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI059052</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3531,7 +3543,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI123010</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3555,7 +3567,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI149053</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3573,7 +3585,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI149053</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3597,7 +3609,7 @@
 				</Placemark>
 				<Placemark>
 					<name>BI550034</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3621,25 +3633,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CA008012</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0540880792172,32.5353679963812,-4.768999948089975</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>CA008012</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3663,7 +3657,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF047032</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3681,7 +3675,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF047032</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3705,7 +3699,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF081007</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3729,7 +3723,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF095001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3753,7 +3747,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF122001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3777,7 +3771,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF129001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3801,7 +3795,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CF133003</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3825,7 +3819,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CP012058</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3843,7 +3837,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CP012058</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3867,7 +3861,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CP015002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3885,7 +3879,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CP015002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3909,7 +3903,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB281006</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3933,7 +3927,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB285004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -3957,7 +3951,7 @@
 				</Placemark>
 				<Placemark>
 					<name>EC819014</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -3981,7 +3975,7 @@
 				</Placemark>
 				<Placemark>
 					<name>EC838701</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4005,7 +3999,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FG000106</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4023,7 +4017,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FG000106</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4047,7 +4041,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FG110004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4065,7 +4059,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FG110004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4089,7 +4083,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FT390057</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4113,7 +4107,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FT390058</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4137,7 +4131,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FZ013050</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4161,7 +4155,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GP039001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4185,7 +4179,7 @@
 				</Placemark>
 				<Placemark>
 					<name>GY118261</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4209,7 +4203,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HD037017</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4227,7 +4221,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HD037017</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4251,25 +4245,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HI043001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0446004072643,32.51564265803674,116.9789335405355</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>HI043001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4293,25 +4269,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HR089017</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0545507840074,32.52566114299579,60.35317172320427</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>HR089017</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4335,7 +4293,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT036001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4359,7 +4317,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT071001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4383,7 +4341,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT139061</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4407,7 +4365,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT143011</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4431,7 +4389,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HT143012</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4455,7 +4413,7 @@
 				</Placemark>
 				<Placemark>
 					<name>IB092002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4479,7 +4437,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID006017</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4503,7 +4461,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID006018</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4527,7 +4485,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID006022</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4551,7 +4509,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID009002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4575,7 +4533,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID009012</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4599,7 +4557,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID025007</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4623,7 +4581,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID028001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4647,7 +4605,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID034018</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4671,25 +4629,7 @@
 				</Placemark>
 				<Placemark>
 					<name>IN009007</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0432220842357,32.52774038970112,23.19749855520337</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>IN009007</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4713,25 +4653,7 @@
 				</Placemark>
 				<Placemark>
 					<name>IN041006</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0397061502198,32.52332122865852,23.61829865938919</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>IN041006</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4755,7 +4677,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JD002037</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4773,7 +4695,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JD002037</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4797,7 +4719,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JD016119</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4815,7 +4737,7 @@
 				</Placemark>
 				<Placemark>
 					<name>JD016119</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -4839,25 +4761,7 @@
 				</Placemark>
 				<Placemark>
 					<name>KL905020</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.1180990336079,32.46845084983739,-7.986292403598986</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>KL905020</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4881,7 +4785,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LO127002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4905,7 +4809,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LO148005</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4929,7 +4833,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LP003002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4953,25 +4857,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LV695006</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0548537249461,32.5335454131079,8.420740255699135</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>LV695006</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -4995,7 +4881,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LW010039</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5013,7 +4899,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LW010039</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5037,7 +4923,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MG008003</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5061,7 +4947,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML030001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5079,7 +4965,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML030001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5103,7 +4989,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML030008</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5121,7 +5007,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML030008</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5145,7 +5031,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML132066</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5163,7 +5049,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML132066</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5187,7 +5073,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML150021</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5205,7 +5091,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML150021</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5229,7 +5115,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML530059</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5247,7 +5133,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ML530059</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5271,25 +5157,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MO018007</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0343909313641,32.51833414332805,35.19735608304831</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>MO018007</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5313,7 +5181,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MR007010</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5331,7 +5199,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MR007010</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5355,7 +5223,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OB155019</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5373,7 +5241,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OB155019</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5397,7 +5265,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG000309</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5421,7 +5289,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG002002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5445,7 +5313,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG002010</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5469,7 +5337,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG003013</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5493,7 +5361,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG004002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5517,7 +5385,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG004012</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5541,7 +5409,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG006004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5565,7 +5433,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG007010</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5589,7 +5457,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG008024</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5613,7 +5481,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5637,7 +5505,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011009</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5661,7 +5529,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011010</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5685,7 +5553,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011012</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5709,7 +5577,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011019</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5733,7 +5601,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011020</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5757,7 +5625,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011036</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5781,7 +5649,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG012004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5805,7 +5673,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG012005</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5829,7 +5697,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG013011</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5853,7 +5721,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG014013</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5877,7 +5745,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG014017</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5901,7 +5769,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PM000339</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5919,7 +5787,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PM000339</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -5943,7 +5811,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP020205</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5961,7 +5829,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PP020205</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -5985,7 +5853,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PZ003032</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6003,7 +5871,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PZ003032</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6027,7 +5895,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RE014004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6045,7 +5913,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RE014004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6069,7 +5937,7 @@
 				</Placemark>
 				<Placemark>
 					<name>SA003449</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6087,7 +5955,7 @@
 				</Placemark>
 				<Placemark>
 					<name>SA003449</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6111,7 +5979,7 @@
 				</Placemark>
 				<Placemark>
 					<name>SU446649</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6129,7 +5997,7 @@
 				</Placemark>
 				<Placemark>
 					<name>SU446649</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6153,7 +6021,7 @@
 				</Placemark>
 				<Placemark>
 					<name>SZ001085</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6171,7 +6039,7 @@
 				</Placemark>
 				<Placemark>
 					<name>SZ001085</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6195,7 +6063,7 @@
 				</Placemark>
 				<Placemark>
 					<name>TA002012</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6213,7 +6081,7 @@
 				</Placemark>
 				<Placemark>
 					<name>TA002012</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6237,7 +6105,7 @@
 				</Placemark>
 				<Placemark>
 					<name>TK521389</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6255,7 +6123,7 @@
 				</Placemark>
 				<Placemark>
 					<name>TK521389</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6279,7 +6147,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB112036</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6303,7 +6171,7 @@
 				</Placemark>
 				<Placemark>
 					<name>VB131002</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6327,7 +6195,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZA066001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6345,7 +6213,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZA066001</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6369,7 +6237,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZA091007</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6387,7 +6255,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZA091007</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6411,7 +6279,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZA147004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6429,7 +6297,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZA147004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6453,25 +6321,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZC001017</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0536094317922,32.5363334532348,-10.25367553270686</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>ZC001017</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6495,7 +6345,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZC636011</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6513,7 +6363,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZC636011</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6537,7 +6387,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZE002024</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6555,7 +6405,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZE002024</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6579,7 +6429,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZE002027</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6597,7 +6447,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZE002027</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6621,7 +6471,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZE005032</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6639,7 +6489,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZE005032</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6663,25 +6513,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZN010004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0551025549611,32.53993220383547,-21.3466882362979</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>ZN010004</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6705,25 +6537,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZN044005</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0481583396135,32.53902392977542,-18.31802166869657</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>ZN044005</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#0000FF</value>
@@ -6747,25 +6561,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZN044032</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0490953930124,32.5387890203516,-17.51973366601706</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>ZN044032</name>
-					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<styleUrl>#dji_style_Point2D8CF0020</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
 							<value>#2D8CF0</value>
@@ -6791,6 +6587,7 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_ONCE</name>
+			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
 				<open>1</open>
@@ -7441,24 +7238,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>ZC008005</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0442376399748,32.53580485733728,-14.03311838615783</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>ZC008005</name>
@@ -8485,24 +8264,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>AL029003</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0664199738925,32.5352899196946,45.22284471303008</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>AL029003</name>
@@ -9823,24 +9584,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.1179318375885,32.50344389632469,17.77920599384827</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>CZ331009</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -10075,24 +9818,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>FM177003</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0851542761627,32.48105289977363,129.1952658312655</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>FM177003</name>
@@ -10927,24 +10652,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>LC027034</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0966379870993,32.53078687015724,12.98092956972225</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>LC027034</name>
@@ -12073,24 +11780,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0594938643205,32.52916809349851,59.44112401974901</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>RO000001</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -12109,24 +11798,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>RV037003</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0792733854758,32.52277027305575,105.6318748234268</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>RV037003</name>
@@ -12157,24 +11828,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0721235502203,32.52969372750616,97.90633015282738</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>SL001010</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -12193,24 +11846,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>SL002004</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.072473862929,32.52833134693709,100.8699569167835</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>SL002004</name>
@@ -12571,24 +12206,6 @@
 					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
 					<ExtendedData>
 						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0564011423483,32.53881301907865,-19.03246415040461</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>ZN002003</name>
-					<styleUrl>#dji_style_Point2D8CF011</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
 							<value>#0000FF</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
@@ -12654,6 +12271,7 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_DIEZ</name>
+			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR-04-FEBRERO-2026</name>
 				<open>1</open>
@@ -16013,24 +15631,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.1143938167085,32.48370899452171,22.64135371187567</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>PC489500</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -17507,24 +17107,6 @@
 							<value>#2D8CF0</value>
 						</Data>
 						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.0475016517035,32.52562791837823,37.87082419978745</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>IN030009</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
 							<value>false</value>
 						</Data>
 						<Data name="is3d" type="boolean">
@@ -17834,24 +17416,6 @@
 							</LinearRing>
 						</outerBoundaryIs>
 					</Polygon>
-				</Placemark>
-				<Placemark>
-					<name>CZ332001</name>
-					<styleUrl>#dji_style_Point2D8CF04</styleUrl>
-					<ExtendedData>
-						<Data name="color" type="string">
-							<value>#2D8CF0</value>
-						</Data>
-						<Data name="clampToGround" type="boolean">
-							<value>true</value>
-						</Data>
-						<Data name="is3d" type="boolean">
-							<value>false</value>
-						</Data>
-					</ExtendedData>
-					<Point>
-						<coordinates>-117.1174213660614,32.50384130150125,20.27855107566022</coordinates>
-					</Point>
 				</Placemark>
 				<Placemark>
 					<name>CZ332001</name>
@@ -27063,8 +26627,10 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_OCHO</name>
+			<open>1</open>
 			<Document>
 				<name>UBICACION_INMUEBLES_300126(2).kmz</name>
+				<open>1</open>
 				<StyleMap id="m_ylw-pushpin0500">
 					<Pair>
 						<key>normal</key>
@@ -27534,23 +27100,6 @@
 								</LinearRing>
 							</outerBoundaryIs>
 						</Polygon>
-					</Placemark>
-					<Placemark>
-						<name>LC352039</name>
-						<LookAt>
-							<longitude>-117.0904040333809</longitude>
-							<latitude>32.49262500975043</latitude>
-							<altitude>0</altitude>
-							<heading>0.0001580733590165988</heading>
-							<tilt>6.340602911873401</tilt>
-							<range>411.6444933769269</range>
-							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-						</LookAt>
-						<styleUrl>#m_ylw-pushpin0500</styleUrl>
-						<Point>
-							<gx:drawOrder>1</gx:drawOrder>
-							<coordinates>-117.0909772045684,32.4928574626192,0</coordinates>
-						</Point>
 					</Placemark>
 					<Placemark>
 						<name>ID103003</name>
@@ -31226,6 +30775,7 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_UNO</name>
+			<open>1</open>
 			<Placemark>
 				<name>JO017037</name>
 				<styleUrl>#msn_ylw-pushpin</styleUrl>
@@ -31547,23 +31097,6 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<name>LC351001</name>
-				<LookAt>
-					<longitude>-117.0878961</longitude>
-					<latitude>32.4924074</latitude>
-					<altitude>0</altitude>
-					<heading>-1.590277340731758e-14</heading>
-					<tilt>0</tilt>
-					<range>1000.00000000272</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_ylw-pushpin</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-117.0861337150325,32.49252708991907,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
 				<name>DM008397</name>
 				<styleUrl>#msn_ylw-pushpin</styleUrl>
 				<Polygon>
@@ -31667,10 +31200,547 @@
 		</Folder>
 		<Folder>
 			<name>HECHOS</name>
+			<open>1</open>
+			<Folder>
+				<name>13-FEBRERO-2026-HECHOS</name>
+				<open>1</open>
+				<Placemark>
+					<name>HI043001</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0446004072643,32.51564265803674,116.9789335405355</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RO000001</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0594938643205,32.52916809349851,59.44112401974901</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HR089017</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0545507840074,32.52566114299579,60.35317172320427</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IN030009</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0475016517035,32.52562791837823,37.87082419978745</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IN009007</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0432220842357,32.52774038970112,23.19749855520337</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>IN041006</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0397061502198,32.52332122865852,23.61829865938919</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MO018007</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0343909313641,32.51833414332805,35.19735608304831</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ZC008005</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0442376399748,32.53580485733728,-14.03311838615783</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LV695006</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0548537249461,32.5335454131079,8.420740255699135</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CA008012</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0540880792172,32.5353679963812,-4.768999948089975</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ZC001017</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0536094317922,32.5363334532348,-10.25367553270686</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ZN044032</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0490953930124,32.5387890203516,-17.51973366601706</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ZN044005</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0481583396135,32.53902392977542,-18.31802166869657</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ZN010004</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0551025549611,32.53993220383547,-21.3466882362979</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ZN002003</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0564011423483,32.53881301907865,-19.03246415040461</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AL029003</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0664199738925,32.5352899196946,45.22284471303008</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>SL001010</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0721235502203,32.52969372750616,97.90633015282738</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>SL002004</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.072473862929,32.52833134693709,100.8699569167835</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RV037003</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0792733854758,32.52277027305575,105.6318748234268</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LC352001</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0913401692898,32.49390364772858,188.6687931889073</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LC352039</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-117.0904040333809</longitude>
+						<latitude>32.49262500975043</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001580733590165988</heading>
+						<tilt>6.340602911873401</tilt>
+						<range>411.6444933769269</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.0909772045684,32.4928574626192,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LC351001</name>
+					<open>1</open>
+					<LookAt>
+						<longitude>-117.0878961</longitude>
+						<latitude>32.4924074</latitude>
+						<altitude>0</altitude>
+						<heading>-1.590277340731758e-14</heading>
+						<tilt>0</tilt>
+						<range>1000.00000000272</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-117.0861337150325,32.49252708991907,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>KL905020</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.1180990336079,32.46845084983739,-7.986292403598986</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>FM177003</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0851542761627,32.48105289977363,129.1952658312655</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PC489500</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.1143938167085,32.48370899452171,22.64135371187567</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CZ331009</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.1179318375885,32.50344389632469,17.77920599384827</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CZ332001</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.1174213660614,32.50384130150125,20.27855107566022</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>LC027034</name>
+					<open>1</open>
+					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
+					<ExtendedData>
+						<Data name="color" type="string">
+							<value>#2D8CF0</value>
+						</Data>
+						<Data name="clampToGround" type="boolean">
+							<value>true</value>
+						</Data>
+						<Data name="is3d" type="boolean">
+							<value>false</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-117.0966379870993,32.53078687015724,12.98092956972225</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 			<Folder>
 				<name>11-FEBRERO-2026-HECHOS</name>
+				<visibility>0</visibility>
 				<Placemark>
 					<name>DB282035</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31690,6 +31760,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB282005</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31709,6 +31780,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB282004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31728,6 +31800,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB282002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31747,6 +31820,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB282003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31766,6 +31840,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB281006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31785,6 +31860,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB284031</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31804,6 +31880,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB284004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31823,6 +31900,7 @@
 				</Placemark>
 				<Placemark>
 					<name>DB285004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31842,6 +31920,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31861,6 +31940,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011036</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31880,6 +31960,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31899,6 +31980,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011010</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31918,6 +32000,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011012</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31937,6 +32020,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011018</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31956,6 +32040,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011019</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31975,6 +32060,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG011020</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -31994,6 +32080,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG014017</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32013,6 +32100,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG014013</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32032,6 +32120,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG012004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32051,6 +32140,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG012005</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32070,6 +32160,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG013011</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32089,6 +32180,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG008024</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32108,6 +32200,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG007010</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32127,6 +32220,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG006004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32146,6 +32240,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG000309</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32165,6 +32260,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG003013</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32184,6 +32280,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG004012</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32203,6 +32300,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG004002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32222,6 +32320,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG002010</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32241,6 +32340,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OG002002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32260,6 +32360,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FZ000304</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<description>SIN LIMITES CLAROS</description>
 					<LookAt>
@@ -32279,6 +32380,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FZ015010</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32298,6 +32400,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FZ013050</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32317,6 +32420,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MP336001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32336,6 +32440,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MP000436</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32355,6 +32460,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MP003006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32374,6 +32480,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MP006013</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32393,6 +32500,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MP020006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32412,6 +32520,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MP040132</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32431,6 +32540,7 @@
 				</Placemark>
 				<Placemark>
 					<name>EC838701</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32450,6 +32560,7 @@
 				</Placemark>
 				<Placemark>
 					<name>EC838714</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32469,6 +32580,7 @@
 				</Placemark>
 				<Placemark>
 					<name>EC819014</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32488,6 +32600,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FT390058</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32507,6 +32620,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FT390057</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32526,6 +32640,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID028001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32545,6 +32660,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID025007</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32564,6 +32680,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID035001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32583,6 +32700,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID034018</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32602,6 +32720,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID009002</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32621,6 +32740,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID009012</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32640,6 +32760,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID006022</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32659,6 +32780,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID006018</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32678,6 +32800,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID103261</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32698,6 +32821,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID006017</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32717,6 +32841,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ID040005</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32736,6 +32861,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MG008003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32755,6 +32881,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OI035008</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
@@ -32775,6 +32902,7 @@
 				</Placemark>
 				<Placemark>
 					<name>OI036038</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF06</styleUrl>
 					<ExtendedData>
