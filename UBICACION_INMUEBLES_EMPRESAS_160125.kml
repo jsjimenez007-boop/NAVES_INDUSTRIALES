@@ -326,23 +326,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="dji_style_Point2D8CF0500">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ffff00ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>ffff00ff</color>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Style id="dji_style_Point2D8CF05000">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -353,6 +336,23 @@
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff00ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="dji_style_Point2D8CF0500">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 		<LineStyle>
 			<color>ffff00ff</color>
 			<width>2</width>
@@ -578,6 +578,16 @@
 			<width>2</width>
 		</LineStyle>
 	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="m_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
@@ -898,6 +908,16 @@
 			<styleUrl>#sh_ylw-pushpin3</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
@@ -994,6 +1014,23 @@
 		</LineStyle>
 		<PolyStyle>
 			<color>38ff5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0055ff</color>
+			<fill>0</fill>
 		</PolyStyle>
 	</Style>
 	<Style id="s_ylw-pushpin005">
@@ -1317,6 +1354,23 @@
 			<width>2</width>
 		</LineStyle>
 		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0055ff</color>
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
@@ -1662,6 +1716,25 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000aa</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1796,6 +1869,25 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000aa</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1885,7 +1977,6 @@
 		<open>1</open>
 		<Folder>
 			<name>UBICADOS-TRECE</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
 				<open>1</open>
@@ -3027,7 +3118,6 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS-DOCE</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
 				<open>1</open>
@@ -6587,7 +6677,6 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_ONCE</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
 				<open>1</open>
@@ -12271,7 +12360,6 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_DIEZ</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR-04-FEBRERO-2026</name>
 				<open>1</open>
@@ -26627,7 +26715,6 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_OCHO</name>
-			<open>1</open>
 			<Document>
 				<name>UBICACION_INMUEBLES_300126(2).kmz</name>
 				<open>1</open>
@@ -30775,7 +30862,6 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_UNO</name>
-			<open>1</open>
 			<Placemark>
 				<name>JO017037</name>
 				<styleUrl>#msn_ylw-pushpin</styleUrl>
@@ -31200,12 +31286,13 @@
 		</Folder>
 		<Folder>
 			<name>HECHOS</name>
-			<open>1</open>
+			<visibility>0</visibility>
 			<Folder>
 				<name>13-FEBRERO-2026-HECHOS</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<Placemark>
 					<name>HI043001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31225,6 +31312,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RO000001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31244,6 +31332,7 @@
 				</Placemark>
 				<Placemark>
 					<name>HR089017</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31263,6 +31352,7 @@
 				</Placemark>
 				<Placemark>
 					<name>IN030009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31282,6 +31372,7 @@
 				</Placemark>
 				<Placemark>
 					<name>IN009007</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31301,6 +31392,7 @@
 				</Placemark>
 				<Placemark>
 					<name>IN041006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31320,6 +31412,7 @@
 				</Placemark>
 				<Placemark>
 					<name>MO018007</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31339,6 +31432,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZC008005</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31358,6 +31452,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LV695006</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31377,6 +31472,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CA008012</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31396,6 +31492,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZC001017</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31415,6 +31512,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZN044032</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31434,6 +31532,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZN044005</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31453,6 +31552,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZN010004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31472,6 +31572,7 @@
 				</Placemark>
 				<Placemark>
 					<name>ZN002003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31491,6 +31592,7 @@
 				</Placemark>
 				<Placemark>
 					<name>AL029003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31510,6 +31612,7 @@
 				</Placemark>
 				<Placemark>
 					<name>SL001010</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31529,6 +31632,7 @@
 				</Placemark>
 				<Placemark>
 					<name>SL002004</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31548,6 +31652,7 @@
 				</Placemark>
 				<Placemark>
 					<name>RV037003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31567,6 +31672,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LC352001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31586,6 +31692,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LC352039</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-117.0904040333809</longitude>
@@ -31604,6 +31711,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LC351001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<LookAt>
 						<longitude>-117.0878961</longitude>
@@ -31622,6 +31730,7 @@
 				</Placemark>
 				<Placemark>
 					<name>KL905020</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31641,6 +31750,7 @@
 				</Placemark>
 				<Placemark>
 					<name>FM177003</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31660,6 +31770,7 @@
 				</Placemark>
 				<Placemark>
 					<name>PC489500</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31679,6 +31790,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CZ331009</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31698,6 +31810,7 @@
 				</Placemark>
 				<Placemark>
 					<name>CZ332001</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -31717,6 +31830,7 @@
 				</Placemark>
 				<Placemark>
 					<name>LC027034</name>
+					<visibility>0</visibility>
 					<open>1</open>
 					<styleUrl>#dji_style_Point2D8CF002</styleUrl>
 					<ExtendedData>
@@ -34876,7 +34990,6 @@
 			<Folder>
 				<name>9-FEBRERO-2026-HECHOS</name>
 				<visibility>0</visibility>
-				<open>1</open>
 				<Placemark>
 					<name>LO148005</name>
 					<visibility>0</visibility>
@@ -36460,7 +36573,6 @@
 			<Folder>
 				<name>6-FEBRERO-2026-HECHOS</name>
 				<visibility>0</visibility>
-				<open>1</open>
 				<Placemark>
 					<name>ID106001</name>
 					<visibility>0</visibility>
@@ -38244,7 +38356,6 @@
 			<Folder>
 				<name>5-FEBRERO-2026-HECHOS</name>
 				<visibility>0</visibility>
-				<open>1</open>
 				<Placemark>
 					<name>ID027006</name>
 					<visibility>0</visibility>
@@ -41188,7 +41299,6 @@
 			<Folder>
 				<name>2-FEBRERO-2026-HECHOS</name>
 				<visibility>0</visibility>
-				<open>1</open>
 				<Placemark>
 					<name>FD850302</name>
 					<visibility>0</visibility>
@@ -42401,7 +42511,6 @@
 			<Folder>
 				<name>30-ENERO-2026-HECHOS</name>
 				<visibility>0</visibility>
-				<open>1</open>
 				<Placemark>
 					<name>AI000919</name>
 					<visibility>0</visibility>
@@ -43226,7 +43335,6 @@
 			<Folder>
 				<name>22-ENERO-2026-HECHOS</name>
 				<visibility>0</visibility>
-				<open>1</open>
 				<Placemark>
 					<name>CF-095-004</name>
 					<visibility>0</visibility>
@@ -45803,6 +45911,37 @@ C. JUAN DE UGARTE 409 COL. GARITA DE OTAY</description>
 					</Point>
 				</Placemark>
 			</Folder>
+		</Folder>
+		<Folder>
+			<name>ZONAGEO</name>
+			<Placemark>
+				<name>ZONA-ADVERTENCIA</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-117.0489831581733,32.54080593864494,0 -117.0478218269631,32.53179171816144,0 -117.0458008243129,32.52540866686856,0 -117.0453089561947,32.52378546076389,0 -117.0433603116156,32.52162635692254,0 -117.0383310550039,32.51487201507046,0 -117.0308451545476,32.50505503300901,0 -117.0221237547726,32.50020576155723,0 -117.0081040044121,32.49243500989377,0 -116.972913971126,32.48806811202567,0 -116.958176607941,32.48621209628507,0 -116.9255275145113,32.49096450144494,0 -116.9047872749282,32.50494538187811,0 -116.8927477788356,32.5251313860856,0 -116.8911027923735,32.54453142305361,0 -116.8912218761584,32.54737387153155,0 -116.8931997778877,32.55405804435107,0 -117.0489831581733,32.54080593864494,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>ZONA-ADVERTENCIA-REFORZADA</name>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-117.0279995937481,32.54286449415186,0 -117.0277463110141,32.53863892753034,0 -117.0235561922702,32.52847574353298,0 -117.0213136644302,32.5235757292458,0 -117.0135532582462,32.51705704178415,0 -117.0087485791951,32.51299115987712,0 -116.9921837920609,32.50765945067873,0 -116.9624877098368,32.50428760180354,0 -116.9521957907771,32.50306684249838,0 -116.9349834914394,32.50704854390045,0 -116.9163678179302,32.52303933905362,0 -116.9118773720424,32.53719606530401,0 -116.9133608843502,32.54788281752575,0 -116.9147356916219,32.55223939732368,0 -117.0279995937481,32.54286449415186,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
 		</Folder>
 	</Folder>
 	<Folder>
