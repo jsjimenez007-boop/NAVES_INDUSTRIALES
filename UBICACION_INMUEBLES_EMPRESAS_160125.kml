@@ -2015,10 +2015,8 @@
 		<open>1</open>
 		<Folder>
 			<name>UBICADOS-TRECE</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
-				<open>1</open>
 				<Placemark>
 					<name>AA903031</name>
 					<styleUrl>#dji_style_Point2D8CF07</styleUrl>
@@ -3085,7 +3083,6 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS-DOCE</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
 				<open>1</open>
@@ -6501,7 +6498,6 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_ONCE</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR</name>
 				<open>1</open>
@@ -12059,7 +12055,6 @@
 		</Folder>
 		<Folder>
 			<name>UBICADOS_DIEZ</name>
-			<open>1</open>
 			<Folder>
 				<name>SIN VOLAR-04-FEBRERO-2026</name>
 				<open>1</open>
@@ -30933,7 +30928,6 @@
 		<Folder>
 			<name>HECHOS</name>
 			<visibility>0</visibility>
-			<open>1</open>
 			<Folder>
 				<name>14-FEBRERO-2026-HECHOS</name>
 				<visibility>0</visibility>
